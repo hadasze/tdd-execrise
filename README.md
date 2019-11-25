@@ -27,14 +27,19 @@ Please join our slack channel: #cc-{month}-{year}
   - [Node platform workshop](https://github.com/wix-a/cc-rpc-workshop)
   - [Experiments](https://github.com/wix-private/fed-handbook/blob/master/EXPERIMENTS.md)
 
-## CI/CD, Nothing to Prod (end of day 2)
+## Wix Style React (day 4)
+
+
+## CI/CD, Nothing to Prod (end of day 4)
   - [WORKING_WITH_GENERATORS](https://github.com/wix-private/fed-handbook/blob/master/WORKING_WITH_GENERATORS.md)
   - [ZERO_TO_PRODUCTION](https://github.com/wix-private/fed-handbook/blob/master/ZERO_TO_PRODUCTION.md)
   - [Debug docker on production](https://github.com/wix-platform/wix-node-      platform/blob/115389d21545b9a8abaf0fdf0eb90049a1756d79/bootstrap/docs/production.md#ssh-to-server)
 
-## Part 4 - Final Project
+## WixonWix (day 5)
+
+## Final Project (day 5 - day 8)
   
-  [Store Catalog](./FINAL_PROJECT.md)
+  [Store Catalog](https://github.com/wix-a/cc-final-project)
 
 
 # Helpful Links
@@ -46,5 +51,4 @@ Please join our slack channel: #cc-{month}-{year}
 - [ci](http://ci.dev.wix/)
 - [Lifecycel](https://lifecycle.wix.com/cp/#)
 - [fryingpan](http://fryingpan.wixpress.com/services)
-- [enzyme](https://github.com/airbnb/enzyme)
 - [wix-style-react](https://github.com/wix/wix-style-react)
