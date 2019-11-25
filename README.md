@@ -33,7 +33,7 @@ Please join our slack channel: #cc-{month}-{year}
 ## CI/CD, Nothing to Prod (end of day 4)
   - [WORKING_WITH_GENERATORS](https://github.com/wix-private/fed-handbook/blob/master/WORKING_WITH_GENERATORS.md)
   - [ZERO_TO_PRODUCTION](https://github.com/wix-private/fed-handbook/blob/master/ZERO_TO_PRODUCTION.md)
-  - [Debug docker on production](https://github.com/wix-platform/wix-node-      platform/blob/115389d21545b9a8abaf0fdf0eb90049a1756d79/bootstrap/docs/production.md#ssh-to-server)
+  - [Debug docker on production](https://github.com/wix-platform/wix-node-platform/blob/115389d21545b9a8abaf0fdf0eb90049a1756d79/bootstrap/docs/production.md#ssh-to-server)
 
 ## WixonWix (day 5)
 
