@@ -53,7 +53,7 @@ bootstrap()
 
 ```
 
-`index.js` is pointing to our server file (`server.js`), which is basically the folowing function:
+`index.js` is pointing to our server file (`server.js`), which is the folowing function:
 
 ```ts
 export default (app: Router, context) => {
@@ -70,7 +70,16 @@ export default (app: Router, context) => {
 
 ```
 
-We render our [`ejs`](https://github.com/mde/ejs) template using a the `res.renderView` method (added by `app.use(context.renderer.middleware());`), but we can start with a simple 'vanilla' ejs rendering:
+We render our [`ejs`](https://github.com/mde/ejs) template using a the `res.renderView` method, added by `app.use(context.renderer.middleware());`, but we can start with a simple 'vanilla' ejs rendering:
+
+```js
+app.get('/', async (req, res) => {
+    const html = await ejs.renderFile('./src/index.ejs', {title: 'hello'}); //{title: 'hello'} is the model for our ejs template
+    res.send(html);
+});
+```
+
+
 
 
 
