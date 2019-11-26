@@ -61,4 +61,16 @@ export default (app: Router, context) => {
 }
 ```
 
+`app` is an [express router](https://expressjs.com/en/4x/api.html#router):
+
+```js
+  app.get('/', (req, res) => {
+    res.send('hello there');
+  });
+
+```
+
+We render our [`ejs`](https://github.com/mde/ejs) template using a the `res.renderView` method (added by `app.use(context.renderer.middleware());`), but we can start with a simple 'vanilla' ejs rendering:
+
+
 
