@@ -61,6 +61,8 @@ export default (app: Router, context) => {
 }
 ```
 
+###### app
+
 `app` is an [express router](https://expressjs.com/en/4x/api.html#router):
 
 ```js
@@ -74,10 +76,17 @@ We render our [`ejs`](https://github.com/mde/ejs) template using a the `res.rend
 
 ```js
 app.get('/', async (req, res) => {
-    const html = await ejs.renderFile('./src/index.ejs', {title: 'hello'}); //{title: 'hello'} is the model for our ejs template
+    //{title: 'hello'} is the model for our ejs template
+    const html = await ejs.renderFile('./src/index.ejs', {title: 'hello'});
     res.send(html);
 });
 ```
+
+###### context
+
+`context` is the second argument injected to your server function. It contains several default objects, and can be enriched by using different `node-platform` plugins. See [context](https://github.com/wix-platform/wix-node-platform/tree/master/bootstrap/wix-bootstrap-ng#context) and [use](https://github.com/wix-platform/wix-node-platform/tree/master/bootstrap/wix-bootstrap-ng#wixbootstrapnguseobject-opts-this) for more details.
+
+###### erb
 
 
 
