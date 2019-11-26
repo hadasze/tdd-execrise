@@ -86,7 +86,21 @@ app.get('/', async (req, res) => {
 
 `context` is the second argument injected to your server function. It contains several default objects, and can be enriched by using different `node-platform` plugins. See [context](https://github.com/wix-platform/wix-node-platform/tree/master/bootstrap/wix-bootstrap-ng#context) and [use](https://github.com/wix-platform/wix-node-platform/tree/master/bootstrap/wix-bootstrap-ng#wixbootstrapnguseobject-opts-this) for more details.
 
-###### erb
+Our default generated server consumes data from two points:
+
+###### Build / deploy time configuration - erb
+
+We can consume build / deploy time configurations, using a Ruby [`erb`](https://ruby-doc.org/stdlib-2.6.5/libdoc/erb/rdoc/ERB.html) template. This `erb` template is evaluated by `cheff` during deployment (and every 15 minutes). See [CONFIGURATION_TEMPLATES](https://github.com/wix-private/fed-handbook/blob/master/CONFIGURATION_TEMPLATES.md) for more details.
+
+Reading this erb json is done via `context`'s [config](https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config) function:
+
+```js
+    const config = context.config.load('{my artifact name}');
+    console.log(config); // the Json generated form our erb template
+```
+
+###### Runtime request data - aspects
+
 
 
 
