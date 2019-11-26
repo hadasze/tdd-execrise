@@ -32,5 +32,5 @@ app.listen(3000);
 
 ## Yoshi server architecture
 
-
+<img src="./architecture.png" alt="alt text" width="450px">
 
