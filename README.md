@@ -37,6 +37,10 @@ Please join our slack channel: #cc-{month}-{year}
 
 ## WixonWix (day 5)
 
+sildes: https://docs.google.com/presentation/d/1vXSr4h8HuRf8CTDUC21WGhqNcX78XRRJv8w02Jn_zdQ/edit?usp=sharing
+
+workshop: TBD
+
 ## Final Project (day 5 - day 8)
   
   [Store Catalog](https://github.com/wix-a/cc-final-project)
