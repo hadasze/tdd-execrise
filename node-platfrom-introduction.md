@@ -1,10 +1,6 @@
 
 # Node Platfrom introduction
 
-## Node Basics
-
-TBD
-
 ## Express.js
 
 [Example](https://gist.github.com/yanivefraim/4930348959f9eeb240c337c9a4e90563):
