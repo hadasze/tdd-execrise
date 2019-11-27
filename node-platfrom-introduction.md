@@ -125,3 +125,16 @@ Each request to the server contains data about the specific request (such as loc
 Our static files are served from `dist/statics` folder, by a different server (the CDN). Locally we serve it from `http://localhost:3200` (which simulates the CDN). 
 
 Try running `node index.js` on one terminal and `npx serve dist/statics -l 3200` on the other and navigate to `http://localhost:3000` (you will have to run `npx yoshi build` first). 
+
+** TODO: we need a mock json config for this step. How to do it before explaining about local dev
+
+
+## Local environment (test & start)
+
+When running local environment (`npm start`) and e2e tests, we want to mock some data (`.erb` template content, for example), and we want someone to start the server(s) for us (our dev server and CDN server).
+
+###### Mocking erb data
+
+###### Running our server with some default values
+
+###### Running CDN server
