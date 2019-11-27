@@ -156,4 +156,24 @@ This will generate a JSON with mock data in `./target/test`.
 
 ###### Running our server with some default values
 
+Instead of manually running `node index.js` every time, we will use a [testkit](https://github.com/wix-platform/wix-node-platform/tree/master/bootstrap/wix-bootstrap-testkit), which will start and stop the server:
+
+```js
+const testkit = require('@wix/wix-bootstrap-testkit');
+
+const server = testkit
+    .app('./index', {
+      env: {
+        APP_CONF_DIR: './target/test',
+      },
+    });
+
+
+await server.start();
+
+setTimeout(() => server.stop(), 10000);
+```
+
 ###### Running CDN server
+
+Yoshi will start the CDN server for us, on port 3200, when we run `yoshi start` command.
