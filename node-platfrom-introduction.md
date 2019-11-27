@@ -72,7 +72,7 @@ export default (app: Router, context) => {
 
 ```
 
-We render our [`ejs`](https://github.com/mde/ejs) template using a the `res.renderView` method, added by `app.use(context.renderer.middleware());`, but we can start with a simple 'vanilla' ejs rendering:
+We render our [`ejs`](https://github.com/mde/ejs) template using the `res.renderView` method, added by `app.use(context.renderer.middleware());`, but we can start with a simple 'vanilla' ejs rendering:
 
 ```js
 app.get('/', async (req, res) => {
@@ -101,7 +101,7 @@ Reading this erb json is done via `context`'s [config](https://github.com/wix-pl
 
 ###### Runtime request data - aspects
 
-
+Each request to the server contains data about the specific request (such as locale, authentication etc.). We will have those on `req.aspects['web-context']`. See [wix-web-context-aspect](https://github.com/wix-platform/wix-node-platform/tree/master/aspects/wix-web-context-aspect) for more details.
 
 
 
