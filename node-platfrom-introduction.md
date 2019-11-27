@@ -3,6 +3,8 @@
 
 ## Node Basics
 
+TBD
+
 ## Express.js
 
 [Example](https://gist.github.com/yanivefraim/4930348959f9eeb240c337c9a4e90563):
@@ -134,6 +136,23 @@ Try running `node index.js` on one terminal and `npx serve dist/statics -l 3200`
 When running local environment (`npm start`) and e2e tests, we want to mock some data (`.erb` template content, for example), and we want someone to start the server(s) for us (our dev server and CDN server).
 
 ###### Mocking erb data
+
+We use [`@wix/wix-config-emitter`](https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config-emitter) in order to create and mock our configuration json:
+
+```js
+const emitter = require('@wix/wix-config-emitter');
+
+await emitter({
+    sourceFolders: ['./templates'],
+    targetFolder: './target/test',
+  })
+    .val('scripts_domain', 'static.parastorage.com')
+    .emit();
+```
+
+This will generate a JSON with mock data in `./target/test`. 
+
+:bulb: In practice, you do not have to supply targetFolder and sourceFolders, it is be supplied as env variables by Yoshi.
 
 ###### Running our server with some default values
 
