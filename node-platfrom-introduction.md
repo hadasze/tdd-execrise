@@ -55,11 +55,13 @@ bootstrap()
 
 `index.js` is pointing to our server file (`server.js`), which is the folowing function:
 
-```ts
-export default (app: Router, context) => {
+```js
+module.exports = (app: Router, context) => {
     return app;
 }
 ```
+
+:bulb: We can remove all `server.js` code and run `node index.js` command, on each of the following steps. See how the server is running, no magic! (also change `.express('./dist/server')` to `.express('./src/server')` so no need for `yoshi build` each time
 
 ###### app
 
@@ -75,8 +77,10 @@ export default (app: Router, context) => {
 We render our [`ejs`](https://github.com/mde/ejs) template using the `res.renderView` method, added by `app.use(context.renderer.middleware());`, but we can start with a simple 'vanilla' ejs rendering:
 
 ```js
+const ejs = require('ejs');
+
 app.get('/', async (req, res) => {
-    //{title: 'hello'} is the model for our ejs template
+    //{title: 'hello'} is the model for our ejs template (change index.ejs to contain only `<%= title %>` to see it in action)
     const html = await ejs.renderFile('./src/index.ejs', {title: 'hello'});
     res.send(html);
 });
