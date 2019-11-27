@@ -174,6 +174,14 @@ await server.start();
 setTimeout(() => server.stop(), 10000);
 ```
 
+:bulb: In our generated project we have an `index-dev.js` file with these setup
+
 ###### Running CDN server
 
 Yoshi will start the CDN server for us, on port 3200, when we run `yoshi start` command.
+
+###### Tests
+
+We use [`@wix/wix-config-emitter`](https://github.com/wix-platform/wix-node-platform/tree/master/config/wix-config-emitter) and [testkit](https://github.com/wix-platform/wix-node-platform/tree/master/bootstrap/wix-bootstrap-testkit) inside our `Jest-yoshi.config.js` file:
+
+
