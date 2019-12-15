@@ -39,7 +39,7 @@ Please join our slack channel: #cc-{month}-{year}
 
 sildes: https://docs.google.com/presentation/d/1vXSr4h8HuRf8CTDUC21WGhqNcX78XRRJv8w02Jn_zdQ/edit?usp=sharing
 
-workshop: TBD
+workshop: https://docs.google.com/document/d/19qlwJA4ji_XpvBFQw2NZikVzDIO3uSbI0m_HNxkfMIk/edit?usp=sharing
 
 ## Final Project (day 5 - day 8)
   
