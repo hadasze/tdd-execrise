@@ -6,12 +6,12 @@ Please join our slack channel: #cc-{month}-{year}
 
 # Agenda
 
-## TDD (day1)
+## TDD (day 1)
 
 - [Testing overview](https://slides.com/yanivefraim-3/testing-workshop-3#/)
 - TDD workshop - [tic tac toe](https://github.com/wix-a/crash-march-2019-tdd)
 
-## Node Platfrom introduction (day2)
+## Node Platfrom introduction (day 2)
 - Node Basics
 - [Express.js](https://expressjs.com/)
 - Introduction to [node platform](https://github.com/wix-platform/wix-node-platform)
@@ -21,29 +21,42 @@ Please join our slack channel: #cc-{month}-{year}
 
 ## Node platform (day 3)
   - Local environment setup
+  - [Ambassador](https://github.com/wix-private/ambassador)
   - [rpc](https://github.com/wix-platform/wix-node-platform/tree/master/rpc)
   - ERB Configuration
   - Testing
-  - [Node platform workshop](https://github.com/wix-a/cc-rpc-workshop)
-  - [Experiments](https://github.com/wix-private/fed-handbook/blob/master/EXPERIMENTS.md)
+  - Introduction to Business Manager
+  - WixOnWix
 
 ## Wix Style React (day 4)
+- [wix-style-react](https://github.com/wix/wix-style-react)
 
 
 ## CI/CD, Nothing to Prod (end of day 4)
   - [WORKING_WITH_GENERATORS](https://github.com/wix-private/fed-handbook/blob/master/WORKING_WITH_GENERATORS.md)
   - [ZERO_TO_PRODUCTION](https://github.com/wix-private/fed-handbook/blob/master/ZERO_TO_PRODUCTION.md)
-  - [Debug docker on production](https://github.com/wix-platform/wix-node-platform/blob/115389d21545b9a8abaf0fdf0eb90049a1756d79/bootstrap/docs/production.md#ssh-to-server)
 
-## WixonWix (day 5)
 
-sildes: https://docs.google.com/presentation/d/1vXSr4h8HuRf8CTDUC21WGhqNcX78XRRJv8w02Jn_zdQ/edit?usp=sharing
-
-workshop: https://docs.google.com/document/d/19qlwJA4ji_XpvBFQw2NZikVzDIO3uSbI0m_HNxkfMIk/edit?usp=sharing
-
-## Final Project (day 5 - day 8)
-  
+## Final Project kickoff (day 5)
   [Store Catalog](https://github.com/wix-a/cc-final-project)
+  - [Debug docker on production](https://github.com/wix-platform/wix-node-platform/blob/115389d21545b9a8abaf0fdf0eb90049a1756d79/bootstrap/docs/production.md#ssh-to-server)
+  - [Experiments](https://github.com/wix-private/fed-handbook/blob/master/EXPERIMENTS.md)
+  - [Sled](https://wix-private.github.io/sled/)
+  
+
+## Final Project (day 6)
+- Translations
+- Performance and Dynamic Imports
+
+
+## Final Project (day 7)
+- BA/BI
+- Fedops
+
+
+## Final Project Presentation (day 8)
+- Perfer
+- Performance and Dynamic Imports
 
 
 # Helpful Links
@@ -55,4 +68,3 @@ workshop: https://docs.google.com/document/d/19qlwJA4ji_XpvBFQw2NZikVzDIO3uSbI0m
 - [ci](http://ci.dev.wix/)
 - [Lifecycel](https://lifecycle.wix.com/cp/#)
 - [fryingpan](http://fryingpan.wixpress.com/services)
-- [wix-style-react](https://github.com/wix/wix-style-react)
