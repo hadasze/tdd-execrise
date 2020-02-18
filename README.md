@@ -46,7 +46,7 @@ Please join our slack channel: #cc-{month}-{year}
 
 ## Final Project (day 6)
 - Translations
-- Performance and Dynamic Imports
+- [Performance and Dynamic Imports](https://docs.google.com/document/d/18tCnZAIuOoyTHaK0Pxn2PBdLWOcI4J-VJ58ZVKAvn-w/edit?usp=sharing)
 
 
 ## Final Project (day 7)
