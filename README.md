@@ -56,7 +56,6 @@ Please join our slack channel: #cc-{month}-{year}
 
 ## Final Project Presentation (day 8)
 - Perfer
-- Performance and Dynamic Imports
 
 
 # Helpful Links
