@@ -45,7 +45,7 @@ Please join our slack channel: #cc-{month}-{year}
   
 
 ## Final Project (day 6)
-- Translations
+- [Translations](https://github.com/wix-private/fed-handbook/blob/master/TRANSLATION.md)
 - [Performance and Dynamic Imports](https://docs.google.com/document/d/18tCnZAIuOoyTHaK0Pxn2PBdLWOcI4J-VJ58ZVKAvn-w/edit?usp=sharing)
 
 
