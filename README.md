@@ -83,6 +83,8 @@ Please join our slack channel: #cc-{month}-{year}
 ### Extras
 - 📚 [Working with Generators](https://github.com/wix-private/fed-handbook/blob/master/WORKING_WITH_GENERATORS.md)
 - 📚 [Zero to Production](https://github.com/wix-private/fed-handbook/blob/master/ZERO_TO_PRODUCTION.md)
+- 📚 [Experiments](https://github.com/wix-private/fed-handbook/blob/master/EXPERIMENTS.md)
+- 📚 [Performance and Dynamic Imports](https://docs.google.com/document/d/18tCnZAIuOoyTHaK0Pxn2PBdLWOcI4J-VJ58ZVKAvn-w/edit?usp=sharing)
 
 ## Day VI: Final Project, part 2
 ### Mandatory
@@ -95,8 +97,6 @@ Please join our slack channel: #cc-{month}-{year}
 
 ### Extras
 - 📚 [Debug docker on production](https://github.com/wix-platform/wix-node-platform/blob/115389d21545b9a8abaf0fdf0eb90049a1756d79/bootstrap/docs/production.md#ssh-to-server)
-- 📚 [Experiments](https://github.com/wix-private/fed-handbook/blob/master/EXPERIMENTS.md)
-- 📚 [Performance and Dynamic Imports](https://docs.google.com/document/d/18tCnZAIuOoyTHaK0Pxn2PBdLWOcI4J-VJ58ZVKAvn-w/edit?usp=sharing)
 
 ## Day VII: Final Project, the final episode
 - 🧑‍💻 Final Project work + submission
