@@ -20,7 +20,7 @@ Please join our slack channel: #cc-{month}-{year}
 - 📹 [Introduction to testing, part 2](https://drive.google.com/file/d/1VpzFmODHzB15lkOZw_h32OpI_PGBMSQr/view?usp=sharing)
 - 📹 [Client TDD, part 1](https://drive.google.com/file/d/1xGWqBoP7hQQTdk7EYfhxSzwo-Wq1URpY/view?usp=sharing)
 - 📹 [Client TDD, part 2](https://drive.google.com/file/d/1RQK-SsaFp1jo1CVAWpBzgl4jv1FEQMcY/view?usp=sharing)
-- 🧑‍💻 Client TDD Workshop - [Tic Tac Toe](https://github.com/wix-a/crash-march-2019-tdd)
+- 🧑‍💻 Client TDD Workshop - [Tic Tac Toe](./ exercises/client-tdd/)
 - 📅 Daily Q&A session
 
 ### Extras
@@ -40,8 +40,9 @@ Please join our slack channel: #cc-{month}-{year}
 - 📅 Daily Q&A session
 
 ### Extras
+- 📚 [Node Platform Introduction](./docs/node-platform-introduction.md)
 - 📚 [Express.js](https://expressjs.com/)
-- 📚 Introduction to [node platform](https://github.com/wix-platform/wix-node-platform)
+- 📚 [node platform](https://github.com/wix-platform/wix-node-platform)
 - 📚 [wix-bootstrap-ng](https://github.com/wix-platform/wix-node-platform/tree/master/bootstrap/wix-bootstrap-ng)
 
 ## Day III: RPC & Ambassador
