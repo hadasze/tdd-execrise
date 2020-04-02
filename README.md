@@ -32,9 +32,9 @@ Please join our slack channel: #cc-{month}-{year}
 ## Day II: Node Platfrom & Server TDD
 
 ### Mandatory
-- 📹 Server TDD, part 1 (https://drive.google.com/drive/folders/1T5xd0wRn3CG0rZfWAzVCqUjKs3Jb4Hr4)
+- 📹 [Server TDD, part 1](https://drive.google.com/file/d/1iWq6oAqpvuK3XLGmK5wDi7lKZPRsaHjR/view?usp=sharing)
 - 📹 [Server TDD, part 2](https://drive.google.com/file/d/1IrY_YUeOre0KDA10AXaKvP8AXjPxX-BF/view?usp=sharing)
-- 📹 Local dev in start and test (https://drive.google.com/drive/folders/1T5xd0wRn3CG0rZfWAzVCqUjKs3Jb4Hr4)
+- 📹 [Local dev in start and test](https://drive.google.com/file/d/13Cl20TGdxAFBU1KeXdwkSYtw6zypmdvD/view?usp=sharing)
 - 📹 Updates to Node Platform dev mode (Missing)
 - 🧑‍💻 [Server TDD workshop](https://github.com/wix-a/crash-march-2019-tdd/tree/server-tdd)
 - 📅 Daily Q&A session
