@@ -1,6 +1,6 @@
 # 🎲 Tic Tac Toe
 
-> Crash course TDD practice session
+> Crash course practice session
 
 ## Introduction
 
@@ -8,22 +8,21 @@ This project contains a simple implementation of a [Tic Tac Toe](https://en.wiki
 
 May the force be with you.
 
-## Day 1 (client focused)
+## Day 2 (server focused)
 
 ### So far we:
 
-- Started off with E2E tests for a basic happy flow: From registration to a game between two players until the game is finished with first player winning the game.
-- Moved code to new components and remove code duplication. Tests are still green ✅.
-- Added simple validation logic to the registration phase and tested it with component tests.
-- Refactored game logic to a separate function and tested it with unit tests.
+- Added an E2E test for saving an existing game and loading it after a refresh.
+- Added a server test that tests the two endpoints together: Saving and loading an existing game.
 
 ### Now it's up to you to:
 
-- Complete game logic (rows, columns, diagonals, and tie).
-- What happens when you click an already occupied cell?
-- Show the player currently playing in bold.
-- Show the name of the player who won when the game is finished. What happens in case of a tie?
-- What happens if you enter the name "a"? That doesn't sound like a normal name. Make sure you only allow players with normal names 😈.
+- Implement a fancy leaderboard that shows the top 10 ranking players and their victory count (sorted by victory count in a descending order) 🏆.
+- Save the leaderboard in memory. What happens to the leaderboard between tests?
+- Finished before time? Bored? Write a simple implementation of a module bundler or a test runner.
+- Finished the previous task? 😧 Help open source projects around the web.
+
+<p align="center"><strong>Woohoo! You're done! 😀</strong></p>
 
 ### Instructions
 
