@@ -1,0 +1,16 @@
+{
+  "app.title": "Prekės",
+  "emptystate.title": "Jūs dar neturite elementų",
+  "emptystate.description": "Sukurkite savo gaminio elementą lengvai ir greitai, kad jį būtų galima parodyti svetainė",
+  "emptystate.add": "Pridėti prekes",
+  "item.title": "Pridėti naują elementą",
+  "item.name": "Produkto pavadinimas",
+  "item.price": "Kaina",
+  "item.description": "Apibūdinimas",
+  "item.image": "Vaizdas",
+  "item.placeholder": "Reikšmė",
+  "gallery.title": "Puslapio pavadinimas",
+  "gallery.view": "Žiūrėti",
+  "button.save": "Sutaupyti",
+  "button.cancel": "Atšaukti"
+}

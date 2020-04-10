@@ -1,0 +1,16 @@
+{
+  "app.title": "Products",
+  "emptystate.title": "You don't have any items yet",
+  "emptystate.description": "Create your product item in an easy & fast way to display it on your site",
+  "emptystate.add": "Add Items",
+  "item.title": "Add new item",
+  "item.name": "Name",
+  "item.price": "Price",
+  "item.description": "Description",
+  "item.image": "Image",
+  "item.placeholder": "Value",
+  "gallery.title": "Page title",
+  "gallery.view": "View",
+  "button.save": "Save",
+  "button.cancel": "Cancel"
+}

@@ -1,0 +1,16 @@
+{
+  "app.title": "Товары",
+  "emptystate.title": "У вас еще нет товаров",
+  "emptystate.description": "Создайте свой товар простым и быстрым способом, чтобы отобразить его на своем сайте",
+  "emptystate.add": "Добавить товары",
+  "item.title": "Добавить новый товар",
+  "item.name": "Наименование товара",
+  "item.price": "Цена",
+  "item.description": "Описание",
+  "item.image": "Изображение",
+  "item.placeholder": "Значение",
+  "gallery.title": "Заголовок страницы",
+  "gallery.view": "Посмотреть",
+  "button.save": "Сохранить",
+  "button.cancel": "отменить"
+}

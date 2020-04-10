@@ -88,7 +88,7 @@ Please join our slack channel: #cc-{month}-{year}
 ### Mandatory
 - 📹 [Zero to Production](https://drive.google.com/file/d/1R8Oq3v8GT4PdwLzGknA2BxsXeu6xMqt3/view?usp=sharing)
 - 📅 Final project introduction
-- 🧑‍💻 Final Project work - [Store Catalog](https://github.com/wix-a/cc-final-project)
+- 🧑‍💻 Final Project work - [Store Catalog](./exercises/final-project/)
 - 📹 [Experiments](https://drive.google.com/file/d/1I9qblvfN7nE6ZaX9wPoh5nbA7iiHE9tY/view?usp=sharing)
 - 📹 [Dyanmic Imports](https://drive.google.com/file/d/1b5obOEjDw1Oiva89jmZ9KSdij5WwV8Kw/view?usp=sharing)
 - 📅 Daily Q&A session

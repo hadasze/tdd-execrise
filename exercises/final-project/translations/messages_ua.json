@@ -1,0 +1,16 @@
+{
+  "app.title": "Товари",
+  "emptystate.title": "У вас ще немає товарів",
+  "emptystate.description": "Створіть товар у простий і швидкий спосіб, щоб показати його на своєму сайті",
+  "emptystate.add": "Додати товари",
+  "item.title": "Додати новий товар",
+  "item.name": "Назва товару",
+  "item.price": "Ціна",
+  "item.description": "Опис",
+  "item.image": "Зображення",
+  "item.placeholder": "Значення",
+  "gallery.title": "Назва сторінки",
+  "gallery.view": "Переглянути",
+  "button.save": "Зберегти",
+  "button.cancel": "Скасувати"
+}
