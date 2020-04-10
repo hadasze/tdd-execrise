@@ -3,6 +3,19 @@
 This is the main repo for fed crash course.\
 Please join our slack channel: #cc-{month}-{year} 
 
+# ToC
+* [Legend](#legend)
+* [Agenda](#agenda)
+  * [Day I: Testing 101 & Client TDD](#day-i-testing-101--client-tdd)
+  * [Day II: Node Platfrom & Server TDD](#day-ii-node-platfrom--server-tdd)
+  * [Day III: RPC & Ambassador](#day-iii-rpc--ambassador)
+  * [Day IV: Wix Style React](#day-iv-wix-style-react)
+  * [Day V: Final Project, part 1](#day-v-final-project-part-1)
+  * [Day VI: Final Project, part 2](#day-vi-final-project-part-2)
+  * [Day VII: Final Project, the final episode](#day-vii-final-project-the-final-episode)
+* [Extracurricular](#extracurricular)
+* [More Helpful Resources](#more-helpful-resources)
+
 # Legend
 
 📹 Watch a video at your own time\
@@ -12,7 +25,7 @@ Please join our slack channel: #cc-{month}-{year}
 
 # Agenda
 
-## Day I: Introduction to Testing & Client TDD
+## Day I: Testing 101 & Client TDD
 
 ### Mandatory
 - 📅 Course meet and greet
