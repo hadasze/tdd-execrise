@@ -49,7 +49,7 @@ Please join our slack channel: #cc-{month}-{year}
 - 📹 [Server TDD, part 2](https://drive.google.com/file/d/1IrY_YUeOre0KDA10AXaKvP8AXjPxX-BF/view?usp=sharing)
 - 📹 [Local dev in start and test](https://drive.google.com/file/d/13Cl20TGdxAFBU1KeXdwkSYtw6zypmdvD/view?usp=sharing)
 - 📹 Updates to Node Platform dev mode (Missing)
-- 🧑‍💻 [Server TDD workshop](./exercises/client-tdd/)
+- 🧑‍💻 [Server TDD workshop](./exercises/server-tdd/)
 - 📅 Daily Q&A session
 
 ### Extras
