@@ -62,7 +62,7 @@ Please join our slack channel: #cc-{month}-{year}
 
 ### Mandatory
 - 📹 [Ambassador](https://drive.google.com/file/d/1fJIfcEnmDgOPvysWsZNA9Poq4FH9dNIu/view?usp=sharing)
-- 🧑‍💻 Ambassador workshop (Missing)
+- 🧑‍💻 [Ambassador workshop](./exercises/ambassador/)
 - 📅 Daily Q&A session
 
 ### Extras
