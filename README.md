@@ -16,10 +16,10 @@ Please join our slack channel: #cc-{month}-{year}
 
 ### Mandatory
 - 📅 Course meet and greet
-- 📹 [Introduction to testing, part 1](https://drive.google.com/file/d/1LmeaepxwB_klI9dxNzZAWEpTBoTUJRYX/view?usp=sharing)
-- 📹 [Introduction to testing, part 2](https://drive.google.com/file/d/1VpzFmODHzB15lkOZw_h32OpI_PGBMSQr/view?usp=sharing)
-- 📹 [Client TDD, part 1](https://drive.google.com/file/d/1xGWqBoP7hQQTdk7EYfhxSzwo-Wq1URpY/view?usp=sharing)
-- 📹 [Client TDD, part 2](https://drive.google.com/file/d/1RQK-SsaFp1jo1CVAWpBzgl4jv1FEQMcY/view?usp=sharing)
+- 📹 [Testing 101, part 1](https://drive.google.com/open?id=1sjIa8b1os-HrMiav0pTIBsUN6PufnPkZ)
+- 📹 [Testing 101, part 2](https://drive.google.com/open?id=1J9Ckz3pOH4r3DFdG3ArMwGpw2vI1PG9-)
+- 📹 [Client TDD, part 1](https://drive.google.com/open?id=1NetzbBNtyWFb7_RLDuS3J7YDTb0pkqUS)
+- 📹 [Client TDD, part 2](https://drive.google.com/open?id=1Nyljsdl4LdieimyxUTDFQuYsxZ4xPs6E)
 - 🧑‍💻 Client TDD Workshop - [Tic Tac Toe](./exercises/client-tdd/)
 - 📅 Daily Q&A session
 
@@ -105,7 +105,7 @@ Please join our slack channel: #cc-{month}-{year}
 # Extracurricular
 - 📚 [Translations](https://github.com/wix-private/fed-handbook/blob/master/TRANSLATION.md) and 📹 [here](https://drive.google.com/file/d/1amyAHNPOYj4zsXyCWK_Hi0tS-sTfs42Q/view?usp=sharing)
 - 📚 [Sled](https://wix-private.github.io/sled/)
-- 📚 Perfer (Missing)
+- 📚 [Perfer](https://github.com/wix-private/perfer)
 
 # More Helpful Resources
 
