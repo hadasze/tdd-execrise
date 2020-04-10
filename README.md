@@ -61,7 +61,7 @@ Please join our slack channel: #cc-{month}-{year}
 ## Day III: RPC & Ambassador
 
 ### Mandatory
-- 📹 [Ambassador](https://drive.google.com/file/d/1fJIfcEnmDgOPvysWsZNA9Poq4FH9dNIu/view?usp=sharing)
+- 📹 [Ambassador](https://drive.google.com/open?id=1jo97JAbD2CXRsQyaA0nqaaXRqZ-OdG5E)
 - 🧑‍💻 [Ambassador workshop](./exercises/ambassador/)
 - 📅 Daily Q&A session
 
