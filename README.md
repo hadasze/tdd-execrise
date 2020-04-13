@@ -90,7 +90,7 @@ Please join our slack channel: #cc-{month}-{year}
 - 📅 Final project introduction
 - 🧑‍💻 Final Project work - [Store Catalog](./exercises/final-project/)
 - 📹 [Experiments](https://drive.google.com/file/d/1I9qblvfN7nE6ZaX9wPoh5nbA7iiHE9tY/view?usp=sharing)
-- 📹 [Dyanmic Imports](https://drive.google.com/file/d/1b5obOEjDw1Oiva89jmZ9KSdij5WwV8Kw/view?usp=sharing)
+- 📹 [Dyanmic Imports](https://drive.google.com/file/d/1b5obOEjDw1Oiva89jmZ9KSdij5WwV8Kw/view?usp=sharing) and [complete the relevant section in the final project](https://github.com/wix-a/fed-crash-course/tree/master/exercises/final-project#get-a-small-bundle-size)
 - 📅 Daily Q&A session
 
 ### Extras
