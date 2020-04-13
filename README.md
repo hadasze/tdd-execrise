@@ -111,7 +111,8 @@ Please join our slack channel: #cc-{month}-{year}
 
 ## Day VII: Final Project, the final episode
 - 📹 FEDOps (Missing)
-- 📹 Debugging Production (Missing)
+- 📹 [Debugging Production](https://drive.google.com/file/d/1A9e0vIaldasZihv50ziuSvlypzvj4adv/view?usp=sharing)
+- 📹 [Debugging Tests](https://drive.google.com/file/d/1k-Ajqa2mbD_azK4T4f2t8fGOyzV50JTJ/view?usp=sharing)
 - 🧑‍💻 Final Project work + submission
 - 📅 Final project presentations & goodbye beer 🍻
 
