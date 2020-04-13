@@ -22,6 +22,7 @@ Please join our slack channel: #cc-{month}-{year}
 📅 Attend a scheduled meeting\
 🧑‍💻 Self exercise at your own time, mentors will be available via Slack. Work should be submitted.\
 📚 Self extra read at your own time
+📝 Feedback form
 
 # Agenda
 
@@ -35,6 +36,7 @@ Please join our slack channel: #cc-{month}-{year}
 - 📹 [Client TDD, part 2](https://drive.google.com/open?id=1Nyljsdl4LdieimyxUTDFQuYsxZ4xPs6E)
 - 🧑‍💻 Client TDD Workshop - [Tic Tac Toe](./exercises/client-tdd/)
 - 📅 Daily Q&A session
+- 📝 [Daily feedback](https://forms.gle/Hcn6PPfBfTh42A3L8)
 
 ### Extras
 - 📚 Slides: [Testing overview](https://slides.com/yanivefraim-3/testing-workshop-3#/)
@@ -51,6 +53,7 @@ Please join our slack channel: #cc-{month}-{year}
 - 📹 Updates to Node Platform dev mode (Missing)
 - 🧑‍💻 [Server TDD workshop](./exercises/server-tdd/)
 - 📅 Daily Q&A session
+- 📝 [Daily feedback](https://forms.gle/hdkJ2A6f3PtZWAhb7)
 
 ### Extras
 - 📚 [Node Platform Introduction](./docs/node-platform-introduction.md)
@@ -64,6 +67,7 @@ Please join our slack channel: #cc-{month}-{year}
 - 📹 [Ambassador](https://drive.google.com/open?id=1jo97JAbD2CXRsQyaA0nqaaXRqZ-OdG5E)
 - 🧑‍💻 [Ambassador workshop](./exercises/ambassador/)
 - 📅 Daily Q&A session
+- 📝 [Daily feedback](https://forms.gle/uYoJ7iB5yXpJDqkh6)
 
 ### Extras
 - 📚 [Ambassador](https://github.com/wix-private/ambassador)
@@ -80,6 +84,7 @@ Please join our slack channel: #cc-{month}-{year}
 - 🧑‍💻 Testing WSR workshop (Missing)
 - 📹 New UI Order (Missing)
 - 📅 Daily Q&A session
+- 📝 [Daily feedback](https://forms.gle/nXc19ZbXUqm9QvHdA)
 
 ### Extras
 - 📚 [wix-style-react](https://github.com/wix/wix-style-react)
@@ -92,6 +97,7 @@ Please join our slack channel: #cc-{month}-{year}
 - 📹 [Experiments](https://drive.google.com/file/d/1I9qblvfN7nE6ZaX9wPoh5nbA7iiHE9tY/view?usp=sharing)
 - 📹 [Dyanmic Imports](https://drive.google.com/file/d/1b5obOEjDw1Oiva89jmZ9KSdij5WwV8Kw/view?usp=sharing) and [complete the relevant section in the final project](https://github.com/wix-a/fed-crash-course/tree/master/exercises/final-project#get-a-small-bundle-size)
 - 📅 Daily Q&A session
+- 📝 [Daily feedback](https://forms.gle/Ns56BvfQYfkHoGmt5)
 
 ### Extras
 - 📚 [Working with Generators](https://github.com/wix-private/fed-handbook/blob/master/WORKING_WITH_GENERATORS.md)
@@ -105,6 +111,7 @@ Please join our slack channel: #cc-{month}-{year}
 - 📹 [Logging BI Events](https://drive.google.com/file/d/15KK1OAydcz1tVIv_Ps2How9-XaIFiyF7/view?usp=sharing) and [complete the relevant section in the final project](https://github.com/wix-a/fed-crash-course/tree/master/exercises/final-project#analytics)
 - 🧑‍💻 Final Project work
 - 📅 Daily Q&A session
+- 📝 [Daily feedback](https://forms.gle/FfGsGzXC4gwrUkp4A)
 
 ### Extras
 - 📚 [Debug docker on production](https://github.com/wix-platform/wix-node-platform/blob/115389d21545b9a8abaf0fdf0eb90049a1756d79/bootstrap/docs/production.md#ssh-to-server)
@@ -115,6 +122,7 @@ Please join our slack channel: #cc-{month}-{year}
 - 📹 [Debugging Tests](https://drive.google.com/file/d/1k-Ajqa2mbD_azK4T4f2t8fGOyzV50JTJ/view?usp=sharing)
 - 🧑‍💻 Final Project work + submission
 - 📅 Final project presentations & goodbye beer 🍻
+- 📝 [One last feedback](https://forms.gle/6x1qFxERpgcsVCWZ7)
 
 # Extracurricular
 - 📚 [Translations](https://github.com/wix-private/fed-handbook/blob/master/TRANSLATION.md) and 📹 [here](https://drive.google.com/file/d/1amyAHNPOYj4zsXyCWK_Hi0tS-sTfs42Q/view?usp=sharing)
