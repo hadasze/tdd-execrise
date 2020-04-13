@@ -1,7 +1,9 @@
 # Welcome to FED Crash Course
 
 This is the main repo for fed crash course.\
-Please join our slack channel: #cc-{month}-{year} 
+Please join our slack channel: #cc-{month}-{year}\
+
+Also, please take the time to read [this introduction document](https://docs.google.com/document/d/1GugijNwhSogpheGWaNw0Egl6-UGqPLFOv9VL7gH2Als/edit#) before starting the course
 
 # ToC
 * [Legend](#legend)
@@ -34,6 +36,7 @@ Please join our slack channel: #cc-{month}-{year}
 - 📹 [Testing 101, part 2](https://drive.google.com/open?id=1J9Ckz3pOH4r3DFdG3ArMwGpw2vI1PG9-)
 - 📹 [Client TDD, part 1](https://drive.google.com/open?id=1NetzbBNtyWFb7_RLDuS3J7YDTb0pkqUS)
 - 📹 [Client TDD, part 2](https://drive.google.com/open?id=1Nyljsdl4LdieimyxUTDFQuYsxZ4xPs6E)
+- 📹 [Debugging Tests](https://drive.google.com/file/d/1k-Ajqa2mbD_azK4T4f2t8fGOyzV50JTJ/view?usp=sharing)
 - 🧑‍💻 Client TDD Workshop - [Tic Tac Toe](./exercises/client-tdd/)
 - 📅 Daily Q&A session
 - 📝 [Daily feedback](https://forms.gle/Hcn6PPfBfTh42A3L8)
@@ -117,8 +120,7 @@ Please join our slack channel: #cc-{month}-{year}
 
 ## Day VII: Final Project, the final episode
 - 📹 FEDOps (Missing) and [complete the relevant section in the final project](https://github.com/wix-a/fed-crash-course/tree/master/exercises/final-project#monitoring)
-- 📹 [Debugging Production](https://drive.google.com/file/d/1A9e0vIaldasZihv50ziuSvlypzvj4adv/view?usp=sharing)
-- 📹 [Debugging Tests](https://drive.google.com/file/d/1k-Ajqa2mbD_azK4T4f2t8fGOyzV50JTJ/view?usp=sharing)
+- 📹 [Debugging Production](https://drive.google.com/open?id=163Aen0g0k6akGjR3GZLa3yg0KMutuNMG)
 - 🧑‍💻 Final Project work + submission
 - 📅 Final project presentations & goodbye beer 🍻
 - 📝 [One last feedback](https://forms.gle/6x1qFxERpgcsVCWZ7)
