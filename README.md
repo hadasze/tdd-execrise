@@ -79,12 +79,15 @@ Also, please take the time to read [this introduction document](https://docs.goo
 ## Day IV: Wix Style React
 
 ### Mandatory
-- 📹 UI Infra intro + WSR (Missing)
-- 🧑‍💻 WSR intro workshop (Missing)
+- 📹 [Component Libraries Day Intro](https://drive.google.com/open?id=1aU67U6KOOmOUDWZsBX3B2zcNZffBtOKk)
+- 📹 [Meet the Components Group](https://drive.google.com/open?id=1noJctWMrytZkhwDYO_Qphm3p8hTWXE3B)
+- 📹 [Wix Style React, part 1](https://drive.google.com/open?id=1v5saSb4gps07FPXCgtlX4n960nZF6ueI)
+- 📹 [Wix Style React, part 2](https://drive.google.com/open?id=10kfdLL-I1UB_4KJH_Zxhf9uHeSURtVQ0)
+- 🧑‍💻 [WSR Tutorial](https://github.com/wix-private/wsr-tutorial-docs)
 - 📹 WSR Tips & Tricks: Layouts, Forms & More (Missing)
-- 🧑‍💻 Forms basic workshop (Missing)
-- 📹 WSR Testing (Missing)
-- 🧑‍💻 Testing WSR workshop (Missing)
+- 🧑‍💻 [Forms basic workshop](https://github.com/wix-a/wsr-form)
+- 📹 [WSR: Testing & Drivers](https://drive.google.com/open?id=1GI72QiVWoqBgoH6oN3gcfni0o0Rz2Ejh)
+- 🧑‍💻 [Testing WSR workshop](https://github.com/wix-a/wsr-form#exercise-2---test-your-application)
 - 📹 New UI Order (Missing)
 - 📅 Daily Q&A session
 - 📝 [Daily feedback](https://forms.gle/nXc19ZbXUqm9QvHdA)
