@@ -101,8 +101,8 @@ Please join our slack channel: #cc-{month}-{year}
 
 ## Day VI: Final Project, part 2
 ### Mandatory
-- 📹 [BA & BI Overview](https://drive.google.com/file/d/1m4TwcudYgtwWGP1eoLPshQRPtNaLcjpO/view?usp=sharing) and [complete the relevant section in the final project](https://github.com/wix-a/fed-crash-course/tree/master/exercises/final-project#analytics)
-- 📹 [Logging BI Events](https://drive.google.com/file/d/15KK1OAydcz1tVIv_Ps2How9-XaIFiyF7/view?usp=sharing)
+- 📹 [BA & BI Overview](https://drive.google.com/file/d/1m4TwcudYgtwWGP1eoLPshQRPtNaLcjpO/view?usp=sharing)
+- 📹 [Logging BI Events](https://drive.google.com/file/d/15KK1OAydcz1tVIv_Ps2How9-XaIFiyF7/view?usp=sharing) and [complete the relevant section in the final project](https://github.com/wix-a/fed-crash-course/tree/master/exercises/final-project#analytics)
 - 🧑‍💻 Final Project work
 - 📅 Daily Q&A session
 
