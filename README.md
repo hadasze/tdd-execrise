@@ -21,7 +21,7 @@ Please join our slack channel: #cc-{month}-{year}
 📹 Watch a video at your own time\
 📅 Attend a scheduled meeting\
 🧑‍💻 Self exercise at your own time, mentors will be available via Slack. Work should be submitted.\
-📚 Self extra read at your own time
+📚 Self extra read at your own time\
 📝 Feedback form
 
 # Agenda
