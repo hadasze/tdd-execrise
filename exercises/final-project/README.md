@@ -28,7 +28,7 @@
 
 Congratulations on getting this far. So far you created a [Tic Tac Toe](https://github.com/wix-a/tic-tac-toe-3) game, along with an awesome leaderboard. Then you learned about RPC and used [Ambassador](https://github.com/wix-private/ambassador) to create a comments system. You also learned about [Wix Style React](https://github.com/wix/wix-style-react) and used it to create some pretty cool UIs.
 
-Lastly, you generated a project with [Create Yoshi App](https://wix.github.io/yoshi/docs/getting-started/create-app), set-up CI with [TeamCity](http://tc.dev.wixpress.com) and eventually deployed it to production with [LifeCycle](http://lifecycle.wix.com/)
+Lastly, you generated a project with [Create Yoshi App](https://wix.github.io/yoshi/docs/getting-started/create-app), set-up CI with [TeamCity](http://tc.dev.wixpress.com) and eventually deployed it to production with [LifeCycle](http://lifecycle.wix.com/). Your code should be pushed to a repository you create in [wix-a organization](https://github.com/wix-a). Please make sure your projects have the following prefix: **cc-april-2020-YOURNAME**.
 
 Now, it's up to you to use your knowledge and skills to create your very own Store Manager App.
 
