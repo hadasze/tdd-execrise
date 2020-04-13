@@ -101,7 +101,7 @@ Please join our slack channel: #cc-{month}-{year}
 
 ## Day VI: Final Project, part 2
 ### Mandatory
-- 📹 [BA & BI Overview](https://drive.google.com/file/d/1m4TwcudYgtwWGP1eoLPshQRPtNaLcjpO/view?usp=sharing)
+- 📹 [BA & BI Overview](https://drive.google.com/file/d/1m4TwcudYgtwWGP1eoLPshQRPtNaLcjpO/view?usp=sharing) and [complete the relevant section in the final project](https://github.com/wix-a/fed-crash-course/tree/master/exercises/final-project#analytics)
 - 📹 [Logging BI Events](https://drive.google.com/file/d/15KK1OAydcz1tVIv_Ps2How9-XaIFiyF7/view?usp=sharing)
 - 🧑‍💻 Final Project work
 - 📅 Daily Q&A session
@@ -110,7 +110,7 @@ Please join our slack channel: #cc-{month}-{year}
 - 📚 [Debug docker on production](https://github.com/wix-platform/wix-node-platform/blob/115389d21545b9a8abaf0fdf0eb90049a1756d79/bootstrap/docs/production.md#ssh-to-server)
 
 ## Day VII: Final Project, the final episode
-- 📹 FEDOps (Missing)
+- 📹 FEDOps (Missing) and [complete the relevant section in the final project](https://github.com/wix-a/fed-crash-course/tree/master/exercises/final-project#monitoring)
 - 📹 [Debugging Production](https://drive.google.com/file/d/1A9e0vIaldasZihv50ziuSvlypzvj4adv/view?usp=sharing)
 - 📹 [Debugging Tests](https://drive.google.com/file/d/1k-Ajqa2mbD_azK4T4f2t8fGOyzV50JTJ/view?usp=sharing)
 - 🧑‍💻 Final Project work + submission
