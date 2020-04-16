@@ -101,7 +101,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📹 [Zero to Production](https://drive.google.com/open?id=1dI7eEp1SjpSD9jmTgkCXqn53N4yFV3Dn)
 - 🧑‍💻 Final Project work - [Store Catalog](./exercises/final-project/)
 - 📹 [Experiments](https://drive.google.com/open?id=1Rj_K_fpFHL_S2AXB2zeQTGFtnvDjDq3I)
-- 📹 [Performance & Dyanmic Imports](https://drive.google.com/file/d/1b5obOEjDw1Oiva89jmZ9KSdij5WwV8Kw/view?usp=sharing) and [complete the relevant section in the final project](https://github.com/wix-a/fed-crash-course/tree/master/exercises/final-project#get-a-small-bundle-size)
+- 📹 [Performance & Dyanmic Imports](https://drive.google.com/open?id=1ZG8B2bh9gJyFD6I2Y-JRZxE-notb-bbb) and [complete the relevant section in the final project](https://github.com/wix-a/fed-crash-course/tree/master/exercises/final-project#get-a-small-bundle-size)
 - 📅 Daily Q&A session
 - 📝 [Daily feedback](https://forms.gle/Ns56BvfQYfkHoGmt5)
 
@@ -113,8 +113,8 @@ Also, please take the time to read [this introduction document](https://docs.goo
 
 ## Day VI: Final Project, part 2
 ### Mandatory
-- 📹 [BA & BI Overview](https://drive.google.com/file/d/1m4TwcudYgtwWGP1eoLPshQRPtNaLcjpO/view?usp=sharing)
-- 📹 [Logging BI Events](https://drive.google.com/file/d/15KK1OAydcz1tVIv_Ps2How9-XaIFiyF7/view?usp=sharing) and [complete the relevant section in the final project](https://github.com/wix-a/fed-crash-course/tree/master/exercises/final-project#analytics)
+- 📹 [BA & BI Overview](https://drive.google.com/open?id=1Fk-uRCATFnMz-F0b7jc9yqFKqPfXe9MN)
+- 📹 [Logging BI Events](https://drive.google.com/open?id=1zSvc_YfGSg_5ighsork8Zbk4c0oO1gb_) and [complete the relevant section in the final project](https://github.com/wix-a/fed-crash-course/tree/master/exercises/final-project#analytics)
 - 🧑‍💻 Final Project work
 - 📅 Daily Q&A session
 - 📝 [Daily feedback](https://forms.gle/FfGsGzXC4gwrUkp4A)
@@ -130,7 +130,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📝 [One last feedback](https://forms.gle/6x1qFxERpgcsVCWZ7)
 
 # Extracurricular
-- 📚 [Translations](https://github.com/wix-private/fed-handbook/blob/master/TRANSLATION.md) and 📹 [here](https://drive.google.com/file/d/1amyAHNPOYj4zsXyCWK_Hi0tS-sTfs42Q/view?usp=sharing)
+- 📚 [Translations](https://github.com/wix-private/fed-handbook/blob/master/TRANSLATION.md) and 📹 [here](https://drive.google.com/open?id=1CE7mgKlrIA06TkF5djWke-Ze1w1AepQb)
 - 📚 [Sled](https://wix-private.github.io/sled/)
 - 📚 [Perfer](https://github.com/wix-private/perfer)
 
