@@ -133,6 +133,10 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📚 [Translations](https://github.com/wix-private/fed-handbook/blob/master/TRANSLATION.md) and 📹 [here](https://drive.google.com/open?id=1CE7mgKlrIA06TkF5djWke-Ze1w1AepQb)
 - 📚 [Sled](https://wix-private.github.io/sled/)
 - 📚 [Perfer](https://github.com/wix-private/perfer)
+- Corvid (Wix Code):
+  - 📹 [Intro to Corvid: Build Stackoverflow in 60 minutes](https://www.youtube.com/watch?v=ACA3GtC0-hQ&feature=youtu.be) teh code can be found [here](https://drive.google.com/open?id=1TJ2THV8Z_yXA9S7tXvJUHEhAKxOwqnQj) in better quality
+  - 🧑‍💻 [Advent of Corvid workshop](https://www.advent-of-corvid.com/) ([solutions & more](https://drive.google.com/drive/folders/1lUSGSTCJ1g-haGk9vq6gJpTLKlUDgvs_))
+  - 📹 [Can you do it with Corvid?](https://www.youtube.com/watch?v=pyqhIffHwps&feature=youtu.be)
 
 # More Helpful Resources
 
