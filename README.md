@@ -11,7 +11,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
   * [Day I: Testing 101 & Client TDD](#day-i-testing-101--client-tdd)
   * [Day II: Node Platfrom & Server TDD](#day-ii-node-platfrom--server-tdd)
   * [Day III: RPC & Ambassador](#day-iii-rpc--ambassador)
-  * [Day IV: Wix Style React](#day-iv-wix-style-react)
+  * [Day IV: Wix Style React](#day-iv-the-components-group---wix-style-react-and-more)
   * [Day V: Final Project, part 1](#day-v-final-project-part-1)
   * [Day VI: Final Project, part 2](#day-vi-final-project-part-2)
   * [Day VII: Final Project, the final episode](#day-vii-final-project-the-final-episode)
