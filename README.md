@@ -109,7 +109,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📚 [Working with Generators](https://github.com/wix-private/fed-handbook/blob/master/WORKING_WITH_GENERATORS.md)
 - 📚 [Zero to Production](https://github.com/wix-private/fed-handbook/blob/master/ZERO_TO_PRODUCTION.md)
 - 📚 [Experiments](https://github.com/wix-private/fed-handbook/blob/master/EXPERIMENTS.md)
-- 📚 [Performance and Dynamic Imports](https://docs.google.com/document/d/18tCnZAIuOoyTHaK0Pxn2PBdLWOcI4J-VJ58ZVKAvn-w/edit?usp=sharing)
+- ⚙️ [Statics Override](https://chrome.google.com/webstore/detail/wix-statics-override/fhaehbcdbkccakpjgokgppjkggkmkmbl)
 
 ## Day VI: Final Project, part 2
 ### Mandatory
@@ -119,15 +119,15 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📅 Daily Q&A session
 - 📝 [Daily feedback](https://forms.gle/FfGsGzXC4gwrUkp4A)
 
-### Extras
-- 📚 [Debug docker on production](https://github.com/wix-platform/wix-node-platform/blob/115389d21545b9a8abaf0fdf0eb90049a1756d79/bootstrap/docs/production.md#ssh-to-server)
-
 ## Day VII: Final Project, the final episode
 - 📹 FEDOps (Missing) and [complete the relevant section in the final project](https://github.com/wix-a/fed-crash-course/tree/master/exercises/final-project#monitoring)
 - 📹 [Performance & Dyanmic Imports](https://drive.google.com/open?id=1ZG8B2bh9gJyFD6I2Y-JRZxE-notb-bbb) and [complete the relevant section in the final project](https://github.com/wix-a/fed-crash-course/tree/master/exercises/final-project#get-a-small-bundle-size)
 - 🧑‍💻 Final Project work + submission
 - 📅 Final project presentations & goodbye beer 🍻
 - 📝 [One last feedback](https://forms.gle/6x1qFxERpgcsVCWZ7)
+
+### Extras
+- 📚 [Performance and Dynamic Imports](https://docs.google.com/document/d/18tCnZAIuOoyTHaK0Pxn2PBdLWOcI4J-VJ58ZVKAvn-w/edit?usp=sharing)
 
 # Extracurricular
 - 📚 [Translations](https://github.com/wix-private/fed-handbook/blob/master/TRANSLATION.md) and 📹 [here](https://drive.google.com/open?id=1CE7mgKlrIA06TkF5djWke-Ze1w1AepQb)
