@@ -120,7 +120,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📝 [Daily feedback](https://forms.gle/FfGsGzXC4gwrUkp4A)
 
 ### Extras
-- 📚 [BI Catalog](https://bo.wix.com/bi-catalog-webapp/#/sources)
+- 📚 [BI Catalog](https://bo.wix.com/bi-catalog-webapp/#/sources) and [the final project's page](https://bo.wix.com/bi-catalog-webapp/#/sources/11/events/8000/dev?artifactId=com.wixpress.fed-crash-course)
 - 📚 [BI Logger](https://github.com/wix-private/bi-logger)
 - 📚 [BI Schema Loggers](https://github.com/wix-private/bi-schema-loggers)
 - 📚 [User Explorer](https://bo.wix.com/bi-ux/#/history)
