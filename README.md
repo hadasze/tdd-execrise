@@ -75,7 +75,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📚 [Ambassador](https://github.com/wix-private/ambassador)
 - 📚 [rpc](https://github.com/wix-platform/wix-node-platform/tree/master/rpc)
 
-## Day IV: Wix Style React
+## Day IV: The components group - Wix Style React and more
 
 ### Mandatory
 - 📹 [Component Libraries Day Intro](https://drive.google.com/open?id=1aU67U6KOOmOUDWZsBX3B2zcNZffBtOKk)
@@ -83,11 +83,13 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📹 [Wix Style React, part 1](https://drive.google.com/open?id=1v5saSb4gps07FPXCgtlX4n960nZF6ueI)
 - 📹 [Wix Style React, part 2](https://drive.google.com/open?id=10kfdLL-I1UB_4KJH_Zxhf9uHeSURtVQ0)
 - 🧑‍💻 [WSR Tutorial](https://github.com/wix-private/wsr-tutorial-docs)
-- 📹 WSR Tips & Tricks: Layouts, Forms & More (Missing)
+- 📹 [WSR Tips & Tricks and Zeplin usage](https://drive.google.com/open?id=1snRtXB48n0T_I7TvLk9NKJ6rEPXWkPG2)
 - 🧑‍💻 [Forms basic workshop](https://github.com/wix-a/wsr-form)
 - 📹 [WSR: Testing & Drivers](https://drive.google.com/open?id=1GI72QiVWoqBgoH6oN3gcfni0o0Rz2Ejh)
+- 📹 [WSR: Testing & Drivers - Demo](https://drive.google.com/open?id=18UHW6yWpNLdRb2tWq_yXLWkU-V-Lkv0F)
+- 📹 [WSR: Testing & Drivers - Pitfalls](https://drive.google.com/open?id=1V9Z_wyEMdyhsEfcG5QZDYMgDeOUhbdk1)
 - 🧑‍💻 [Testing WSR workshop](https://github.com/wix-a/wsr-form#exercise-2---test-your-application)
-- 📹 New UI Order (Missing)
+- 📹 [New UI Order](https://drive.google.com/open?id=1oCLAFmfSXFujaWwAu-uc9BDCFntU37NM)
 - 📅 Daily Q&A session
 - 📝 [Daily feedback](https://forms.gle/nXc19ZbXUqm9QvHdA)
 
