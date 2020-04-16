@@ -119,6 +119,11 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📅 Daily Q&A session
 - 📝 [Daily feedback](https://forms.gle/FfGsGzXC4gwrUkp4A)
 
+### Extras
+- 📚 [BI Catalog](https://bo.wix.com/bi-catalog-webapp/#/sources)
+- 📚 [BI Logger](https://github.com/wix-private/bi-logger)
+- 📚 [BI Schema Loggers](https://github.com/wix-private/bi-schema-loggers)
+
 ## Day VII: Final Project, the final episode
 - 📹 FEDOps (Missing) and [complete the relevant section in the final project](https://github.com/wix-a/fed-crash-course/tree/master/exercises/final-project#monitoring)
 - 📹 [Performance & Dyanmic Imports](https://drive.google.com/open?id=1ZG8B2bh9gJyFD6I2Y-JRZxE-notb-bbb) and [complete the relevant section in the final project](https://github.com/wix-a/fed-crash-course/tree/master/exercises/final-project#get-a-small-bundle-size)
