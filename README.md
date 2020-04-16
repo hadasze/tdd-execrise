@@ -98,10 +98,10 @@ Also, please take the time to read [this introduction document](https://docs.goo
 
 ## Day V: Final Project, part 1
 ### Mandatory
-- 📹 [Zero to Production](https://drive.google.com/file/d/1R8Oq3v8GT4PdwLzGknA2BxsXeu6xMqt3/view?usp=sharing)
+- 📹 [Zero to Production](https://drive.google.com/open?id=1dI7eEp1SjpSD9jmTgkCXqn53N4yFV3Dn)
 - 🧑‍💻 Final Project work - [Store Catalog](./exercises/final-project/)
-- 📹 [Experiments](https://drive.google.com/file/d/1I9qblvfN7nE6ZaX9wPoh5nbA7iiHE9tY/view?usp=sharing)
-- 📹 [Dyanmic Imports](https://drive.google.com/file/d/1b5obOEjDw1Oiva89jmZ9KSdij5WwV8Kw/view?usp=sharing) and [complete the relevant section in the final project](https://github.com/wix-a/fed-crash-course/tree/master/exercises/final-project#get-a-small-bundle-size)
+- 📹 [Experiments](https://drive.google.com/open?id=1Rj_K_fpFHL_S2AXB2zeQTGFtnvDjDq3I)
+- 📹 [Performance & Dyanmic Imports](https://drive.google.com/file/d/1b5obOEjDw1Oiva89jmZ9KSdij5WwV8Kw/view?usp=sharing) and [complete the relevant section in the final project](https://github.com/wix-a/fed-crash-course/tree/master/exercises/final-project#get-a-small-bundle-size)
 - 📅 Daily Q&A session
 - 📝 [Daily feedback](https://forms.gle/Ns56BvfQYfkHoGmt5)
 
