@@ -99,7 +99,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 ## Day V: Final Project, part 1
 ### Mandatory
 - 📹 [Zero to Production](https://drive.google.com/open?id=1dI7eEp1SjpSD9jmTgkCXqn53N4yFV3Dn)
-- 🧑‍💻 Final Project work - [Store Catalog](./exercises/final-project/)
+- 🧑‍💻 Final Project work - [Store Catalog](./exercises/final-project/) + [a short introduction video](https://drive.google.com/open?id=1gN4pyZ7cy_QFaagX6zv4RrOUa4TK_fZI)
 - 📹 [Debugging Production](https://drive.google.com/open?id=163Aen0g0k6akGjR3GZLa3yg0KMutuNMG)
 - 📹 [Experiments](https://drive.google.com/open?id=1Rj_K_fpFHL_S2AXB2zeQTGFtnvDjDq3I)
 - 📅 Daily Q&A session
