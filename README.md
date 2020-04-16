@@ -123,6 +123,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📚 [BI Catalog](https://bo.wix.com/bi-catalog-webapp/#/sources)
 - 📚 [BI Logger](https://github.com/wix-private/bi-logger)
 - 📚 [BI Schema Loggers](https://github.com/wix-private/bi-schema-loggers)
+- 📚 [User Explorer](https://bo.wix.com/bi-ux/#/history)
 
 ## Day VII: Final Project, the final episode
 - 📹 FEDOps (Missing) and [complete the relevant section in the final project](https://github.com/wix-a/fed-crash-course/tree/master/exercises/final-project#monitoring)
@@ -145,6 +146,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 
 # More Helpful Resources
 
+- Missing links? You can look for them here: https://bo.wix.com/
 - 📹 [Uncle bob, TDD](https://www.youtube.com/watch?v=GvAzrC6-spQ)
 - 📚 [fed-handbook](https://github.com/wix-private/fed-handbook)
 - 📚 [Node platform](https://github.com/wix-platform/wix-node-platform)
