@@ -140,6 +140,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📝 [One last feedback](https://forms.gle/6x1qFxERpgcsVCWZ7)
 
 ### Extras
+- 📚 ["FedOps" 🔮 Realtime Monitoring Client](https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-logger)
 - 📚 [Performance and Dynamic Imports](https://docs.google.com/document/d/18tCnZAIuOoyTHaK0Pxn2PBdLWOcI4J-VJ58ZVKAvn-w/edit?usp=sharing)
 
 # Extracurricular
