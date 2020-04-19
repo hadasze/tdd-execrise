@@ -25,6 +25,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 🧑‍💻 Self exercise at your own time, mentors will be available via Slack. Work should be submitted.\
 📚 Self extra read at your own time\
 📝 Feedback form
+⚙️ A handy utility
 
 # Agenda
 
@@ -126,7 +127,13 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📚 [User Explorer](https://bo.wix.com/bi-ux/#/history)
 
 ## Day VII: Final Project, the final episode
-- 📹 FEDOps (Missing) and [complete the relevant section in the final project](https://github.com/wix-a/fed-crash-course/tree/master/exercises/final-project#monitoring)
+- 📹 [Client side monitoring](https://drive.google.com/open?id=1x_voDWfcQuPvf63Cmka_pVhJ7sZg5jI3)
+- 📹 [Introduction to FedOps](https://drive.google.com/open?id=1hHFtImYXTLMH4IJxuv-NWRq5_JC0RHll)
+- 📹 [Positive monitoring & success rate](https://drive.google.com/open?id=172dxtEIxiaHRIVZPxe6FwMPznBnBAMBS)
+- 📹 [Load time & network](https://drive.google.com/open?id=1gsS0k6h7HGD-BDsEbE9X8jfNACWIsH-z)
+- 📹 [FedOps usage](https://drive.google.com/open?id=1B1X2W0gMYp4hFgON3N__Jd8XFR3Qq9eb)
+- 📹 [Interactions](https://drive.google.com/open?id=1VzBr60NEZOHGWzBKxz3l6AKv5ieT9CKm)
+- 📹 [More FedOps features](https://drive.google.com/open?id=1-wZBzfMOY7OY1TWeDDykI6L2lf3qrDn9) and [complete the relevant section in the final project](https://github.com/wix-a/fed-crash-course/tree/master/exercises/final-project#monitoring)
 - 📹 [Performance & Dyanmic Imports](https://drive.google.com/open?id=1ZG8B2bh9gJyFD6I2Y-JRZxE-notb-bbb) and [complete the relevant section in the final project](https://github.com/wix-a/fed-crash-course/tree/master/exercises/final-project#get-a-small-bundle-size)
 - 🧑‍💻 Final Project work + submission
 - 📅 Final project presentations & goodbye beer 🍻
