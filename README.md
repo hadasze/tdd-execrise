@@ -152,6 +152,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
   - 🧑‍💻 [Advent of Corvid workshop](https://www.advent-of-corvid.com/) ([solutions & more](https://drive.google.com/drive/folders/1lUSGSTCJ1g-haGk9vq6gJpTLKlUDgvs_))
   - 📹 [Can you do it with Corvid?](https://www.youtube.com/watch?v=pyqhIffHwps&feature=youtu.be)
 - 📹 [Breaking out of the iFrames](https://www.youtube.com/watch?v=Off1zeECZCs)
+- ⚙️ Visual comparison tests using Applitools: [with-eyes](https://github.com/wix-incubator/with-eyes) or [puppeteer-eyes](https://github.com/wix-incubator/puppeteer-eyes.it) (both tools do the same thing)
 
 # More Helpful Resources
 
