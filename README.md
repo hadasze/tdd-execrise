@@ -151,6 +151,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
   - 📹 [Intro to Corvid: Build Stackoverflow in 60 minutes](https://www.youtube.com/watch?v=ACA3GtC0-hQ&feature=youtu.be) the code can be found [here](https://drive.google.com/open?id=1TJ2THV8Z_yXA9S7tXvJUHEhAKxOwqnQj) in better quality
   - 🧑‍💻 [Advent of Corvid workshop](https://www.advent-of-corvid.com/) ([solutions & more](https://drive.google.com/drive/folders/1lUSGSTCJ1g-haGk9vq6gJpTLKlUDgvs_))
   - 📹 [Can you do it with Corvid?](https://www.youtube.com/watch?v=pyqhIffHwps&feature=youtu.be)
+  - 📹 [Breaking out of the iFrames](https://www.youtube.com/watch?v=Off1zeECZCs)
 
 # More Helpful Resources
 
