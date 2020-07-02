@@ -1,4 +1,4 @@
-# 🛍️ Store Manager
+#	&#128525; Shuk Basar
 
 > Crash course final summarizing project
 
@@ -114,43 +114,14 @@ Every feature and logic in the application should be tested. This is an opportun
 
 ## Best Practices and Tips
 
+- **Work with feature branch and create Pull Requests to `master` :** We want your work to be reviewed, this is best way to learn and grow.
 - **Merge/commit to `master` and deploy often:** If something doesn't work, it will be easier for you to understand what caused it.
-
-- **Use Petri-Sidekick:** See your experiment live on production with [Petri Sidekick](https://chrome.google.com/webstore/detail/wix-petri-sidekick/hpdjckcenihbjfmaccadiaighajcjope).
 
 - **Explore the Fed-Handbook:** The [Fed-Handbook](https://github.com/wix-private/fed-handbook) includes information about a lot of tools and services in Wix and how to integrate with them. Look at the table of content if you don't know or remember how to use a Wix tool or technology.
 
-## Enhancing Our Product
+## Enhancing The Product
 
-As you work on the final project, we will take short breaks to explain how to enhance your apps with various features. Once we do, you should find the time to add those to your app.
-
-### Translations
-
-We can't create the number 1 store manager if we only have content in one language. To support multiple languages, we will use [Wix's internal translation tools](https://github.com/wix-private/fed-handbook/blob/master/TRANSLATION.md) and [i18next](https://www.i18next.com) to also support Lithuanian and Russian.
-
-Setting up a project in [Babel](https://bo.wix.com/wix-babel-webapp/babel) takes too long to set up specifically for the Crash Course. Instead of working with it, you should use the translation files in the [translation folder](https://github.com/wix-a/cc-final-project/tree/master/translations) and copy them to your project. In a real-world project, [Babel](https://bo.wix.com/wix-babel-webapp/babel) will be committing to your project to update those files.
-
-Finally, you should use [i18next](https://www.i18next.com) and [react-i18next](https://react.i18next.com) to output the correct value for each key.
-
-### Monitoring
-
-To create a resilient app, we need to get an alert when important flows stop working. The most important flow of our app is the flow of adding a new product. To be notified when saving a product fails, we will monitor it with the [FedOps Logger](https://github.com/wix-private/fed-infra/blob/master/fedops/fedops-logger/README.md), which is one of [Wix's internal monitoring tools](https://github.com/wix-private/fed-handbook/blob/master/MONITORING.md).
-
-We will track the interaction of adding a new product: When the user clicks the "Save" button, we should start an interaction before making a call to the server and end it when the server responds successfully.
-
-Also, we should move the call to `appLoaded()` to the appropriate place in our app, when the app has successfully loaded.
-
-### Analytics
-
-We will track what our users are doing in our app so that we can evaluate the effects of new features and changes to our product.
-
-We'll use [Wix's internal BI tools](https://github.com/wix-private/fed-handbook/blob/master/BI.md) to track the BI events according to the schema in the [BI Catalog](https://bo.wix.com/bi-catalog-webapp/#/sources/11/events/8000?artifactId=com.wixpress.fed-crash-course). The project name in BI catalog is `fed-crash-course`.
-
-Install `web-bi-logger` and the corresponding `schema-logger`:
-
-```sh
-npm i web-bi-logger bi-logger-fed-crash-course
-```
+As you work on the project,feel free to make it your own, if you have an idea for a cool feature go for it!
 
 ## Bonus Tasks
 
