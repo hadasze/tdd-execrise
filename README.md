@@ -1,7 +1,7 @@
 # Welcome to FED Crash Course
 
 This is the main repo for fed crash course.\
-Please join our slack channel: #cc-april-2020
+Please join our slack channel: #cc-august-2020
 
 Also, please take the time to read [this introduction document](https://docs.google.com/document/d/1GugijNwhSogpheGWaNw0Egl6-UGqPLFOv9VL7gH2Als/edit#) before starting the course
 
@@ -12,9 +12,10 @@ Also, please take the time to read [this introduction document](https://docs.goo
   * [Day II: Node Platfrom & Server TDD](#day-ii-node-platfrom--server-tdd)
   * [Day III: RPC & Ambassador](#day-iii-rpc--ambassador)
   * [Day IV: Wix Style React](#day-iv-the-components-group---wix-style-react-and-more)
-  * [Day V: Final Project, part 1](#day-v-final-project-part-1)
-  * [Day VI: Final Project, part 2](#day-vi-final-project-part-2)
-  * [Day VII: Final Project, the final episode](#day-vii-final-project-the-final-episode)
+  * [Day V: Final Project, Bootstrapping](#day-v-final-project-part-1)
+  * [Day VI: Final Project, Experiments & Translations](#day-vi-final-project-part-2)
+  * [Day VII: Final Project, BI & FedOps](#day-vi-final-project-part-3)
+  * [Day VIII: Final Project, the final episode](#day-vii-final-project-the-final-episode)
 * [Extracurricular](#extracurricular)
 * [More Helpful Resources](#more-helpful-resources)
 
@@ -102,20 +103,37 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📹 [Zero to Production](https://drive.google.com/open?id=1dI7eEp1SjpSD9jmTgkCXqn53N4yFV3Dn)
 - 🧑‍💻 Final Project work - [Store Catalog](./exercises/final-project/) + [a short introduction video](https://drive.google.com/open?id=1gN4pyZ7cy_QFaagX6zv4RrOUa4TK_fZI)
 - 📹 [Debugging Production](https://drive.google.com/open?id=163Aen0g0k6akGjR3GZLa3yg0KMutuNMG)
-- 📹 [Experiments](https://drive.google.com/open?id=1Rj_K_fpFHL_S2AXB2zeQTGFtnvDjDq3I)
 - 📅 Daily Q&A session
 - 📝 [Daily feedback](https://forms.gle/Ns56BvfQYfkHoGmt5)
 
 ### Extras
 - 📚 [Working with Generators](https://github.com/wix-private/fed-handbook/blob/master/WORKING_WITH_GENERATORS.md)
 - 📚 [Zero to Production](https://github.com/wix-private/fed-handbook/blob/master/ZERO_TO_PRODUCTION.md)
-- 📚 [Experiments](https://github.com/wix-private/fed-handbook/blob/master/EXPERIMENTS.md)
-- ⚙️ [Statics Override](https://chrome.google.com/webstore/detail/wix-statics-override/fhaehbcdbkccakpjgokgppjkggkmkmbl)
 
 ## Day VI: Final Project, part 2
 ### Mandatory
+- 📹 [Experiments](https://drive.google.com/open?id=1Rj_K_fpFHL_S2AXB2zeQTGFtnvDjDq3I)
+- 📹 [Translations](https://drive.google.com/open?id=1CE7mgKlrIA06TkF5djWke-Ze1w1AepQb)
+- 🧑‍💻 Final Project work
+- 📅 Daily Q&A session
+- 📝 [Daily feedback](https://forms.gle/FfGsGzXC4gwrUkp4A)
+
+### Extras
+- 📚 [Experiments](https://github.com/wix-private/fed-handbook/blob/master/EXPERIMENTS.md)
+- 📚 [Translations](https://github.com/wix-private/fed-handbook/blob/master/TRANSLATION.md)
+- ⚙️ [Statics Override](https://chrome.google.com/webstore/detail/wix-statics-override/fhaehbcdbkccakpjgokgppjkggkmkmbl)
+
+## Day VII: Final Project, part 3
+### Mandatory
 - 📹 [BA & BI Overview](https://drive.google.com/open?id=1Fk-uRCATFnMz-F0b7jc9yqFKqPfXe9MN)
 - 📹 [Logging BI Events](https://drive.google.com/open?id=1zSvc_YfGSg_5ighsork8Zbk4c0oO1gb_) and [complete the relevant section in the final project](https://github.com/wix-a/fed-crash-course/tree/master/exercises/final-project#analytics)
+- 📹 [Client side monitoring](https://drive.google.com/open?id=1x_voDWfcQuPvf63Cmka_pVhJ7sZg5jI3)
+- 📹 [Introduction to FedOps](https://drive.google.com/open?id=1hHFtImYXTLMH4IJxuv-NWRq5_JC0RHll)
+- 📹 [Positive monitoring & success rate](https://drive.google.com/open?id=172dxtEIxiaHRIVZPxe6FwMPznBnBAMBS)
+- 📹 [Load time & network](https://drive.google.com/open?id=1gsS0k6h7HGD-BDsEbE9X8jfNACWIsH-z)
+- 📹 [FedOps usage](https://drive.google.com/open?id=1B1X2W0gMYp4hFgON3N__Jd8XFR3Qq9eb)
+- 📹 [Interactions](https://drive.google.com/open?id=1VzBr60NEZOHGWzBKxz3l6AKv5ieT9CKm)
+- 📹 [More FedOps features](https://drive.google.com/open?id=1-wZBzfMOY7OY1TWeDDykI6L2lf3qrDn9) and [complete the relevant section in the final project](https://github.com/wix-a/fed-crash-course/tree/master/exercises/final-project#monitoring)
 - 🧑‍💻 Final Project work
 - 📅 Daily Q&A session
 - 📝 [Daily feedback](https://forms.gle/FfGsGzXC4gwrUkp4A)
@@ -125,26 +143,18 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📚 [BI Logger](https://github.com/wix-private/bi-logger)
 - 📚 [BI Schema Loggers](https://github.com/wix-private/bi-schema-loggers)
 - 📚 [User Explorer](https://bo.wix.com/bi-ux/#/history)
+- 📚 ["FedOps" 🔮 Realtime Monitoring Client](https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-logger)
 
-## Day VII: Final Project, the final episode
-- 📹 [Client side monitoring](https://drive.google.com/open?id=1x_voDWfcQuPvf63Cmka_pVhJ7sZg5jI3)
-- 📹 [Introduction to FedOps](https://drive.google.com/open?id=1hHFtImYXTLMH4IJxuv-NWRq5_JC0RHll)
-- 📹 [Positive monitoring & success rate](https://drive.google.com/open?id=172dxtEIxiaHRIVZPxe6FwMPznBnBAMBS)
-- 📹 [Load time & network](https://drive.google.com/open?id=1gsS0k6h7HGD-BDsEbE9X8jfNACWIsH-z)
-- 📹 [FedOps usage](https://drive.google.com/open?id=1B1X2W0gMYp4hFgON3N__Jd8XFR3Qq9eb)
-- 📹 [Interactions](https://drive.google.com/open?id=1VzBr60NEZOHGWzBKxz3l6AKv5ieT9CKm)
-- 📹 [More FedOps features](https://drive.google.com/open?id=1-wZBzfMOY7OY1TWeDDykI6L2lf3qrDn9) and [complete the relevant section in the final project](https://github.com/wix-a/fed-crash-course/tree/master/exercises/final-project#monitoring)
+## Day VIII: Final Project, the final episode
 - 📹 [Performance & Dyanmic Imports](https://drive.google.com/open?id=1ZG8B2bh9gJyFD6I2Y-JRZxE-notb-bbb) and [complete the relevant section in the final project](https://github.com/wix-a/fed-crash-course/tree/master/exercises/final-project#get-a-small-bundle-size)
 - 🧑‍💻 Final Project work + submission
 - 📅 Final project presentations & goodbye beer 🍻
 - 📝 [One last feedback](https://forms.gle/6x1qFxERpgcsVCWZ7)
 
 ### Extras
-- 📚 ["FedOps" 🔮 Realtime Monitoring Client](https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-logger)
 - 📚 [Performance and Dynamic Imports](https://docs.google.com/document/d/18tCnZAIuOoyTHaK0Pxn2PBdLWOcI4J-VJ58ZVKAvn-w/edit?usp=sharing)
 
 # Extracurricular
-- 📚 [Translations](https://github.com/wix-private/fed-handbook/blob/master/TRANSLATION.md) and 📹 [here](https://drive.google.com/open?id=1CE7mgKlrIA06TkF5djWke-Ze1w1AepQb)
 - 📚 [Sled](https://wix-private.github.io/sled/)
 - 📚 [Perfer](https://github.com/wix-private/perfer)
 - 📹🧑‍💻 Corvid by Wix (Wix Code) [tutorial & exercise](./docs/corvid-by-wix.md)
