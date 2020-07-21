@@ -3,7 +3,7 @@
 This is the main repo for fed crash course.\
 Please join our slack channel: #cc-august-2020
 
-Also, please take the time to read [this introduction document](https://docs.google.com/document/d/1GugijNwhSogpheGWaNw0Egl6-UGqPLFOv9VL7gH2Als/edit#) before starting the course
+Also, please take the time to read [this introduction document](https://docs.google.com/document/d/1D6kAkzhaMA6bSfsvODWfWz_MOgq0IXVaDskWkZ87tgI/edit#) before starting the course
 
 # ToC
 * [Legend](#legend)
