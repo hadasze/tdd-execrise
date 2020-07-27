@@ -68,7 +68,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 ## Day III: RPC & Ambassador
 
 ### Mandatory
-- 📹 [Ambassador](https://drive.google.com/open?id=1jo97JAbD2CXRsQyaA0nqaaXRqZ-OdG5E)
+- 📚 📹 [Communicating with Services](https://github.com/wix-private/fed-handbook/blob/master/COMMUNICATING_WITH_SERVICES.md)
 - 🧑‍💻 [Ambassador workshop](./exercises/ambassador/)
 - 📅 Daily Q&A session
 - 📝 [Daily feedback](https://forms.gle/uYoJ7iB5yXpJDqkh6)
