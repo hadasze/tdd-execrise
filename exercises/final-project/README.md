@@ -30,7 +30,7 @@ Congratulations on getting this far. So far you created a [Tic Tac Toe](https://
 
 ## Before you start
 
-Generate a project with [Create Yoshi App](https://wix.github.io/yoshi/docs/getting-started/create-app) and follow the [Zero to Production](https://github.com/wix-private/fed-handbook/blob/master/ZERO_TO_PRODUCTION.md) guide. Please make sure your projects have the following prefix: **cc-april-2020-YOURNAME**.
+Generate a project with [Create Yoshi App](https://wix.github.io/yoshi/docs/getting-started/create-app) and follow the [Zero to Production](https://github.com/wix-private/fed-handbook/blob/master/ZERO_TO_PRODUCTION.md) guide. Please make sure your projects have the following prefix: **cc-aug-2020-YOURNAME**.
 
 **GA** this project and verify it's configured correctly (i.e you can see in production) before you start the final project. 
 
