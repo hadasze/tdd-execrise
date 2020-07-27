@@ -41,7 +41,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📹 [Debugging Tests](https://drive.google.com/file/d/1k-Ajqa2mbD_azK4T4f2t8fGOyzV50JTJ/view?usp=sharing)
 - 🧑‍💻 Client TDD Workshop - [Tic Tac Toe](./exercises/client-tdd/)
 - 📅 Daily Q&A session
-- 📝 [Daily feedback](https://forms.gle/Hcn6PPfBfTh42A3L8)
+- 📝 [Daily feedback](https://forms.gle/sxZw8RKv41U9AmvG9)
 
 ### Extras
 - 📚 Slides: [Testing overview](https://slides.com/yanivefraim-3/testing-workshop-3#/)
@@ -57,7 +57,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📹 [Local dev in start and test](https://drive.google.com/open?id=1W4KWwo5obkKaIvWXEreAs4gKlH_RbWkm)
 - 🧑‍💻 [Server TDD workshop](./exercises/server-tdd/)
 - 📅 Daily Q&A session
-- 📝 [Daily feedback](https://forms.gle/hdkJ2A6f3PtZWAhb7)
+- 📝 [Daily feedback](https://forms.gle/ASA3mL8T8BoNXGZk7)
 
 ### Extras
 - 📚 [Node Platform Introduction](./docs/node-platform-introduction.md)
@@ -71,7 +71,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📚 📹 [Communicating with Services](https://github.com/wix-private/fed-handbook/blob/master/COMMUNICATING_WITH_SERVICES.md)
 - 🧑‍💻 [Ambassador workshop](./exercises/ambassador/)
 - 📅 Daily Q&A session
-- 📝 [Daily feedback](https://forms.gle/uYoJ7iB5yXpJDqkh6)
+- 📝 [Daily feedback](https://forms.gle/5ifwZz1AEKyoMG2K6)
 
 ### Extras
 - 📚 [Ambassador](https://github.com/wix-private/ambassador)
@@ -80,20 +80,20 @@ Also, please take the time to read [this introduction document](https://docs.goo
 ## Day IV: The components group - Wix Style React and more
 
 ### Mandatory
-- 📹 [Component Libraries Day Intro](https://drive.google.com/open?id=1aU67U6KOOmOUDWZsBX3B2zcNZffBtOKk)
-- 📹 [Meet the Components Group](https://drive.google.com/open?id=1noJctWMrytZkhwDYO_Qphm3p8hTWXE3B)
-- 📹 [Wix Style React, part 1](https://drive.google.com/open?id=1v5saSb4gps07FPXCgtlX4n960nZF6ueI)
-- 📹 [Wix Style React, part 2](https://drive.google.com/open?id=10kfdLL-I1UB_4KJH_Zxhf9uHeSURtVQ0)
+- 📹 [Component Libraries Day Intro](https://www.youtube.com/watch?v=CPrhK2Fks3E)
+- 📹 [Meet the Components Group](https://www.youtube.com/watch?v=_gOM3A-U0Mk)
+- 📹 [Wix Style React, part 1](https://www.youtube.com/watch?v=zOsXwYPRtn4)
+- 📹 [Wix Style React, part 2](https://www.youtube.com/watch?v=wZGHISEVRKg)
 - 🧑‍💻 [WSR Tutorial](https://github.com/wix-private/wsr-tutorial-docs)
-- 📹 [WSR Tips & Tricks and Zeplin usage](https://drive.google.com/open?id=1snRtXB48n0T_I7TvLk9NKJ6rEPXWkPG2)
+- 📹 [WSR Tips & Tricks and Zeplin usage](https://www.youtube.com/watch?v=PEE_iADcVpU)
 - 🧑‍💻 [Forms basic workshop](https://github.com/wix-a/wsr-form)
-- 📹 [WSR: Testing & Drivers](https://drive.google.com/open?id=1GI72QiVWoqBgoH6oN3gcfni0o0Rz2Ejh)
-- 📹 [WSR: Testing & Drivers - Demo](https://drive.google.com/open?id=18UHW6yWpNLdRb2tWq_yXLWkU-V-Lkv0F)
-- 📹 [WSR: Testing & Drivers - Pitfalls](https://drive.google.com/open?id=1V9Z_wyEMdyhsEfcG5QZDYMgDeOUhbdk1)
+- 📹 [WSR: Testing & Drivers](https://www.youtube.com/watch?v=4ql28yLpTSg)
+- 📹 [WSR: Testing & Drivers - Demo](https://www.youtube.com/watch?v=o3nGx5bdQS4)
+- 📹 [WSR: Testing & Drivers - Pitfalls](https://www.youtube.com/watch?v=Y2po4JiHRho)
 - 🧑‍💻 [Testing WSR workshop](https://github.com/wix-a/wsr-form#exercise-2---test-your-application)
-- 📹 [New UI Order](https://drive.google.com/open?id=1oCLAFmfSXFujaWwAu-uc9BDCFntU37NM)
+- 📹 [New UI Order](https://www.youtube.com/watch?v=OgW6K5oFiQM)
 - 📅 Daily Q&A session
-- 📝 [Daily feedback](https://forms.gle/nXc19ZbXUqm9QvHdA)
+- 📝 [Daily feedback](https://forms.gle/wzM4aqCL4XroNiiZ6)
 
 ### Extras
 - 📚 [wix-style-react](https://github.com/wix/wix-style-react)
@@ -104,7 +104,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 🧑‍💻 Final Project work - [Store Catalog](./exercises/final-project/) + [a short introduction video](https://drive.google.com/open?id=1gN4pyZ7cy_QFaagX6zv4RrOUa4TK_fZI)
 - 📹 [Debugging Production](https://drive.google.com/open?id=163Aen0g0k6akGjR3GZLa3yg0KMutuNMG)
 - 📅 Daily Q&A session
-- 📝 [Daily feedback](https://forms.gle/Ns56BvfQYfkHoGmt5)
+- 📝 [Daily feedback](https://forms.gle/ZhQSqsWqLvSBW4TW9)
 
 ### Extras
 - 📚 [Working with Generators](https://github.com/wix-private/fed-handbook/blob/master/WORKING_WITH_GENERATORS.md)
@@ -116,7 +116,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📹 [Translations](https://drive.google.com/open?id=1CE7mgKlrIA06TkF5djWke-Ze1w1AepQb)
 - 🧑‍💻 Final Project work
 - 📅 Daily Q&A session
-- 📝 [Daily feedback](https://forms.gle/FfGsGzXC4gwrUkp4A)
+- 📝 [Daily feedback](https://forms.gle/u8KEAhEza1x3xrPy8)
 
 ### Extras
 - 📚 [Experiments](https://github.com/wix-private/fed-handbook/blob/master/EXPERIMENTS.md)
@@ -136,7 +136,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📹 [More FedOps features](https://drive.google.com/open?id=1-wZBzfMOY7OY1TWeDDykI6L2lf3qrDn9) and [complete the relevant section in the final project](https://github.com/wix-a/fed-crash-course/tree/master/exercises/final-project#monitoring)
 - 🧑‍💻 Final Project work
 - 📅 Daily Q&A session
-- 📝 [Daily feedback](https://forms.gle/FfGsGzXC4gwrUkp4A)
+- 📝 [Daily feedback](https://forms.gle/Fno4atQhi6L3AfC67)
 
 ### Extras
 - 📚 [BI Catalog](https://bo.wix.com/bi-catalog-webapp/#/sources) and [the final project's page](https://bo.wix.com/bi-catalog-webapp/#/sources/11/events/8000/dev?artifactId=com.wixpress.fed-crash-course)
@@ -149,7 +149,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📹 [Performance & Dyanmic Imports](https://drive.google.com/open?id=1ZG8B2bh9gJyFD6I2Y-JRZxE-notb-bbb) and [complete the relevant section in the final project](https://github.com/wix-a/fed-crash-course/tree/master/exercises/final-project#get-a-small-bundle-size)
 - 🧑‍💻 Final Project work + submission
 - 📅 Final project presentations & goodbye beer 🍻
-- 📝 [One last feedback](https://forms.gle/6x1qFxERpgcsVCWZ7)
+- 📝 [One last feedback](https://forms.gle/7BCZeFydsHg2tsEv9)
 
 ### Extras
 - 📚 [Performance and Dynamic Imports](https://docs.google.com/document/d/18tCnZAIuOoyTHaK0Pxn2PBdLWOcI4J-VJ58ZVKAvn-w/edit?usp=sharing)
