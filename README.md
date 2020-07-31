@@ -104,8 +104,8 @@ Also, please take the time to read [this introduction document](https://docs.goo
 
 ## Day V: Final Project, part 1
 ### Mandatory
-- 📹 [Zero to Production](https://drive.google.com/open?id=1dI7eEp1SjpSD9jmTgkCXqn53N4yFV3Dn)
-- 🧑‍💻 Final Project work - [Store Catalog](./exercises/final-project/) + [a short introduction video](https://drive.google.com/open?id=1gN4pyZ7cy_QFaagX6zv4RrOUa4TK_fZI)
+- 📹 [Zero to Production](https://www.youtube.com/watch?v=vgHcpZ6zjFE)
+- 🧑‍💻 Final Project work - [Store Catalog](./exercises/final-project/) + [a short introduction video](https://www.youtube.com/watch?v=G5YhUMUpWuU)
 - 📹 [Debugging Production](https://www.youtube.com/watch?v=JviHcE--aok)
 - 📅 Daily Q&A session
 - 📝 [Daily feedback](https://forms.gle/ZhQSqsWqLvSBW4TW9)
@@ -123,7 +123,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📹 [Experiments - wix-experiments](https://www.youtube.com/watch?v=HVGOJ4PFeyQ)
 - 📹 [Experiments - Testing experiments](https://www.youtube.com/watch?v=xkmkCybMHek)
 - 📹 [Experiments - Petri Sidekick](https://www.youtube.com/watch?v=-6NKSptyHok)
-- 📹 [Translations](https://drive.google.com/open?id=1CE7mgKlrIA06TkF5djWke-Ze1w1AepQb)
+- 📹 [Translations](https://www.youtube.com/watch?v=A4FXBT1Uado)
 - 🧑‍💻 Final Project work
 - 📅 Daily Q&A session
 - 📝 [Daily feedback](https://forms.gle/u8KEAhEza1x3xrPy8)
