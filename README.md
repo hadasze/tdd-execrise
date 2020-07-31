@@ -165,10 +165,12 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📚 [Performance and Dynamic Imports](https://docs.google.com/document/d/18tCnZAIuOoyTHaK0Pxn2PBdLWOcI4J-VJ58ZVKAvn-w/edit?usp=sharing)
 
 # Extracurricular
+- 📹🧑‍💻 Corvid by Wix (Wix Code) [tutorial & exercise](./docs/corvid-by-wix.md)
+- 📹 [FED CI](https://www.youtube.com/watch?v=qwAZ0YXe40Y)
 - 📹 📚 Sled - production testing infrastructure: [watch](https://www.youtube.com/watch?v=BX2vW2kMG_k) & [read](https://wix-private.github.io/sled/)
 - 📹 📚 Perfer - synthetic performance monitoring: [watch](https://www.youtube.com/watch?v=axx1SpML2MU) & [read](https://github.com/wix-private/perfer)
-- 📹🧑‍💻 Corvid by Wix (Wix Code) [tutorial & exercise](./docs/corvid-by-wix.md)
-- 📹 [Breaking out of the iFrames](https://www.youtube.com/watch?v=Off1zeECZCs)
+- 📹 [Viewer Platform](https://www.youtube.com/watch?v=Ojk7CbKzxUE) & [Yoshi Editor Flow](https://www.youtube.com/watch?v=b4BzLIq1kpI) and [docs](https://bo.wix.com/pages/yoshi/docs/editor-flow/overview)
+- 📹 [Serverless](https://www.youtube.com/watch?v=wssS3ysL52w) & [docs](https://github.com/wix-platform/wix-serverless) & 📹 [Yoshi Server](https://www.youtube.com/watch?v=ifihXbhJFds) (coming soon: Yoshi Serverless)
 - ⚙️ Visual comparison tests using Applitools: [with-eyes](https://github.com/wix-incubator/with-eyes) or [puppeteer-eyes](https://github.com/wix-incubator/puppeteer-eyes.it) (both tools do the same thing)
 
 # More Helpful Resources
