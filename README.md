@@ -116,7 +116,13 @@ Also, please take the time to read [this introduction document](https://docs.goo
 
 ## Day VI: Final Project, part 2
 ### Mandatory
-- 📹 [Experiments](https://drive.google.com/open?id=1Rj_K_fpFHL_S2AXB2zeQTGFtnvDjDq3I)
+- 📹 [Experiments - Intro](https://www.youtube.com/watch?v=mWWh_cuAp-c)
+- 📹 [Experiments - Creating experiments](https://www.youtube.com/watch?v=p9NogcwitXw)
+- 📹 [Experiments - Conducting experiments](https://www.youtube.com/watch?v=O2GlQVa59pk)
+- 📹 [Experiments - Client usage](https://www.youtube.com/watch?v=omZXcsz-wRg)
+- 📹 [Experiments - wix-experiments](https://www.youtube.com/watch?v=HVGOJ4PFeyQ)
+- 📹 [Experiments - Testing experiments](https://www.youtube.com/watch?v=xkmkCybMHek)
+- 📹 [Experiments - Petri Sidekick](https://www.youtube.com/watch?v=-6NKSptyHok)
 - 📹 [Translations](https://drive.google.com/open?id=1CE7mgKlrIA06TkF5djWke-Ze1w1AepQb)
 - 🧑‍💻 Final Project work
 - 📅 Daily Q&A session
@@ -129,15 +135,15 @@ Also, please take the time to read [this introduction document](https://docs.goo
 
 ## Day VII: Final Project, part 3
 ### Mandatory
-- 📹 [BA & BI Overview](https://drive.google.com/open?id=1Fk-uRCATFnMz-F0b7jc9yqFKqPfXe9MN)
-- 📹 [Logging BI Events](https://drive.google.com/open?id=1zSvc_YfGSg_5ighsork8Zbk4c0oO1gb_) and [complete the relevant section in the final project](https://github.com/wix-a/fed-crash-course/tree/master/exercises/final-project#analytics)
-- 📹 [Client side monitoring](https://drive.google.com/open?id=1x_voDWfcQuPvf63Cmka_pVhJ7sZg5jI3)
-- 📹 [Introduction to FedOps](https://drive.google.com/open?id=1hHFtImYXTLMH4IJxuv-NWRq5_JC0RHll)
-- 📹 [Positive monitoring & success rate](https://drive.google.com/open?id=172dxtEIxiaHRIVZPxe6FwMPznBnBAMBS)
-- 📹 [Load time & network](https://drive.google.com/open?id=1gsS0k6h7HGD-BDsEbE9X8jfNACWIsH-z)
-- 📹 [FedOps usage](https://drive.google.com/open?id=1B1X2W0gMYp4hFgON3N__Jd8XFR3Qq9eb)
-- 📹 [Interactions](https://drive.google.com/open?id=1VzBr60NEZOHGWzBKxz3l6AKv5ieT9CKm)
-- 📹 [More FedOps features](https://drive.google.com/open?id=1-wZBzfMOY7OY1TWeDDykI6L2lf3qrDn9) and [complete the relevant section in the final project](https://github.com/wix-a/fed-crash-course/tree/master/exercises/final-project#monitoring)
+- 📹 [BA & BI - Overview](https://drive.google.com/open?id=1Fk-uRCATFnMz-F0b7jc9yqFKqPfXe9MN)
+- 📹 [BA & BI - Logging BI Events](https://drive.google.com/open?id=1zSvc_YfGSg_5ighsork8Zbk4c0oO1gb_) and [complete the relevant section in the final project](https://github.com/wix-a/fed-crash-course/tree/master/exercises/final-project#analytics)
+- 📹 [FedOps - Client side monitoring](https://www.youtube.com/watch?v=m6bHDqCHjhg)
+- 📹 [FedOps - Introduction to FedOps](https://www.youtube.com/watch?v=Fk090IrSfe0)
+- 📹 [FedOps - Positive monitoring & success rate](https://www.youtube.com/watch?v=sX2KeSFDlHo)
+- 📹 [FedOps - Load time & network](https://www.youtube.com/watch?v=9MoYBb4WU5I)
+- 📹 [FedOps - Usage](https://www.youtube.com/watch?v=12V2aGMwDDY)
+- 📹 [FedOps - Interactions](https://www.youtube.com/watch?v=40EOr5k0NQI)
+- 📹 [FedOps - More features](https://www.youtube.com/watch?v=Qtt299OvUrM) and [complete the relevant section in the final project](https://github.com/wix-a/fed-crash-course/tree/master/exercises/final-project#monitoring)
 - 🧑‍💻 Final Project work
 - 📅 Daily Q&A session
 - 📝 [Daily feedback](https://forms.gle/Fno4atQhi6L3AfC67)
