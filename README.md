@@ -165,7 +165,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📚 [Performance and Dynamic Imports](https://docs.google.com/document/d/18tCnZAIuOoyTHaK0Pxn2PBdLWOcI4J-VJ58ZVKAvn-w/edit?usp=sharing)
 
 # Extracurricular
-- 📹 📚 Sled - production testing infrastructure: [watch](https://drive.google.com/file/d/1IB70kbBLjtfUqknOoJyEZBiOUOW2nIha/view?usp=sharing) & [read](https://wix-private.github.io/sled/)
+- 📹 📚 Sled - production testing infrastructure: [watch](https://www.youtube.com/watch?v=BX2vW2kMG_k) & [read](https://wix-private.github.io/sled/)
 - 📹 📚 Perfer - synthetic performance monitoring: [watch](https://www.youtube.com/watch?v=axx1SpML2MU) & [read](https://github.com/wix-private/perfer)
 - 📹🧑‍💻 Corvid by Wix (Wix Code) [tutorial & exercise](./docs/corvid-by-wix.md)
 - 📹 [Breaking out of the iFrames](https://www.youtube.com/watch?v=Off1zeECZCs)
