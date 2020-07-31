@@ -106,7 +106,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 ### Mandatory
 - 📹 [Zero to Production](https://drive.google.com/open?id=1dI7eEp1SjpSD9jmTgkCXqn53N4yFV3Dn)
 - 🧑‍💻 Final Project work - [Store Catalog](./exercises/final-project/) + [a short introduction video](https://drive.google.com/open?id=1gN4pyZ7cy_QFaagX6zv4RrOUa4TK_fZI)
-- 📹 [Debugging Production](https://drive.google.com/open?id=163Aen0g0k6akGjR3GZLa3yg0KMutuNMG)
+- 📹 [Debugging Production](https://www.youtube.com/watch?v=JviHcE--aok)
 - 📅 Daily Q&A session
 - 📝 [Daily feedback](https://forms.gle/ZhQSqsWqLvSBW4TW9)
 
@@ -135,8 +135,8 @@ Also, please take the time to read [this introduction document](https://docs.goo
 
 ## Day VII: Final Project, part 3
 ### Mandatory
-- 📹 [BA & BI - Overview](https://drive.google.com/open?id=1Fk-uRCATFnMz-F0b7jc9yqFKqPfXe9MN)
-- 📹 [BA & BI - Logging BI Events](https://drive.google.com/open?id=1zSvc_YfGSg_5ighsork8Zbk4c0oO1gb_) and [complete the relevant section in the final project](https://github.com/wix-a/fed-crash-course/tree/master/exercises/final-project#analytics)
+- 📹 [BA & BI - Overview](https://www.youtube.com/watch?v=jIk6TsC1njM)
+- 📹 [BA & BI - Logging BI Events](https://www.youtube.com/watch?v=Dxm__Q-Ryl4) and [complete the relevant section in the final project](https://github.com/wix-a/fed-crash-course/tree/master/exercises/final-project#analytics)
 - 📹 [FedOps - Client side monitoring](https://www.youtube.com/watch?v=m6bHDqCHjhg)
 - 📹 [FedOps - Introduction to FedOps](https://www.youtube.com/watch?v=Fk090IrSfe0)
 - 📹 [FedOps - Positive monitoring & success rate](https://www.youtube.com/watch?v=sX2KeSFDlHo)
@@ -156,7 +156,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📚 ["FedOps" 🔮 Realtime Monitoring Client](https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-logger)
 
 ## Day VIII: Final Project, the final episode
-- 📹 [Performance & Dyanmic Imports](https://drive.google.com/open?id=1ZG8B2bh9gJyFD6I2Y-JRZxE-notb-bbb) and [complete the relevant section in the final project](https://github.com/wix-a/fed-crash-course/tree/master/exercises/final-project#get-a-small-bundle-size)
+- 📹 [Performance & Dyanmic Imports](https://www.youtube.com/watch?v=rxpsOG0vtJI) and [complete the relevant section in the final project](https://github.com/wix-a/fed-crash-course/tree/master/exercises/final-project#get-a-small-bundle-size)
 - 🧑‍💻 Final Project work + submission
 - 📅 Final project presentations & goodbye beer 🍻
 - 📝 [One last feedback](https://forms.gle/7BCZeFydsHg2tsEv9)
@@ -166,7 +166,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 
 # Extracurricular
 - 📹 📚 Sled - production testing infrastructure: [watch](https://drive.google.com/file/d/1IB70kbBLjtfUqknOoJyEZBiOUOW2nIha/view?usp=sharing) & [read](https://wix-private.github.io/sled/)
-- 📚 [Perfer](https://github.com/wix-private/perfer)
+- 📹 📚 Perfer - synthetic performance monitoring: [watch](https://www.youtube.com/watch?v=axx1SpML2MU) & [read](https://github.com/wix-private/perfer)
 - 📹🧑‍💻 Corvid by Wix (Wix Code) [tutorial & exercise](./docs/corvid-by-wix.md)
 - 📹 [Breaking out of the iFrames](https://www.youtube.com/watch?v=Off1zeECZCs)
 - ⚙️ Visual comparison tests using Applitools: [with-eyes](https://github.com/wix-incubator/with-eyes) or [puppeteer-eyes](https://github.com/wix-incubator/puppeteer-eyes.it) (both tools do the same thing)
