@@ -34,11 +34,11 @@ Also, please take the time to read [this introduction document](https://docs.goo
 
 ### Mandatory
 - 📅 Course meet and greet
-- 📹 [Testing 101, part 1](https://drive.google.com/open?id=1sjIa8b1os-HrMiav0pTIBsUN6PufnPkZ)
-- 📹 [Testing 101, part 2](https://drive.google.com/open?id=1J9Ckz3pOH4r3DFdG3ArMwGpw2vI1PG9-)
-- 📹 [Client TDD, part 1](https://drive.google.com/open?id=1NetzbBNtyWFb7_RLDuS3J7YDTb0pkqUS)
-- 📹 [Client TDD, part 2](https://drive.google.com/open?id=1Nyljsdl4LdieimyxUTDFQuYsxZ4xPs6E)
-- 📹 [Debugging Tests](https://drive.google.com/file/d/1k-Ajqa2mbD_azK4T4f2t8fGOyzV50JTJ/view?usp=sharing)
+- 📹 [Testing 101, part 1](https://www.youtube.com/watch?v=jNjx-vqzajk)
+- 📹 [Testing 101, part 2](https://www.youtube.com/watch?v=Kv2YLip7cxA)
+- 📹 [Client TDD, part 1](https://www.youtube.com/watch?v=K8gRAViPH-c)
+- 📹 [Client TDD, part 2](https://www.youtube.com/watch?v=_xPL-KK8Rpc)
+- 📹 [Debugging Tests](https://www.youtube.com/watch?v=MZU8Yewnk3o)
 - 🧑‍💻 Client TDD Workshop - [Tic Tac Toe](./exercises/client-tdd/)
 - 📅 Daily Q&A session
 - 📝 [Daily feedback](https://forms.gle/sxZw8RKv41U9AmvG9)
