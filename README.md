@@ -14,8 +14,8 @@ Also, please take the time to read [this introduction document](https://docs.goo
   * [Day IV: Wix Style React](#day-iv-the-components-group---wix-style-react-and-more)
   * [Day V: Final Project, Bootstrapping](#day-v-final-project-part-1)
   * [Day VI: Final Project, Experiments & Translations](#day-vi-final-project-part-2)
-  * [Day VII: Final Project, BI & FedOps](#day-vi-final-project-part-3)
-  * [Day VIII: Final Project, the final episode](#day-vii-final-project-the-final-episode)
+  * [Day VII: Final Project, BI & FedOps](#day-vii-final-project-part-3)
+  * [Day VIII: Final Project, the final episode](#day-viii-final-project-the-final-episode)
 * [Extracurricular](#extracurricular)
 * [More Helpful Resources](#more-helpful-resources)
 
