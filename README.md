@@ -52,9 +52,13 @@ Also, please take the time to read [this introduction document](https://docs.goo
 ## Day II: Node Platfrom & Server TDD
 
 ### Mandatory
-- 📹 [Server TDD, part 1](https://drive.google.com/open?id=1tYkaLJ69CTPd7ire-IfICAuTnTdofwHi)
-- 📹 [Server TDD, part 2](https://drive.google.com/open?id=1vY3hXGbxB5v6F2ocK8_1_WnD75yb8HHN)
-- 📹 [Local dev in start and test](https://drive.google.com/open?id=1W4KWwo5obkKaIvWXEreAs4gKlH_RbWkm)
+- 📹 [Node Server - Architecture](https://www.youtube.com/watch?v=Gfl07eCvWbE)
+- 📹 [Node Server - Basic App](https://www.youtube.com/watch?v=xFj8YRmAzlk)
+- 📹 [Node Server - Rendering](https://www.youtube.com/watch?v=LAZjvi-yRR0)
+- 📹 [Node Server - ERB](https://www.youtube.com/watch?v=hDwB5zNOHP0)
+- 📹 [Node Server - Start Env](https://www.youtube.com/watch?v=kfVJy2SmvH0)
+- 📹 [Node Server - Test Env](https://www.youtube.com/watch?v=F9Do6qhDSWk)
+- 📹 [Server TDD](https://www.youtube.com/watch?v=HPngahKgmSE)
 - 🧑‍💻 [Server TDD workshop](./exercises/server-tdd/)
 - 📅 Daily Q&A session
 - 📝 [Daily feedback](https://forms.gle/ASA3mL8T8BoNXGZk7)
