@@ -4,7 +4,7 @@ import { translate } from 'react-i18next';
 import s from './App.scss';
 import _ from 'lodash';
 import Register from '../Register/Register';
-import { getWinner } from '../../gameLogic';
+import { getWinner, hasEmptyCells } from '../../gameLogic';
 
 class App extends React.Component {
   static propTypes = {
@@ -15,6 +15,7 @@ class App extends React.Component {
     player1: '',
     player2: '',
     isGameStarted: false,
+    isGameEnded: false,
     board: [
       ['', '', ''],
       ['', '', ''],
@@ -25,16 +26,43 @@ class App extends React.Component {
   };
 
   handleCellClick = (rowIndex, colIndex) => {
-    const board = _.cloneDeep(this.state.board);
-    board[rowIndex][colIndex] = this.state.currentPlayer;
-    const nextPlayer = this.state.currentPlayer === 'X' ? 'O' : 'X';
-    const winner = getWinner(board);
-    this.setState({ board, currentPlayer: nextPlayer, winner });
+    if (this.state.board[rowIndex][colIndex] === '') {
+      const board = _.cloneDeep(this.state.board);
+      board[rowIndex][colIndex] = this.state.currentPlayer;
+      const nextPlayer = this.state.currentPlayer === 'X' ? 'O' : 'X';
+      const winner = getWinner(board);
+      const isGameEnded = !!winner || !hasEmptyCells(board)
+
+      this.setState({
+        board,
+        winner,
+        isGameEnded,
+        currentPlayer: nextPlayer
+      });
+    }
   };
+
+   getWinnerName = () => {
+    switch (this.state.winner) {
+      case 'X': return this.state.player1;
+      case 'O': return this.state.player2;
+      default:  return '';
+    }
+  }
+
+  getStatus = () => {
+    if (!this.state.isGameEnded) {
+      return <></>
+    }
+    if (this.state.winner === '') {
+      return <>Round draw</>
+    } else {
+      return <>The winner is: <span id="winner">{this.getWinnerName()}</span></>;
+    }
+  }
 
   render() {
     const { t } = this.props;
-
     return (
       <div className={s.root}>
         <h2 className={s.title} data-testid="app-title">
@@ -49,11 +77,19 @@ class App extends React.Component {
 
         <h3>
           <span>Game is on!</span>
-          <span id="player-1-title">
+          <span
+            id="player-1-title"
+            className={this.state.currentPlayer === 'X' ? s.active : ''}
+            data-testid="player-1-title"
+          >
             {this.state.isGameStarted && this.state.player1}
           </span>
           <span>VS.</span>
-          <span id="player-2-title">
+          <span
+            id="player-2-title"
+            className={this.state.currentPlayer === 'O' ? s.active : ''}
+            data-testid="player-2-title"
+          >
             {this.state.isGameStarted && this.state.player2}
           </span>
         </h3>
@@ -69,6 +105,7 @@ class App extends React.Component {
                       className={s.cell}
                       key={key}
                       data-hook={key}
+                      data-testid={key}
                       onClick={() => this.handleCellClick(rowIndex, colIndex)}
                     >
                       {cellValue}
@@ -79,9 +116,8 @@ class App extends React.Component {
             );
           })}
         </div>
-
-        <h3>
-          The winner is: <span id="winner">{this.state.winner}</span>
+        <h3 id="game-status">
+          {this.getStatus()}
         </h3>
       </div>
     );
