@@ -14,4 +14,8 @@ describe('App', () => {
 
     expect(getByTestId('app-title').textContent).toBe('app.title');
   });
+
+  // it.skip('should make active user bold', async () => {
+  // Move it to the component tests.
+  // });
 });

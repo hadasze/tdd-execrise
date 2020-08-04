@@ -1,10 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { translate } from 'react-i18next';
+import {translate} from 'react-i18next';
 import s from './App.scss';
 import _ from 'lodash';
-import Register from '../Register/Register';
-import { getWinner } from '../../gameLogic';
+import Register from '../atoms/Register/Register';
+import {getWinner} from '../../utils/gameLogic/gameLogic';
+import axios from 'axios';
+import LeaderBoard from "../atoms/LeaderBoard/LeaderBoard";
+import GameResult from "../atoms/GameResult/GameResult";
+import SavePanel from "../atoms/SavePanel/SavePanel";
+import GameBoard from "../atoms/GameBoard/GameBoard";
+import PlayersPanel from "../atoms/PlayersPanel/PlayersPanel";
 
 class App extends React.Component {
   static propTypes = {
@@ -14,75 +20,139 @@ class App extends React.Component {
   state = {
     player1: '',
     player2: '',
-    isGameStarted: false,
+    isGameActive: false,
     board: [
       ['', '', ''],
       ['', '', ''],
       ['', '', ''],
     ],
-    currentPlayer: 'X',
+    currentPlayer: undefined,
     winner: '',
+    steps: 9,
+    playersMap: undefined,
+    leaderBoard: [],
   };
 
+  componentDidMount() {
+    // Open handle (no await), because I don't care when it's resolved.
+    this.getLeaderBoard();
+  }
+
   handleCellClick = (rowIndex, colIndex) => {
-    const board = _.cloneDeep(this.state.board);
-    board[rowIndex][colIndex] = this.state.currentPlayer;
-    const nextPlayer = this.state.currentPlayer === 'X' ? 'O' : 'X';
-    const winner = getWinner(board);
-    this.setState({ board, currentPlayer: nextPlayer, winner });
+    const { board, currentPlayer, playersMap, player1, player2 } = this.state;
+
+    const newBoard = _.cloneDeep(board);
+    newBoard[rowIndex][colIndex] = playersMap[currentPlayer];
+    const winnerMark = getWinner(newBoard);
+    const winner = playersMap[winnerMark];
+    if (winner) {
+      this.playerWonSideEffect(winner);
+    }
+
+    const stepsLeft = this.state.steps - 1;
+    const isGameActive = !winner && stepsLeft;
+    const tie = !winner && !stepsLeft;
+    let nextPlayer = currentPlayer;
+
+    // If game continues, switch..
+    if (isGameActive) {
+      nextPlayer = currentPlayer === player1 ? player2 : player1;
+    }
+
+    this.setState({
+      board: newBoard,
+      steps: stepsLeft,
+      currentPlayer: nextPlayer,
+      isGameActive,
+      winner,
+      tie,
+    });
+  };
+
+  async playerWonSideEffect(winner) {
+    const {data: leaderBoard} = await axios.post('/api/leaderboard', {
+      winner,
+    });
+    this.setState({leaderBoard});
+  }
+
+  async getLeaderBoard() {
+    const {data: leaderBoard} = await axios.get('/api/leaderboard');
+    this.setState({leaderBoard});
+  }
+
+  initGame = ({player1, player2, game}) => {
+    if (game) {
+      return this.setState(game);
+    }
+
+    const playersMap = {
+      [player1]: 'X',
+      X: player1,
+      [player2]: 'O',
+      O: player2,
+    };
+    this.setState({player1, player2, currentPlayer: player1, isGameActive: true, playersMap});
+  };
+
+
+
+  handleLoad = async () => {
+    const {data: game} = await axios.get('/api/game');
+    this.initGame({game});
+  };
+
+  handleSave = async () => {
+    const {
+      player1,
+      player2,
+      isGameActive,
+      board,
+      currentPlayer,
+      winner,
+      steps,
+      playersMap,
+    } = this.state;
+
+    await axios.post('/api/game', {
+      player1,
+      player2,
+      isGameActive,
+      board,
+      currentPlayer,
+      winner,
+      steps,
+      playersMap,
+    });
   };
 
   render() {
-    const { t } = this.props;
+    const {t} = this.props;
+    const {isGameActive, player1, player2, board, winner, tie, leaderBoard, currentPlayer} = this.state;
 
     return (
       <div className={s.root}>
-        <h2 className={s.title} data-testid="app-title">
+        <h2 data-testid="app-title">
           {t('app.title')}
         </h2>
 
-        <Register
-          onStart={(player1, player2) => {
-            this.setState({ player1, player2, isGameStarted: true });
-          }}
-        />
+        {!player1 && (
+          <Register
+            onStart={(p1, p2) => this.initGame({player1: p1, player2: p2})}
+          />
+        )}
 
-        <h3>
-          <span>Game is on!</span>
-          <span id="player-1-title">
-            {this.state.isGameStarted && this.state.player1}
-          </span>
-          <span>VS.</span>
-          <span id="player-2-title">
-            {this.state.isGameStarted && this.state.player2}
-          </span>
-        </h3>
+        {player1 && (
+          <div>
+            <h3>Game is on!</h3>
+            <PlayersPanel player1={player1} player2={player2} currentPlayer={currentPlayer}/>
+            <GameBoard isDisabled={!isGameActive} board={board} onCellClicked={this.handleCellClick}/>
+          </div>
+        )}
 
-        <div>
-          {this.state.board.map((row, rowIndex) => {
-            return (
-              <div key={rowIndex}>
-                {row.map((cellValue, colIndex) => {
-                  const key = `cell-${rowIndex}-${colIndex}`;
-                  return (
-                    <span
-                      className={s.cell}
-                      key={key}
-                      data-hook={key}
-                      onClick={() => this.handleCellClick(rowIndex, colIndex)}
-                    >
-                      {cellValue}
-                    </span>
-                  );
-                })}
-              </div>
-            );
-          })}
-        </div>
-
-        <h3>
-          The winner is: <span id="winner">{this.state.winner}</span>
-        </h3>
+        <SavePanel onSave={this.handleSave} onLoad={this.handleLoad}/>
+        <GameResult winner={winner} tie={tie}/>
+        <LeaderBoard leaderBoard={leaderBoard}/>
       </div>
     );
   }

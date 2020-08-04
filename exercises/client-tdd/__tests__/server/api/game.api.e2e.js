@@ -1,6 +1,6 @@
-import axios from 'axios';
+import axios from "axios";
 
-describe('When rendering', () => {
+describe('Game API', () => {
   it('should save and load a game', async () => {
     const aGame = {
       player1: 'Yaniv',
