@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 describe('When rendering', () => {
-  it('should save and load a game', async () => {
+  it('should display a title', async () => {
     const aGame = {
       player1: 'Yaniv',
       player2: 'Gilad',

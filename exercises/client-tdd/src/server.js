@@ -1,8 +1,6 @@
 import wixExpressCsrf from '@wix/wix-express-csrf';
 import wixExpressRequireHttps from '@wix/wix-express-require-https';
-import bodyParser from 'body-parser';
-import {hot} from 'bootstrap-hot-loader';
-import apiRouter from "./api";
+import { hot } from 'bootstrap-hot-loader';
 
 // This function is the main entry for our server. It accepts an express Router
 // (see http://expressjs.com) and attaches routes and middlewares to it.
@@ -24,9 +22,6 @@ export default hot(module, (app, context) => {
   // Attach a rendering middleware, it adds the `renderView` method to every request.
   // See https://github.com/wix-private/fed-infra/tree/master/wix-bootstrap-renderer.
   app.use(context.renderer.middleware());
-  app.use(bodyParser.json());
-
-  app.use(apiRouter)
 
   // Define a route to render our initial HTML.
   app.get('/', (req, res) => {
@@ -38,7 +33,7 @@ export default hot(module, (app, context) => {
   });
 
   function getRenderModel(req) {
-    const {language, basename, debug} = req.aspects['web-context'];
+    const { language, basename, debug } = req.aspects['web-context'];
 
     return {
       language,
