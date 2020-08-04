@@ -22,74 +22,14 @@ class App extends React.Component {
     ],
     currentPlayer: 'X',
     winner: '',
-    winners: {},
   };
 
   handleCellClick = (rowIndex, colIndex) => {
-    if (this.state.board[rowIndex][colIndex] || this.state.winner) return;
     const board = _.cloneDeep(this.state.board);
     board[rowIndex][colIndex] = this.state.currentPlayer;
     const nextPlayer = this.state.currentPlayer === 'X' ? 'O' : 'X';
-    const winner = getWinner(board, this.state.currentPlayer);
+    const winner = getWinner(board);
     this.setState({ board, currentPlayer: nextPlayer, winner });
-    this.updateWinners(winner);
-  };
-
-  nameInBold = (toBold) => {
-    return toBold ? { fontWeight: '900', color: 'red' } : {};
-  };
-
-  shouldDisplayNames = () => {
-    if (this.state.isGameStarted) {
-      return (
-        <h3>
-          <span>Game is on!</span>
-          <br></br>
-          <span
-            id="player-1-title"
-            style={this.nameInBold(this.state.currentPlayer === 'X')}
-          >
-            {this.state.player1}
-          </span>
-          <span>VS.</span>
-          <span
-            id="player-2-title"
-            style={this.nameInBold(this.state.currentPlayer === 'O')}
-          >
-            {this.state.player2}
-          </span>
-        </h3>
-      );
-    }
-    return null;
-  };
-
-  getWinnerName = () => {
-    return this.state.currentPlayer === 'X'
-      ? this.state.player1
-      : this.state.player2;
-  };
-
-  updateWinners = (winnerName) => {
-    const updatedWinners = {
-      ...this.state.winners,
-      winnerName: this.state.winners[winnerName] + 1 || 1,
-    };
-    this.setState({ winners: updatedWinners });
-  };
-
-  declareWinner = () => {
-    if (this.state.winner === 'Tie') {
-      return <span id="tie">Its a tie!</span>;
-    } else if (this.state.winner) {
-      const winnerName = this.getWinnerName();
-      return (
-        <h3>
-          The winner is: <span id="winner">{this.state.winner}</span>
-          <span id="winner-name">Congratsulations {winnerName}</span>
-        </h3>
-      );
-    }
   };
 
   render() {
@@ -107,7 +47,16 @@ class App extends React.Component {
           }}
         />
 
-        {this.shouldDisplayNames()}
+        <h3>
+          <span>Game is on!</span>
+          <span id="player-1-title">
+            {this.state.isGameStarted && this.state.player1}
+          </span>
+          <span>VS.</span>
+          <span id="player-2-title">
+            {this.state.isGameStarted && this.state.player2}
+          </span>
+        </h3>
 
         <div>
           {this.state.board.map((row, rowIndex) => {
@@ -131,7 +80,9 @@ class App extends React.Component {
           })}
         </div>
 
-        {this.declareWinner()}
+        <h3>
+          The winner is: <span id="winner">{this.state.winner}</span>
+        </h3>
       </div>
     );
   }

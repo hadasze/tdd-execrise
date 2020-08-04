@@ -1,5 +1,5 @@
 function getElementText(selector) {
-  return page.$eval(selector, (element) => element.innerText);
+  return page.$eval(selector, element => element.innerText);
 }
 
 function navigate() {
@@ -34,6 +34,8 @@ describe('Tic tac to game', () => {
     await navigate();
     await fillInForm();
 
+    expect(await getPlayerNamesFromTitle()).toEqual(['', '']);
+
     await clickStart();
 
     expect(await getPlayerNamesFromTitle()).toEqual(['Sapir', 'Yoshi']);
@@ -50,29 +52,6 @@ describe('Tic tac to game', () => {
     expect(await getCellValueAt(1, 0)).toBe('O');
   });
 
-  it('should not allow players to click occupied cells', async () => {
-    await navigate();
-    await fillInForm();
-    await clickStart();
-
-    await clickCellAt(0, 0);
-    expect(await getCellValueAt(0, 0)).toBe('X');
-    await clickCellAt(0, 0);
-    expect(await getCellValueAt(0, 0)).toBe('X');
-  });
-
-  it("should display the current player's name in red", async () => {
-    await navigate();
-    await fillInForm();
-    await clickStart();
-
-    const titleInRed = await page.$eval(
-      '#player-1-title',
-      (title) => title.style.color === 'red',
-    );
-    expect(titleInRed).toBe(true);
-  });
-
   it('Should play a full game an announce a winner', async () => {
     await navigate();
     await fillInForm();
@@ -85,6 +64,5 @@ describe('Tic tac to game', () => {
     await clickCellAt(0, 2);
 
     expect(await getElementText('#winner')).toBe('X');
-    expect(await getElementText('#winner-name')).toBe('Congratsulations Yoshi');
   });
 });
