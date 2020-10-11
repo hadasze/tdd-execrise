@@ -1,7 +1,7 @@
 # Welcome to FED Crash Course
 
 This is the main repo for fed crash course.\
-Please join our slack channel: #cc-august-2020
+Please join our slack channel: #cc-october-2020
 
 Also, please take the time to read [this introduction document](https://docs.google.com/document/d/1D6kAkzhaMA6bSfsvODWfWz_MOgq0IXVaDskWkZ87tgI/edit#) before starting the course
 
@@ -10,12 +10,11 @@ Also, please take the time to read [this introduction document](https://docs.goo
 * [Agenda](#agenda)
   * [Day I: Testing 101 & Client TDD](#day-i-testing-101--client-tdd)
   * [Day II: Node Platform & Server TDD](#day-ii-node-platform--server-tdd)
-  * [Day III: RPC & Ambassador](#day-iii-rpc--ambassador)
-  * [Day IV: Wix Style React](#day-iv-the-components-group---wix-style-react-and-more)
-  * [Day V: Final Project, Bootstrapping](#day-v-final-project-part-1)
-  * [Day VI: Final Project, Experiments & Translations](#day-vi-final-project-part-2)
-  * [Day VII: Final Project, BI & FedOps](#day-vii-final-project-part-3)
-  * [Day VIII: Final Project, the final episode](#day-viii-final-project-the-final-episode)
+  * [Day III: The Components Group, WSR & More](#day-iii-the-components-group---wix-style-react-and-more)
+  * [Day IV: Ambassador & Final Project](#day-iv-ambassador--final-project)
+  * [Day V: Final Project, Part 2](#day-v-final-project-part-2)
+  * [Day VI: Final Project, Part 3](#day-vi-final-project-part-3)
+  
 * [Extracurricular](#extracurricular)
 * [More Helpful Resources](#more-helpful-resources)
 
@@ -69,19 +68,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📚 [node platform](https://github.com/wix-platform/wix-node-platform)
 - 📚 [wix-bootstrap-ng](https://github.com/wix-platform/wix-node-platform/tree/master/bootstrap/wix-bootstrap-ng)
 
-## Day III: RPC & Ambassador
-
-### Mandatory
-- 📚 📹 [Communicating with Services](https://github.com/wix-private/fed-handbook/blob/master/COMMUNICATING_WITH_SERVICES.md)
-- 🧑‍💻 [Ambassador workshop](./exercises/ambassador/)
-- 📅 Daily Q&A session
-- 📝 [Daily feedback](https://forms.gle/5ifwZz1AEKyoMG2K6)
-
-### Extras
-- 📚 [Ambassador](https://github.com/wix-private/ambassador)
-- 📚 [rpc](https://github.com/wix-platform/wix-node-platform/tree/master/rpc)
-
-## Day IV: The components group - Wix Style React and more
+## Day III: The components group - Wix Style React and more
 
 ### Mandatory
 - 📹 [Component Libraries Day Intro](https://www.youtube.com/watch?v=CPrhK2Fks3E)
@@ -102,19 +89,22 @@ Also, please take the time to read [this introduction document](https://docs.goo
 ### Extras
 - 📚 [wix-style-react](https://github.com/wix/wix-style-react)
 
-## Day V: Final Project, part 1
+## Day IV: Ambassador & Final Project
+
 ### Mandatory
+- 📚 📹 [Communicating with Services](https://github.com/wix-private/fed-handbook/blob/master/COMMUNICATING_WITH_SERVICES.md)
+- 🧑‍💻 [Ambassador workshop](./exercises/ambassador/)
 - 📹 [Zero to Production](https://www.youtube.com/watch?v=vgHcpZ6zjFE)
 - 🧑‍💻 Final Project work - [Store Catalog](./exercises/final-project/) + [a short introduction video](https://www.youtube.com/watch?v=G5YhUMUpWuU)
-- 📹 [Debugging Production](https://www.youtube.com/watch?v=JviHcE--aok)
 - 📅 Daily Q&A session
-- 📝 [Daily feedback](https://forms.gle/ZhQSqsWqLvSBW4TW9)
+- 📝 [Daily feedback](https://forms.gle/5ifwZz1AEKyoMG2K6)
 
 ### Extras
-- 📚 [Working with Generators](https://github.com/wix-private/fed-handbook/blob/master/WORKING_WITH_GENERATORS.md)
-- 📚 [Zero to Production](https://github.com/wix-private/fed-handbook/blob/master/ZERO_TO_PRODUCTION.md)
+- 📚 [Ambassador](https://github.com/wix-private/ambassador)
+- 📚 [rpc](https://github.com/wix-platform/wix-node-platform/tree/master/rpc)
+- 📹 [Debugging Production](https://www.youtube.com/watch?v=JviHcE--aok)
 
-## Day VI: Final Project, part 2
+## Day V: Final Project, part 2
 ### Mandatory
 - 📹 [Experiments - Intro](https://www.youtube.com/watch?v=mWWh_cuAp-c)
 - 📹 [Experiments - Creating experiments](https://www.youtube.com/watch?v=p9NogcwitXw)
@@ -123,18 +113,20 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📹 [Experiments - wix-experiments](https://www.youtube.com/watch?v=HVGOJ4PFeyQ)
 - 📹 [Experiments - Testing experiments](https://www.youtube.com/watch?v=xkmkCybMHek)
 - 📹 [Experiments - Petri Sidekick](https://www.youtube.com/watch?v=-6NKSptyHok)
-- 📹 [Translations](https://www.youtube.com/watch?v=A4FXBT1Uado)
 - 🧑‍💻 Final Project work
 - 📅 Daily Q&A session
-- 📝 [Daily feedback](https://forms.gle/u8KEAhEza1x3xrPy8)
+- 📝 [Daily feedback](https://forms.gle/ZhQSqsWqLvSBW4TW9)
 
 ### Extras
+- 📚 [Working with Generators](https://github.com/wix-private/fed-handbook/blob/master/WORKING_WITH_GENERATORS.md)
+- 📚 [Zero to Production](https://github.com/wix-private/fed-handbook/blob/master/ZERO_TO_PRODUCTION.md)
 - 📚 [Experiments](https://github.com/wix-private/fed-handbook/blob/master/EXPERIMENTS.md)
 - 📚 [Translations](https://github.com/wix-private/fed-handbook/blob/master/TRANSLATION.md)
 - ⚙️ [Statics Override](https://chrome.google.com/webstore/detail/wix-statics-override/fhaehbcdbkccakpjgokgppjkggkmkmbl)
 
-## Day VII: Final Project, part 3
+## Day VI: Final Project, part 3
 ### Mandatory
+- 📹 [Translations](https://www.youtube.com/watch?v=A4FXBT1Uado)
 - 📹 [BA & BI - Overview](https://www.youtube.com/watch?v=jIk6TsC1njM)
 - 📹 [BA & BI - Logging BI Events](https://www.youtube.com/watch?v=Dxm__Q-Ryl4) and [complete the relevant section in the final project](https://github.com/wix-a/fed-crash-course/tree/master/exercises/final-project#analytics)
 - 📹 [FedOps - Client side monitoring](https://www.youtube.com/watch?v=m6bHDqCHjhg)
@@ -145,8 +137,9 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📹 [FedOps - Interactions](https://www.youtube.com/watch?v=40EOr5k0NQI)
 - 📹 [FedOps - More features](https://www.youtube.com/watch?v=Qtt299OvUrM) and [complete the relevant section in the final project](https://github.com/wix-a/fed-crash-course/tree/master/exercises/final-project#monitoring)
 - 🧑‍💻 Final Project work
-- 📅 Daily Q&A session
-- 📝 [Daily feedback](https://forms.gle/Fno4atQhi6L3AfC67)
+- 📅 Final Project work + submission
+ -📅 Final project presentations & goodbye beer 🍻
+- 📝 [Daily feedback](https://forms.gle/u8KEAhEza1x3xrPy8)
 
 ### Extras
 - 📚 [BI Catalog](https://bo.wix.com/bi-catalog-webapp/#/sources) and [the final project's page](https://bo.wix.com/bi-catalog-webapp/#/sources/11/events/8000/dev?artifactId=com.wixpress.fed-crash-course)
@@ -154,14 +147,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📚 [BI Schema Loggers](https://github.com/wix-private/bi-schema-loggers)
 - 📚 [User Explorer](https://bo.wix.com/bi-ux/#/history)
 - 📚 ["FedOps" 🔮 Realtime Monitoring Client](https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-logger)
-
-## Day VIII: Final Project, the final episode
 - 📹 [Performance & Dyanmic Imports](https://www.youtube.com/watch?v=rxpsOG0vtJI) and [complete the relevant section in the final project](https://github.com/wix-a/fed-crash-course/tree/master/exercises/final-project#get-a-small-bundle-size)
-- 🧑‍💻 Final Project work + submission
-- 📅 Final project presentations & goodbye beer 🍻
-- 📝 [One last feedback](https://forms.gle/7BCZeFydsHg2tsEv9)
-
-### Extras
 - 📚 [Performance and Dynamic Imports](https://docs.google.com/document/d/18tCnZAIuOoyTHaK0Pxn2PBdLWOcI4J-VJ58ZVKAvn-w/edit?usp=sharing)
 
 # Extracurricular
