@@ -40,7 +40,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📹 [Debugging Tests](https://www.youtube.com/watch?v=MZU8Yewnk3o)
 - 🧑‍💻 Client TDD Workshop - [Tic Tac Toe](./exercises/client-tdd/)
 - 📅 Daily Q&A session
-- 📝 [Daily feedback](https://forms.gle/sxZw8RKv41U9AmvG9)
+- 📝 [Daily feedback](https://forms.gle/ULXdQmcYhVwBBYSt5)
 
 ### Extras
 - 📚 Slides: [Testing overview](https://slides.com/yanivefraim-3/testing-workshop-3#/)
@@ -60,7 +60,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📹 [Server TDD](https://www.youtube.com/watch?v=HPngahKgmSE)
 - 🧑‍💻 [Server TDD workshop](./exercises/server-tdd/)
 - 📅 Daily Q&A session
-- 📝 [Daily feedback](https://forms.gle/ASA3mL8T8BoNXGZk7)
+- 📝 [Daily feedback](https://forms.gle/y3yr1iJkphRf63AH7)
 
 ### Extras
 - 📚 [Node Platform Introduction](./docs/node-platform-introduction.md)
@@ -84,7 +84,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 🧑‍💻 [Testing WSR workshop](https://github.com/wix-a/wsr-form#exercise-2---test-your-application)
 - 📹 [New UI Order](https://www.youtube.com/watch?v=OgW6K5oFiQM)
 - 📅 Daily Q&A session
-- 📝 [Daily feedback](https://forms.gle/wzM4aqCL4XroNiiZ6)
+- 📝 [Daily feedback](https://forms.gle/quny6GV9b2Kf3wYi6)
 
 ### Extras
 - 📚 [wix-style-react](https://github.com/wix/wix-style-react)
@@ -97,7 +97,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📹 [Zero to Production](https://www.youtube.com/watch?v=vgHcpZ6zjFE)
 - 🧑‍💻 Final Project work - [Store Catalog](./exercises/final-project/) + [a short introduction video](https://www.youtube.com/watch?v=G5YhUMUpWuU)
 - 📅 Daily Q&A session
-- 📝 [Daily feedback](https://forms.gle/5ifwZz1AEKyoMG2K6)
+- 📝 [Daily feedback](https://forms.gle/RFWs8yNuFonggwR98)
 
 ### Extras
 - 📚 [Ambassador](https://github.com/wix-private/ambassador)
@@ -115,7 +115,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📹 [Experiments - Petri Sidekick](https://www.youtube.com/watch?v=-6NKSptyHok)
 - 🧑‍💻 Final Project work
 - 📅 Daily Q&A session
-- 📝 [Daily feedback](https://forms.gle/ZhQSqsWqLvSBW4TW9)
+- 📝 [Daily feedback](https://forms.gle/GVuqgvcqRvh5zhAf7)
 
 ### Extras
 - 📚 [Working with Generators](https://github.com/wix-private/fed-handbook/blob/master/WORKING_WITH_GENERATORS.md)
@@ -139,7 +139,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 🧑‍💻 Final Project work
 - 📅 Final Project work + submission
  -📅 Final project presentations & goodbye beer 🍻
-- 📝 [Daily feedback](https://forms.gle/u8KEAhEza1x3xrPy8)
+- 📝 [Daily feedback](https://forms.gle/ff7uPPkfGjjYsU5H6)
 
 ### Extras
 - 📚 [BI Catalog](https://bo.wix.com/bi-catalog-webapp/#/sources) and [the final project's page](https://bo.wix.com/bi-catalog-webapp/#/sources/11/events/8000/dev?artifactId=com.wixpress.fed-crash-course)
