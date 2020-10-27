@@ -118,7 +118,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📝 [Daily feedback](https://forms.gle/GVuqgvcqRvh5zhAf7)
 
 ### Extras
-- 📚 [Working with Generators](https://github.com/wix-private/fed-handbook/blob/master/WORKING_WITH_GENERATORS.md)
+- 📚 [Create Yoshi App](https://bo.wix.com/pages/yoshi/docs/create-yoshi-app)
 - 📚 [Zero to Production](https://github.com/wix-private/fed-handbook/blob/master/ZERO_TO_PRODUCTION.md)
 - 📚 [Experiments](https://github.com/wix-private/fed-handbook/blob/master/EXPERIMENTS.md)
 - 📚 [Translations](https://github.com/wix-private/fed-handbook/blob/master/TRANSLATION.md)
