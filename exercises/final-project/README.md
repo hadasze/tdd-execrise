@@ -32,7 +32,9 @@ Congratulations on getting this far. So far you created a [Tic Tac Toe](https://
 
 Generate a project with [Create Yoshi App](https://wix.github.io/yoshi/docs/getting-started/create-app) and follow the [Zero to Production](https://github.com/wix-private/fed-handbook/blob/master/ZERO_TO_PRODUCTION.md) guide. Please make sure your projects have the following prefix: **fed-onboarding-YOURNAME**.
 
-**GA** this project and verify it's configured correctly (i.e you can see in production) before you start the final project. 
+**GA** this project and verify it's configured correctly (i.e you can see in production) before you start the final project.
+
+Please make sure you configure Fryingpan mappings to use the **BO domain** (`bo._base_domain_` -> bo.wix.com). This allows your app to be accessible only from office and VPN.
 
 This is the repo you will use from now on :smile:
 
