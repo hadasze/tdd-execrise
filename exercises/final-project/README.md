@@ -48,19 +48,13 @@ In order to build our bm module we will use [yoshi-flow-bm](https://bo.wix.com/p
 3. Run `npm start` to verify the projects is running successfully.
     > When you're asked for your preferred `metaSiteId`, enter the one you just created. For more info follow [MetaSiteId](https://bo.wix.com/pages/yoshi/docs/business-manager-flow/getting-started#metasiteid).
 
-4. Add your metaSiteId to `posttest` script in `package.json`:
-    ```json
-    {
-      "posttest": "npm run lint && yoshi-bm previewLink --metaSiteId YOUR_META_SITE_ID"
-    }
-    ```
-5. Create a new repository under [wix-a](https://github.com/wix-a), then push the project.
+4. Create a new repository under [wix-a](https://github.com/wix-a), then push the project.
     ```bash
     git remote add origin https://github.com/wix-a/cc-YEAR-MONTH-YOURNAME.git
     git push origin master
     ```
-6. GA the project according to [Zero to Production](https://github.com/wix-private/fed-handbook/blob/master/ZERO_TO_PRODUCTION.md) guide - excluding the deployment part (`Fryingpan`).
-7. After GA,, Look for the preview link from the `posttest` script output in your CI build. Verify this link works - and that you can see your project in production.
+5. GA the project according to [Zero to Production](https://github.com/wix-private/fed-handbook/blob/master/ZERO_TO_PRODUCTION.md) guide - excluding the deployment part (`Fryingpan`).
+6. After GA,, Look for the preview link from the `posttest` script output in your CI build. Verify this link works - and that you can see your project in production.
 
 
 <br />
