@@ -69,8 +69,19 @@ A store manager is a back-office web app that lets a store owner manage its stor
 
 ### App Router
 Create a main [page](https://bo.wix.com/pages/yoshi/docs/business-manager-flow/overview#pages) that manages the routing (for example using [React-Router](https://reacttraining.com/react-router/web)) between the app different screens.
-> Use React Router's [basename](https://github.com/ReactTraining/react-router/blob/master/packages/react-router-dom/docs/api/BrowserRouter.md#basename-string) option to make the router effective only under your [routeNamespace](https://bo.wix.com/pages/yoshi/docs/business-manager-flow/configuration#routenamespace).
+> Use React Router's [basename](https://github.com/ReactTraining/react-router/blob/master/packages/react-router-dom/docs/api/BrowserRouter.md#basename-string) option to make the router effective only under your [routeNamespace](https://bo.wix.com/pages/yoshi/docs/business-manager-flow/configuration#routenamespace):
+```typescript jsx
+import { useModuleParams } from 'yoshi-flow-bm-runtime';
 
+export default function App() {
+  const { metaSiteId } = useModuleParams();
+  return (
+    <BrowserRouter basename={`/dashboard/${metaSiteId}/YOUR_ROUTE_NAMESPACE`}>
+      <Switch></Switch>
+    </BrowserRouter>
+  );
+}
+```
 We have 2 routes:
 * [Products List](#products-list)
 * [New Product](#new-product)
@@ -239,8 +250,9 @@ We'll use [Wix's internal BI tools](https://github.com/wix-private/fed-handbook/
 ### Get a Small Bundle-size
 
 Use [Code-Splitting](https://webpack.js.org/guides/code-splitting) along-side [React Suspense](https://reactjs.org/docs/code-splitting.html) to get a smaller bundle-size without negatively affecting the initial render.
+You can also use [`exported-components`](https://bo.wix.com/pages/yoshi/docs/business-manager-flow/overview#exported-components) instead of dynamic-imports.
 
-Also, inspect the contents of your bundle by running `npx yoshi build --analyze`.
+Also, inspect the contents of your bundle by running `npx yoshi-bm build --analyze`.
 
 ### Add a 404 Page
 
@@ -249,10 +261,6 @@ What happens if our client-side fetches a product from the server and it doesn't
 ### Giphy Integration
 
 Searching for images in another tab whenever we want to add a new product isn't the best UX. Instead, create an experiment that removes the standard image input and use [Giphy's API](https://developers.giphy.com/docs/api/endpoint) to find the best matching image for the product name being entered.
-
-### Code Splitting
-Split your bundle into chunks by extracting the various app screens into [`exported-components`](https://bo.wix.com/pages/yoshi/docs/business-manager-flow/overview#exported-components).
-
 ## Finally
 
 The purpose of this project is to practice the study material and improve your skills. There are no rewards (Other than a free MacBook Pro for the winner :computer:) and you should focus on quality other than speed.
