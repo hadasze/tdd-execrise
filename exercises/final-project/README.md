@@ -54,8 +54,7 @@ In order to build our bm module we will use [yoshi-flow-bm](https://bo.wix.com/p
     git push origin master
     ```
 5. GA the project according to [Zero to Production](https://github.com/wix-private/fed-handbook/blob/master/ZERO_TO_PRODUCTION.md) guide - excluding the deployment part (`Fryingpan`).
-6. After GA,, Look for the preview link from the `posttest` script output in your CI build. Verify this link works - and that you can see your project in production.
-
+6. After GA, Look for the preview link from the `posttest` script output in your CI build. Verify this link works - and that you can see your project in production.
 
 <br />
 
@@ -118,7 +117,7 @@ We should show the "add item" button only if the experiment is enabled.
     npx petri-specs new
     ? Spec Name specs.ccYOURNAME.AddNewProduct
     ? Scope Names (seperated by ',') ccYOURNAME
-    ? Please enter your team's ownership tag crash-MONTH-2020
+    ? Please enter your team's ownership tag cc-YEAR-MONTH
     ? Scope Type All user types
     
     npx petri-specs publish
@@ -126,7 +125,7 @@ We should show the "add item" button only if the experiment is enabled.
 
 2. Then, [open experiment](https://github.com/wix-private/fed-handbook/blob/master/EXPERIMENTS.md#open-experiment).
 3. Add your experiment scope (`ccYOURNAME`) to the project [`experiments.scopes`](https://bo.wix.com/pages/yoshi/docs/business-manager-flow/configuration#experimentsscopes) config.
-4. Use [`useExperiments`](https://bo.wix.com/pages/yoshi/docs/business-manager-flow/runtime-api#experiments) to consume the experiments object.
+4. Use [`useExperiments`](https://bo.wix.com/pages/yoshi/docs/business-manager-flow/runtime-api#experiments) to consume the experiments instance.
 
 tip: What happens if the user goes directly to 'my-site/new-item', and the experiment is disabled?
 
@@ -202,7 +201,6 @@ Use `Sled` to test the "Happy Flow" of your app - viewing products, adding produ
 
 #### Component Tests
 Use the [BM Flow Testkit](https://bo.wix.com/pages/yoshi/docs/business-manager-flow/testing#component-tests) to easily write component tests.
-
 
 ## Best Practices and Tips
 
