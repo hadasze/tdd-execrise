@@ -28,13 +28,42 @@
 
 Congratulations on getting this far. So far you created a [Tic Tac Toe](https://github.com/wix-a/tic-tac-toe-3) game, along with an awesome leaderboard. Then you learned about RPC and used [Ambassador](https://github.com/wix-private/ambassador) to create a comments system. You also learned about [Wix Style React](https://github.com/wix/wix-style-react) and used it to create some pretty cool UIs.
 
+In this exercise we will build a React application on top of Wix [Business Manager Platform](https://github.com/wix-private/business-manager) aka "business-manager module". 
+
+From the docs: _"BizMgr is the one place for site owners to manage & grow their business"_. 
+
+In order to build our bm module we will use [yoshi-flow-bm](https://bo.wix.com/pages/yoshi/docs/business-manager-flow/overview). It should help with project bootstrapping, working on production and providing the essentials needed in order to build our app. 
+
 ## Before you start
 
-Generate a project with [Create Yoshi App](https://wix.github.io/yoshi/docs/getting-started/create-app) and follow the [Zero to Production](https://github.com/wix-private/fed-handbook/blob/master/ZERO_TO_PRODUCTION.md) guide. Please make sure your projects have the following prefix: **fed-onboarding-YOURNAME**.
+1. Create a new Wix site (you can use [wix.new](https://wix.new) which will open a new blank site for you) and publish it.
+2. Generate a [Business Manager project](https://bo.wix.com/pages/yoshi/docs/business-manager-flow/getting-started)
+    ```bash
+    npx create-yoshi-app cc-YEAR-MONTH-YOURNAME
+    ```
+    for example
+    ```bash
+    npx create-yoshi-app cc-2020-nov-kobi
+    ```
+3. Run `npm start` to verify the projects is running successfully.
+    > When you're asked for your preferred `metaSiteId`, enter the one you just created. For more info follow [MetaSiteId](https://bo.wix.com/pages/yoshi/docs/business-manager-flow/getting-started#metasiteid).
 
-**GA** this project and verify it's configured correctly (i.e you can see in production) before you start the final project.
+4. Add your metaSiteId to `posttest` script in `package.json`:
+    ```json
+    {
+      "posttest": "npm run lint && yoshi-bm previewLink --metaSiteId YOUR_META_SITE_ID"
+    }
+    ```
+5. Create a new repository under [wix-a](https://github.com/wix-a), then push the project.
+    ```bash
+    git remote add origin https://github.com/wix-a/cc-YEAR-MONTH-YOURNAME.git
+    git push origin master
+    ```
+6. GA the project according to [Zero to Production](https://github.com/wix-private/fed-handbook/blob/master/ZERO_TO_PRODUCTION.md) guide - excluding the deployment part (`Fryingpan`).
+7. After GA,, Look for the preview link from the `posttest` script output in your CI build. Verify this link works - and that you can see your project in production.
 
-Please make sure you configure Fryingpan mappings to use the **BO domain** (`bo._base_domain_` -> bo.wix.com). This allows your app to be accessible only from office and VPN.
+
+<br />
 
 This is the repo you will use from now on :smile:
 
@@ -43,6 +72,17 @@ Now, it's up to you to use your knowledge and skills to create your very own Sto
 ## Product specification
 
 A store manager is a back-office web app that lets a store owner manage its store, add new products and view them.
+
+### App Router
+Create a main [page](https://bo.wix.com/pages/yoshi/docs/business-manager-flow/overview#pages) that manages the routing (for example using [React-Router](https://reacttraining.com/react-router/web)) between the app different screens.
+> Use React Router's [basename](https://github.com/ReactTraining/react-router/blob/master/packages/react-router-dom/docs/api/BrowserRouter.md#basename-string) option to make the router effective only under your [routeNamespace](https://bo.wix.com/pages/yoshi/docs/business-manager-flow/configuration#routenamespace).
+
+We have 2 routes:
+* [Products List](#products-list)
+* [New Product](#new-product)
+
+And 1 modal:
+* [View Product](#view-product)
 
 ### Products List
 
@@ -62,21 +102,40 @@ Sometimes we don't have any products to show, so we present an empty state:
 
 New products can be created by clicking the "Add new product" button (See mockups above). When it's clicked, the user should see a form to add a new product:
 
+
 ### New Product
 
-We're still not sure about this part, so we will only enable it if a [Petri](https://bo.wix.com/petri) experiment is enabled:
-
+We're still not sure about this part, so we will only enable it if a [Petri](https://bo.wix.com/petri) experiment is enabled.
 We should show the "add item" button only if the experiment is enabled. 
+
+1. Follow this [article](https://github.com/wix-private/fed-handbook/blob/master/EXPERIMENTS.md#create-experiment) to read more about creating experiments. It should look like this:
+    ```bash
+    npx petri-specs new
+    ? Spec Name specs.ccYOURNAME.AddNewProduct
+    ? Scope Names (seperated by ',') ccYOURNAME
+    ? Please enter your team's ownership tag crash-MONTH-2020
+    ? Scope Type All user types
+    
+    npx petri-specs publish
+    ```
+
+2. Then, [open experiment](https://github.com/wix-private/fed-handbook/blob/master/EXPERIMENTS.md#open-experiment).
+3. Add your experiment scope (`ccYOURNAME`) to the project [`experiments.scopes`](https://bo.wix.com/pages/yoshi/docs/business-manager-flow/configuration#experimentsscopes) config.
+4. Use [`useExperiments`](https://bo.wix.com/pages/yoshi/docs/business-manager-flow/runtime-api#experiments) to consume the experiments object.
 
 tip: What happens if the user goes directly to 'my-site/new-item', and the experiment is disabled?
 
-New product page:
+##### New product page:
 
 <img src="https://cdn.zeplin.io/5d1dadba4aefe174bcede0c3/screens/750D6EB8-30CC-42C2-B02F-332B04505512.png" width="500" />
 
 Every field is mandatory, and the "Save" button should be enabled only if all fields have been filled. When the image URL is inserted, we should show the image preview below the input:
 
 <img src="https://cdn.zeplin.io/5d1dadba4aefe174bcede0c3/screens/D517D451-395E-41D8-858B-D8FAB95D5E08.png" width="500" />
+
+#### Server Side Validation
+In the server function (i.e `addProduct.api.ts`), before accessing the `addProduct` RPC API, use the `fetchProduct` API to check if a product with the same name already exists. 
+In the client-side, handle the response from the server, and show a message accordingly, using [`showToast`](https://github.com/wix-private/business-manager/blob/master/business-manager-web/docs/toast-api.md#requesting-a-toast). 
 
 ### View Product
 
@@ -96,11 +155,16 @@ The UI that we need to construct looks good but it can take some time to create.
 
 It's recommended that you [install Zeplin](https://support.zeplin.io/en/articles/244698-downloading-mac-and-windows-apps)  and open the [project's mockups](https://zpl.io/V45nNA0) in it. You should be able to see which [Wix Style React](https://wix-wix-style-react.surge.sh/?selectedKind=Introduction&selectedStory=Components%20Cheatsheet&full=0&addons=0&stories=1&panelRight=0) components should be used, and with which props.
 
+
 ### Data Persistence
 
 For fetching existing products or adding new products, we should use the `ProductsService` RPC service. You should find it in the [API Explorer](https://pbo.wixpress.com/wix-api-explorer) (make sure you're connected to VPN) and play with how it works with the [RPC Console](https://pbo.wixpress.com/rpc-console-poc) (also requires you to be connected to VPN).
 
-The `ProductsService` requires an `id` whenever you fetch or add products. This is a way to identify a specific User. Each team should have its own unique `id`. Visit [UUID Generator](https://www.uuidgenerator.net) to get your own `id`.
+The `ProductsService` requires an `id` whenever you fetch or add products. 
+This way each online-store will have its own products. 
+We can use the `metaSiteId` in order to identify a "store". 
+Grab it from [`useModuleParams`](https://bo.wix.com/pages/yoshi/docs/business-manager-flow/runtime-api#moduleparams).
+
 
 Install Ambassador and the corresponding service:
 
@@ -108,11 +172,32 @@ Install Ambassador and the corresponding service:
 npm install @wix/ambassador @wix/ambassador-crash-course-products-scala-app
 ```
 
+### Server Side Code
+At wix, we use `front-end` servers in order to aggregate calls to RPC services.
+For that purpose, we have an infrastructure called [`wix-serverless`](https://github.com/wix-platform/wix-serverless). We're not going to use wix-serverless directly though, we'll actually use [yoshi-server](https://bo.wix.com/pages/yoshi/docs/yoshi-server/consuming-data-from-the-server#server-functions) which uses `wix-serverless` under the hood.
+Instantiate the service:
+```typescript
+import { CrashCourseProductsScalaApp } from '@wix/ambassador-crash-course-products-scala-app/rpc';
+
+export const productsService = CrashCourseProductsScalaApp().ProductsService();
+```
+In local development we use mocks, read more [here](https://bo.wix.com/pages/yoshi/docs/yoshi-server/mocking-rpc-responses).
+ 
+
 ### Testing
-
-We will use [Puppeteer](https://github.com/GoogleChrome/puppeteer), [Jest](https://github.com/facebook/jest), and [Yoshi](https://github.com/wix/yoshi), along with [Ambassador](https://github.com/wix-private/ambassador) and various testkits to test our app from end to end. Also, we should use [Jest](https://github.com/facebook/jest) and [JSDOM](https://github.com/jsdom/jsdom) (which is set-up for us already) for component or unit tests.
-
 Every feature and logic in the application should be tested. This is an opportunity to practice using Test-Driven-Development. If you find a bug, create a failing test for it and fix it, don't fix it right away.
+
+#### Sled (e2e)
+[Sled](https://wix-private.github.io/sled/docs/sled-intro) is Wix's e2e framework, built on top of [Puppeteer](https://github.com/GoogleChrome/puppeteer).
+It allows fast testing in CI using lambda and paralization, it also helps with authentication when working on production. 
+`create-yoshi-app` comes with an example test at `sled/index-page.spec.ts`.
+Use `Sled` to test the "Happy Flow" of your app - viewing products, adding products.
+> Run sled tests locally using `npx sled-test-runner local`
+> You must run `npm run build` before running `sled` tests
+
+#### Component Tests
+Use the [BM Flow Testkit](https://bo.wix.com/pages/yoshi/docs/business-manager-flow/testing#component-tests) to easily write component tests.
+
 
 ## Best Practices and Tips
 
@@ -132,11 +217,12 @@ We can't create the number 1 store manager if we only have content in one langua
 
 Setting up a project in [Babel](https://bo.wix.com/wix-babel-webapp/babel) takes too long to set up specifically for the Crash Course. Instead of working with it, you should use the translation files in the [translation folder](https://github.com/wix-a/cc-final-project/tree/master/translations) and copy them to your project. In a real-world project, [Babel](https://bo.wix.com/wix-babel-webapp/babel) will be committing to your project to update those files.
 
-Finally, you should use [i18next](https://www.i18next.com) and [react-i18next](https://react.i18next.com) to output the correct value for each key.
+Finally, you should use [`useTranslation`](https://bo.wix.com/pages/yoshi/docs/business-manager-flow/runtime-api#i18n) to output the correct value for each key.
 
 ### Monitoring
 
 To create a resilient app, we need to get an alert when important flows stop working. The most important flow of our app is the flow of adding a new product. To be notified when saving a product fails, we will monitor it with the [FedOps Logger](https://github.com/wix-private/fed-infra/blob/master/fedops/fedops-logger/README.md), which is one of [Wix's internal monitoring tools](https://github.com/wix-private/fed-handbook/blob/master/MONITORING.md).
+> Use [`useFedops`](https://bo.wix.com/pages/yoshi/docs/business-manager-flow/runtime-api#fedops) to consume the fedops-logger. 
 
 We will track the interaction of adding a new product: When the user clicks the "Save" button, we should start an interaction before making a call to the server and end it when the server responds successfully.
 
@@ -145,14 +231,14 @@ Also, we should move the call to `appLoaded()` to the appropriate place in our a
 ### Analytics
 
 We will track what our users are doing in our app so that we can evaluate the effects of new features and changes to our product.
-
 We'll use [Wix's internal BI tools](https://github.com/wix-private/fed-handbook/blob/master/BI.md) to track the BI events according to the schema in the [BI Catalog](https://bo.wix.com/bi-catalog-webapp/#/sources/11/events/8000?artifactId=com.wixpress.fed-crash-course). The project name in BI catalog is `fed-crash-course`.
 
-Install `web-bi-logger` and the corresponding `schema-logger`:
-
-```sh
-npm i web-bi-logger bi-logger-fed-crash-course
-```
+1. Install the crash course `schema-logger`:
+    ```sh
+    npm i @wix/bi-logger-fed-crash-course
+    ```
+2. Add the [`bi`](https://bo.wix.com/pages/yoshi/docs/business-manager-flow/configuration#bi-optional) configuration to your project's `.module.json` file.
+3. Use [`useBILogger`](https://bo.wix.com/pages/yoshi/docs/business-manager-flow/runtime-api#bi) to consume the intialized bi logger. 
 
 ## Bonus Tasks
 
@@ -166,11 +252,12 @@ Also, inspect the contents of your bundle by running `npx yoshi build --analyze`
 
 What happens if our client-side fetches a product from the server and it doesn't exist on the RPC endpoint? Instead of failing, show a nice 404 page on the client-side.
 
-Tip: Integrate a router ([React-Router](https://reacttraining.com/react-router/web) or [Reach-Router](https://reacttraining.com/react-router/web) are two suggestions) into your app.
-
 ### Giphy Integration
 
 Searching for images in another tab whenever we want to add a new product isn't the best UX. Instead, create an experiment that removes the standard image input and use [Giphy's API](https://developers.giphy.com/docs/api/endpoint) to find the best matching image for the product name being entered.
+
+### Code Splitting
+Split your bundle into chunks by extracting the various app screens into [`exported-components`](https://bo.wix.com/pages/yoshi/docs/business-manager-flow/overview#exported-components).
 
 ## Finally
 
