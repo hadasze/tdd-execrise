@@ -24,12 +24,12 @@ In this workshop you'll learn how to use other services via RPC. We'll create a 
 
 ## Tasks
 
-1. Add a `get` route `/comments` that returns the comments list from the `commentsService` using the appropriate RPC method.
-2. Add a `post` route `/comment` that adds a single comment to the `commentsService` using the appropriate RPC method.
+1. Add a `fetch` server function that returns the comments list from the `commentsService` using the appropriate RPC method.
+2. Add a `add` server function that adds a single comment to the `commentsService` using the appropriate RPC method.
 
 ## Bonus
 
-3. Add A simple UI to view your comments and add new comments.
+3. Add A simple UI to view your comments and add new comments. Write a Sled e2e test for it!
 
 ## Guidelines
 
@@ -56,4 +56,4 @@ Write a test case that covers one of your server's routes, using the Ambassador 
 Once your test case is ready (and failing, of course!) go ahead and implement the actual code in your server. If you need a reminder on how to do that, refer to [ambassador readme](https://github.com/wix-private/ambassador#using-rpc-servers-in-your-code).
 
 ## Local Development
-If you want to use your server locally, create an Ambassador Testkit instance in your `index-dev.js` file, and stub the RPC methods which you want to use. Don't forget to `start` the testkit, so your app can use it!
+If you want to use your server locally, create a `dev/mocks` file, which will get the Ambassador testkit as an argument, and stub the RPC methods which you want to use. Don't forget to `start` the testkit, so your app can use it! See [Business Manager Local Development](https://bo.wix.com/pages/yoshi/docs/business-manager-flow/yoshi-server#local-development) for more details.

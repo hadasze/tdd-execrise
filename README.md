@@ -9,9 +9,9 @@ Also, please take the time to read [this introduction document](https://docs.goo
 * [Legend](#legend)
 * [Agenda](#agenda)
   * [Day I: Testing 101 & Client TDD](#day-i-testing-101--client-tdd)
-  * [Day II: Node Platform & Server TDD](#day-ii-node-platform--server-tdd)
-  * [Day III: The Components Group, WSR & More](#day-iii-the-components-group---wix-style-react-and-more)
-  * [Day IV: Ambassador & Final Project](#day-iv-ambassador--final-project)
+  * [Day II: The Components Group, WSR & More](#day-ii-the-components-group---wix-style-react-and-more)
+  * [Day III: Ambassador & BM](#day-iii-ambassador-&-bm)
+  * [Day IV: Ambassador & Final Project](#day-iv-final-project)
   * [Day V: Final Project, Part 2](#day-v-final-project-part-2)
   * [Day VI: Final Project, Part 3](#day-vi-final-project-part-3)
   
@@ -48,27 +48,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📚 Docs for [puppeteer](https://github.com/puppeteer/puppeteer)
 - 📚 Docs for [jest](https://jestjs.io/docs/en/getting-started.html)
 
-## Day II: Node Platform & Server TDD
-
-### Mandatory
-- 📹 [Node Server - Architecture](https://www.youtube.com/watch?v=Gfl07eCvWbE)
-- 📹 [Node Server - Basic App](https://www.youtube.com/watch?v=xFj8YRmAzlk)
-- 📹 [Node Server - Rendering](https://www.youtube.com/watch?v=LAZjvi-yRR0)
-- 📹 [Node Server - ERB](https://www.youtube.com/watch?v=hDwB5zNOHP0)
-- 📹 [Node Server - Start Env](https://www.youtube.com/watch?v=kfVJy2SmvH0)
-- 📹 [Node Server - Test Env](https://www.youtube.com/watch?v=F9Do6qhDSWk)
-- 📹 [Server TDD](https://www.youtube.com/watch?v=HPngahKgmSE)
-- 🧑‍💻 [Server TDD workshop](./exercises/server-tdd/)
-- 📅 Daily Q&A session
-- 📝 [Daily feedback](https://forms.gle/y3yr1iJkphRf63AH7)
-
-### Extras
-- 📚 [Node Platform Introduction](./docs/node-platform-introduction.md)
-- 📚 [Express.js](https://expressjs.com/)
-- 📚 [node platform](https://github.com/wix-platform/wix-node-platform)
-- 📚 [wix-bootstrap-ng](https://github.com/wix-platform/wix-node-platform/tree/master/bootstrap/wix-bootstrap-ng)
-
-## Day III: The components group - Wix Style React and more
+## Day II: The components group - Wix Style React and more
 
 ### Mandatory
 - 📹 [Component Libraries Day Intro](https://www.youtube.com/watch?v=CPrhK2Fks3E)
@@ -89,24 +69,39 @@ Also, please take the time to read [this introduction document](https://docs.goo
 ### Extras
 - 📚 [wix-style-react](https://github.com/wix/wix-style-react)
 
-## Day IV: Ambassador & Final Project
+## Day III: Ambassador & BM
 
 ### Mandatory
+- 📹 [Business Manager intro](https://youtu.be/BhXv4bKfb58)
+- 📹 [Business Manager flow]()
+- 📹 [Yoshi Server(less)](https://www.youtube.com/watch?v=eRfZpKo19V8&t=1193s)
 - 📚 📹 [Communicating with Services](https://github.com/wix-private/fed-handbook/blob/master/COMMUNICATING_WITH_SERVICES.md)
+- 📹 [Testing Yoshi Serverless functions (part 1)](https://youtu.be/rm-kucot7uo)
+- 📹 [Testing Yoshi Serverless functions with Ambassador (part 2)](https://youtu.be/O3lU_Rjb_F0)
 - 🧑‍💻 [Ambassador workshop](./exercises/ambassador/)
-- 📹 [Zero to Production](https://www.youtube.com/watch?v=vgHcpZ6zjFE)
-- 🧑‍💻 Final Project work - [Store Catalog](./exercises/final-project/) + [a short introduction video](https://www.youtube.com/watch?v=G5YhUMUpWuU)
+- 📹 [Introduction to Sled](https://drive.google.com/file/d/1IB70kbBLjtfUqknOoJyEZBiOUOW2nIha/view)
 - 📅 Daily Q&A session
-- 📝 [Daily feedback](https://forms.gle/RFWs8yNuFonggwR98)
+- 📝 [Daily feedback]()
 
 ### Extras
 - 📚 [Ambassador](https://github.com/wix-private/ambassador)
 - 📚 [rpc](https://github.com/wix-platform/wix-node-platform/tree/master/rpc)
 - 📹 [Debugging Production](https://www.youtube.com/watch?v=JviHcE--aok)
 
+## Day IV: Final Project
+
+### Mandatory
+- 📹 [Introduction video](https://www.youtube.com/watch?v=ygA7NGNXmtc&list=PLgTDHi8XvqePdRZOWsAB5oMTs-8kcNuq2&index=55)
+- 🧑‍💻 Final Project work - [Store Catalog](./exercises/final-project/)
+- 📹 [Testing video](https://www.youtube.com/watch?v=jdMRw-0-ubM&list=PLgTDHi8XvqePdRZOWsAB5oMTs-8kcNuq2&index=57)
+- 📹 [Pages, Router, Server video](https://www.youtube.com/watch?v=8j4tbUZMQQs&list=PLgTDHi8XvqePdRZOWsAB5oMTs-8kcNuq2&index=56)
+- 📅 Daily Q&A session
+- 📝 [Daily feedback]()
+
 ## Day V: Final Project, part 2
 ### Mandatory
 - 📹 [Experiments - Intro](https://www.youtube.com/watch?v=mWWh_cuAp-c)
+- 📹 [Experiments, Fedops, BI video](https://www.youtube.com/watch?v=jAYo7bsXTw8&list=PLgTDHi8XvqePdRZOWsAB5oMTs-8kcNuq2&index=58)
 - 📹 [Experiments - Creating experiments](https://www.youtube.com/watch?v=p9NogcwitXw)
 - 📹 [Experiments - Conducting experiments](https://www.youtube.com/watch?v=O2GlQVa59pk)
 - 📹 [Experiments - Client usage](https://www.youtube.com/watch?v=omZXcsz-wRg)
