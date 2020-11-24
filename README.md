@@ -72,9 +72,9 @@ Also, please take the time to read [this introduction document](https://docs.goo
 ## Day III: Business Manager & Ambassador
 
 ### Mandatory
-- 📹 [Business Manager intro](https://youtu.be/BhXv4bKfb58)
+- 📹 [Business Manager intro]()
 - 📹 [Business Manager flow]()
-- 📹 [Yoshi Server(less)](https://www.youtube.com/watch?v=eRfZpKo19V8&t=1193s)
+- 📹 [Yoshi Server(less)](https://www.youtube.com/watch?v=eRfZpKo19V8)
 - 📚 📹 [Communicating with Services](https://github.com/wix-private/fed-handbook/blob/master/COMMUNICATING_WITH_SERVICES.md)
 - 📹 [Testing Yoshi Serverless functions (part 1)](https://youtu.be/rm-kucot7uo)
 - 📹 [Testing Yoshi Serverless functions with Ambassador (part 2)](https://youtu.be/O3lU_Rjb_F0)
