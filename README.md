@@ -11,7 +11,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
   * [Day I: Testing 101 & Client TDD](#day-i-testing-101--client-tdd)
   * [Day II: The Components Group, WSR & More](#day-ii-the-components-group---wix-style-react-and-more)
   * [Day III: Ambassador & BM](#day-iii-business-manager--ambassador)
-  * [Day IV: Ambassador & Final Project](#day-iv-final-project)
+  * [Day IV: Final Project](#day-iv-final-project)
   * [Day V: Final Project, Part 2](#day-v-final-project-part-2)
   * [Day VI: Final Project, Part 3](#day-vi-final-project-part-3)
   
@@ -91,12 +91,12 @@ Also, please take the time to read [this introduction document](https://docs.goo
 ## Day IV: Final Project
 
 ### Mandatory
-- 📹 [Introduction video](https://www.youtube.com/watch?v=ygA7NGNXmtc&list=PLgTDHi8XvqePdRZOWsAB5oMTs-8kcNuq2&index=55)
+- 📹 [Introduction to the Final Project](https://www.youtube.com/watch?v=ygA7NGNXmtc&list=PLgTDHi8XvqePdRZOWsAB5oMTs-8kcNuq2&index=55)
 - 🧑‍💻 Final Project work - [Store Catalog](./exercises/final-project/)
-- 📹 [Testing video](https://www.youtube.com/watch?v=jdMRw-0-ubM&list=PLgTDHi8XvqePdRZOWsAB5oMTs-8kcNuq2&index=57)
-- 📹 [Pages, Router, Server video](https://www.youtube.com/watch?v=8j4tbUZMQQs&list=PLgTDHi8XvqePdRZOWsAB5oMTs-8kcNuq2&index=56)
+- 📹 [Final Project - Testing](https://www.youtube.com/watch?v=jdMRw-0-ubM&list=PLgTDHi8XvqePdRZOWsAB5oMTs-8kcNuq2&index=57)
+- 📹 [Final Project - Pages, Router, Server](https://www.youtube.com/watch?v=8j4tbUZMQQs&list=PLgTDHi8XvqePdRZOWsAB5oMTs-8kcNuq2&index=56)
 - 📅 Daily Q&A session
-- 📝 [Daily feedback]()
+- 📝 [Daily feedback](https://forms.gle/n3KGnPF2dtbM7hAo7)
 
 ## Day V: Final Project, part 2
 ### Mandatory
@@ -111,7 +111,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 🧑‍💻 Final Project work
 - 📅 Daily Q&A session
 - 🍻 **Happy Hour**
-- 📝 [Daily feedback]()
+- 📝 [Daily feedback](https://docs.google.com/forms/d/e/1FAIpQLSeIjX363GcTd_Bv2PuqryrN9kTHKTZ08QaKNhN-gy6cWPSjFA/viewform)
 
 ### Extras
 - 📚 [Create Yoshi App](https://bo.wix.com/pages/yoshi/docs/create-yoshi-app)
