@@ -40,7 +40,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📹 [Debugging Tests](https://www.youtube.com/watch?v=MZU8Yewnk3o)
 - 🧑‍💻 Client TDD Workshop - [Tic Tac Toe](./exercises/client-tdd/)
 - 📅 Daily Q&A session
-- 📝 [Daily feedback](https://forms.gle/ULXdQmcYhVwBBYSt5)
+- 📝 [Daily feedback](https://forms.gle/J2bBhFEENU6nfxGAA)
 
 ### Extras
 - 📚 Slides: [Testing overview](https://slides.com/yanivefraim-3/testing-workshop-3#/)
