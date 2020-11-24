@@ -72,7 +72,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 ## Day III: Business Manager & Ambassador
 
 ### Mandatory
-- 📹 [Business Manager intro]()
+- 📹 [Business Manager intro](https://www.youtube.com/watch?v=46rRrlQakig)
 - 📹 [Business Manager flow]()
 - 📹 [Yoshi Server(less)](https://www.youtube.com/watch?v=eRfZpKo19V8)
 - 📚 📹 [Communicating with Services](https://github.com/wix-private/fed-handbook/blob/master/COMMUNICATING_WITH_SERVICES.md)
