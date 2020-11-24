@@ -79,13 +79,14 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📹 [Testing Yoshi Serverless functions (part 1)](https://youtu.be/rm-kucot7uo)
 - 📹 [Testing Yoshi Serverless functions with Ambassador (part 2)](https://youtu.be/O3lU_Rjb_F0)
 - 🧑‍💻 [Ambassador workshop](./exercises/ambassador/)
-- 📹 [Introduction to Sled](https://drive.google.com/file/d/1IB70kbBLjtfUqknOoJyEZBiOUOW2nIha/view)
+- 📹 [Introduction to Sled](https://www.youtube.com/watch?v=BX2vW2kMG_k)
 - 📅 Daily Q&A session
 - 📝 [Daily feedback](https://forms.gle/py5dieA63hVj3YLs9)
 
 ### Extras
 - 📚 [Ambassador](https://github.com/wix-private/ambassador)
 - 📚 [rpc](https://github.com/wix-platform/wix-node-platform/tree/master/rpc)
+- 📚 Sled - production testing infrastructure: [read](https://wix-private.github.io/sled/)
 
 ## Day IV: Final Project
 
@@ -147,7 +148,6 @@ Also, please take the time to read [this introduction document](https://docs.goo
 # Extracurricular
 - 📹🧑‍💻 Corvid by Wix (Wix Code) [tutorial & exercise](./docs/corvid-by-wix.md)
 - 📹 [FED CI](https://www.youtube.com/watch?v=qwAZ0YXe40Y)
-- 📹 📚 Sled - production testing infrastructure: [watch](https://www.youtube.com/watch?v=BX2vW2kMG_k) & [read](https://wix-private.github.io/sled/)
 - 📹 📚 Perfer - synthetic performance monitoring: [watch](https://www.youtube.com/watch?v=axx1SpML2MU) & [read](https://github.com/wix-private/perfer)
 - 📹 [Viewer Platform](https://www.youtube.com/watch?v=Ojk7CbKzxUE) & [Yoshi Editor Flow](https://www.youtube.com/watch?v=b4BzLIq1kpI) and [docs](https://bo.wix.com/pages/yoshi/docs/editor-flow/overview)
 - 📹 [Serverless](https://www.youtube.com/watch?v=wssS3ysL52w) & [docs](https://github.com/wix-platform/wix-serverless) & 📹 [Yoshi Server](https://www.youtube.com/watch?v=ifihXbhJFds) (coming soon: Yoshi Serverless)
