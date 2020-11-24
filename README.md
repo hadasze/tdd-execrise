@@ -151,7 +151,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📹 [FED CI](https://www.youtube.com/watch?v=qwAZ0YXe40Y)
 - 📹 📚 Perfer - synthetic performance monitoring: [watch](https://www.youtube.com/watch?v=axx1SpML2MU) & [read](https://github.com/wix-private/perfer)
 - 📹 [Viewer Platform](https://www.youtube.com/watch?v=Ojk7CbKzxUE) & [Yoshi Editor Flow](https://www.youtube.com/watch?v=b4BzLIq1kpI) and [docs](https://bo.wix.com/pages/yoshi/docs/editor-flow/overview)
-- 📹 [Serverless](https://www.youtube.com/watch?v=wssS3ysL52w) & [docs](https://github.com/wix-platform/wix-serverless) & 📹 [Yoshi Server](https://www.youtube.com/watch?v=ifihXbhJFds) (coming soon: Yoshi Serverless)
+- 📹 [Serverless](https://www.youtube.com/watch?v=wssS3ysL52w) & [docs](https://github.com/wix-platform/wix-serverless) & 📹 [Yoshi Server](https://www.youtube.com/watch?v=ifihXbhJFds)
 - ⚙️ Visual comparison tests using Applitools: [with-eyes](https://github.com/wix-incubator/with-eyes) or [puppeteer-eyes](https://github.com/wix-incubator/puppeteer-eyes.it) (both tools do the same thing)
 
 # More Helpful Resources
