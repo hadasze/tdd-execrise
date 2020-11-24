@@ -81,7 +81,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 🧑‍💻 [Ambassador workshop](./exercises/ambassador/)
 - 📹 [Introduction to Sled](https://drive.google.com/file/d/1IB70kbBLjtfUqknOoJyEZBiOUOW2nIha/view)
 - 📅 Daily Q&A session
-- 📝 [Daily feedback]()
+- 📝 [Daily feedback](https://forms.gle/py5dieA63hVj3YLs9)
 
 ### Extras
 - 📚 [Ambassador](https://github.com/wix-private/ambassador)
