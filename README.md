@@ -86,7 +86,6 @@ Also, please take the time to read [this introduction document](https://docs.goo
 ### Extras
 - 📚 [Ambassador](https://github.com/wix-private/ambassador)
 - 📚 [rpc](https://github.com/wix-platform/wix-node-platform/tree/master/rpc)
-- 📹 [Debugging Production](https://www.youtube.com/watch?v=JviHcE--aok)
 
 ## Day IV: Final Project
 
