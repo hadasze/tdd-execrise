@@ -73,7 +73,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 
 ### Mandatory
 - 📹 [Business Manager intro](https://www.youtube.com/watch?v=46rRrlQakig)
-- 📹 [Business Manager flow]()
+- 📹 [Business Manager flow](https://www.youtube.com/watch?v=OnSHvTCpwlA)
 - 📹 [Yoshi Server(less)](https://www.youtube.com/watch?v=eRfZpKo19V8)
 - 📚 📹 [Communicating with Services](https://github.com/wix-private/fed-handbook/blob/master/COMMUNICATING_WITH_SERVICES.md)
 - 📹 [Testing Yoshi Serverless functions (part 1)](https://youtu.be/rm-kucot7uo)
