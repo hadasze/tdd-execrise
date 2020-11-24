@@ -135,7 +135,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 🧑‍💻 Final Project work
 - 📅 Final Project work + submission
  -📅 Final project presentations
-- 📝 [Daily feedback](https://forms.gle/ff7uPPkfGjjYsU5H6)
+- 📝 [Daily feedback](https://forms.gle/bLNrrUbXUKAsfYBs5)
 
 ### Extras
 - 📚 [BI Catalog](https://bo.wix.com/bi-catalog-webapp/#/sources) and [the final project's page](https://bo.wix.com/bi-catalog-webapp/#/sources/11/events/8000/dev?artifactId=com.wixpress.fed-crash-course)
