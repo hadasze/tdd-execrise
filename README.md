@@ -110,7 +110,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📹 [Experiments - Petri Sidekick](https://www.youtube.com/watch?v=-6NKSptyHok)
 - 🧑‍💻 Final Project work
 - 📅 Daily Q&A session
-- 📝 [Daily feedback](https://forms.gle/GVuqgvcqRvh5zhAf7)
+- 📝 [Daily feedback]()
 
 ### Extras
 - 📚 [Create Yoshi App](https://bo.wix.com/pages/yoshi/docs/create-yoshi-app)
