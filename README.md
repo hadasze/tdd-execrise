@@ -64,7 +64,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 🧑‍💻 [Testing WSR workshop](https://github.com/wix-a/wsr-form#exercise-2---test-your-application)
 - 📹 [New UI Order](https://www.youtube.com/watch?v=OgW6K5oFiQM)
 - 📅 Daily Q&A session
-- 📝 [Daily feedback](https://forms.gle/quny6GV9b2Kf3wYi6)
+- 📝 [Daily feedback](https://forms.gle/1uJw2JvgZxRvL4Y19)
 
 ### Extras
 - 📚 [wix-style-react](https://github.com/wix/wix-style-react)
