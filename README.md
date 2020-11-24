@@ -110,6 +110,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📹 [Experiments - Petri Sidekick](https://www.youtube.com/watch?v=-6NKSptyHok)
 - 🧑‍💻 Final Project work
 - 📅 Daily Q&A session
+- 🍻 **Happy Hour**
 - 📝 [Daily feedback]()
 
 ### Extras
@@ -133,7 +134,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📹 [FedOps - More features](https://www.youtube.com/watch?v=Qtt299OvUrM) and [complete the relevant section in the final project](https://github.com/wix-a/fed-crash-course/tree/master/exercises/final-project#monitoring)
 - 🧑‍💻 Final Project work
 - 📅 Final Project work + submission
- -📅 Final project presentations & goodbye beer 🍻
+ -📅 Final project presentations
 - 📝 [Daily feedback](https://forms.gle/ff7uPPkfGjjYsU5H6)
 
 ### Extras
