@@ -1,9 +1,9 @@
 # Welcome to FED Crash Course
 
 This is the main repo for fed crash course.\
-Please join our slack channel: #cc-october-2020
+Please join our slack channel: #cc-november-2020
 
-Also, please take the time to read [this introduction document](https://docs.google.com/document/d/1D6kAkzhaMA6bSfsvODWfWz_MOgq0IXVaDskWkZ87tgI/edit#) before starting the course
+Also, please take the time to read [this introduction document](https://docs.google.com/document/d/1xtmFyNPNjOMTM6U8wD_W1wiv61JW6GyHcz-ATfWlfxw/edit) before starting the course
 
 # ToC
 * [Legend](#legend)
