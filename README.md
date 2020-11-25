@@ -10,7 +10,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 * [Agenda](#agenda)
   * [Day I: Testing 101 & Client TDD](#day-i-testing-101--client-tdd)
   * [Day II: The Components Group, WSR & More](#day-ii-the-components-group---wix-style-react-and-more)
-  * [Day III: Ambassador & BM](#day-iii-business-manager--ambassador)
+  * [Day III: Business Manager & Ambassador](#day-iii-business-manager--ambassador)
   * [Day IV: Final Project](#day-iv-final-project)
   * [Day V: Final Project, Part 2](#day-v-final-project-part-2)
   * [Day VI: Final Project, Part 3](#day-vi-final-project-part-3)
