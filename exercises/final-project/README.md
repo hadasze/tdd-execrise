@@ -45,6 +45,11 @@ In order to build our bm module we will use [yoshi-flow-bm](https://bo.wix.com/p
     ```bash
     npx create-yoshi-app cc-2020-nov-kobi
     ```
+    
+    You will be asked about registering an app in Dev center - choose "I want to create a new app!", and give it a name, for example `cc-2020-nov-kobi`.
+    
+    For "Sentry Team Name" - enter `crash-dec-2020`.
+    
 3. Run `npm start` to verify the projects is running successfully.
     > When you're asked for your preferred `metaSiteId`, enter the one you just created. For more info follow [MetaSiteId](https://bo.wix.com/pages/yoshi/docs/business-manager-flow/getting-started#metasiteid).
 
