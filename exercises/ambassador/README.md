@@ -19,7 +19,7 @@ In this workshop you'll learn how to use other services via RPC. We'll create a 
 
 ## Installation
 
-* Generate a new Yoshi project in (BM-flow)[https://bo.wix.com/pages/yoshi/docs/business-manager-flow/overview]
+* Generate a new Yoshi project in [BM-flow](https://bo.wix.com/pages/yoshi/docs/business-manager-flow/overview)
 
 ## Tasks
 
