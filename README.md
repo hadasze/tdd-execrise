@@ -111,7 +111,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 🧑‍💻 Final Project work
 - 📅 Daily Q&A session
 - 🍻 **Happy Hour**
-- 📝 [Daily feedback](https://docs.google.com/forms/d/e/1FAIpQLSeIjX363GcTd_Bv2PuqryrN9kTHKTZ08QaKNhN-gy6cWPSjFA/viewform)
+- 📝 [Daily feedback](https://docs.google.com/forms/d/1o99MH6rzJed09GlsizyPXa-VEs8A_zDEiXCuhqyBNyA/edit?usp=drive_web)
 
 ### Extras
 - 📚 [Create Yoshi App](https://bo.wix.com/pages/yoshi/docs/create-yoshi-app)
