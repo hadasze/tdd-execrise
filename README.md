@@ -1,7 +1,7 @@
 # Welcome to FED Crash Course
 
 This is the main repo for fed crash course.\
-Please join our slack channel: #cc-november-2020
+Please join our slack channel: #cc-february-2020
 
 Also, please take the time to read [this introduction document](https://docs.google.com/document/d/1xtmFyNPNjOMTM6U8wD_W1wiv61JW6GyHcz-ATfWlfxw/edit) before starting the course
 
@@ -40,7 +40,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📹 [Debugging Tests](https://www.youtube.com/watch?v=MZU8Yewnk3o)
 - 🧑‍💻 Client TDD Workshop - [Tic Tac Toe](./exercises/client-tdd/)
 - 📅 Daily Q&A session
-- 📝 [Daily feedback](https://forms.gle/J2bBhFEENU6nfxGAA)
+- 📝 [Daily feedback](https://forms.gle/SqQLCuo8W1mBLrXR9)
 
 ### Extras
 - 📚 Slides: [Testing overview](https://slides.com/yanivefraim-3/testing-workshop-3#/)
@@ -64,7 +64,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 🧑‍💻 [Testing WSR workshop](https://github.com/wix-a/wsr-form#exercise-2---test-your-application)
 - 📹 [New UI Order](https://www.youtube.com/watch?v=OgW6K5oFiQM)
 - 📅 Daily Q&A session
-- 📝 [Daily feedback](https://forms.gle/1uJw2JvgZxRvL4Y19)
+- 📝 [Daily feedback](https://forms.gle/KvakchmNPNvAvYgZ9)
 
 ### Extras
 - 📚 [wix-style-react](https://github.com/wix/wix-style-react)
@@ -81,7 +81,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 🧑‍💻 [Ambassador workshop](./exercises/ambassador/)
 - 📹 [Introduction to Sled](https://www.youtube.com/watch?v=BX2vW2kMG_k)
 - 📅 Daily Q&A session
-- 📝 [Daily feedback](https://forms.gle/py5dieA63hVj3YLs9)
+- 📝 [Daily feedback](https://forms.gle/JqjajT58e6UuYxHu8)
 
 ### Extras
 - 📚 [Ambassador](https://github.com/wix-private/ambassador)
@@ -96,7 +96,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📹 [Final Project - Testing](https://www.youtube.com/watch?v=jdMRw-0-ubM&list=PLgTDHi8XvqePdRZOWsAB5oMTs-8kcNuq2&index=57)
 - 📹 [Final Project - Pages, Router, Server](https://www.youtube.com/watch?v=8j4tbUZMQQs&list=PLgTDHi8XvqePdRZOWsAB5oMTs-8kcNuq2&index=56)
 - 📅 Daily Q&A session
-- 📝 [Daily feedback](https://forms.gle/n3KGnPF2dtbM7hAo7)
+- 📝 [Daily feedback](https://forms.gle/CHAobm5ojuLhk4FLA)
 
 ## Day V: Final Project, part 2
 ### Mandatory
@@ -111,7 +111,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 🧑‍💻 Final Project work
 - 📅 Daily Q&A session
 - 🍻 **Happy Hour**
-- 📝 [Daily feedback](https://docs.google.com/forms/d/1o99MH6rzJed09GlsizyPXa-VEs8A_zDEiXCuhqyBNyA/edit?usp=drive_web)
+- 📝 [Daily feedback](https://forms.gle/2W1Yq11DTqbTbAwA6)
 
 ### Extras
 - 📚 [Create Yoshi App](https://bo.wix.com/pages/yoshi/docs/create-yoshi-app)
@@ -135,7 +135,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 🧑‍💻 Final Project work
 - 📅 Final Project work + submission
  -📅 Final project presentations
-- 📝 [Daily feedback](https://forms.gle/bLNrrUbXUKAsfYBs5)
+- 📝 [Daily feedback](https://forms.gle/SX7nt54MtjctuTd1A)
 
 ### Extras
 - 📚 [BI Catalog](https://bo.wix.com/bi-catalog-webapp/#/sources) and [the final project's page](https://bo.wix.com/bi-catalog-webapp/#/sources/11/events/8000/dev?artifactId=com.wixpress.fed-crash-course)
