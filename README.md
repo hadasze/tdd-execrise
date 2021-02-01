@@ -78,8 +78,8 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📚 📹 [Communicating with Services](https://github.com/wix-private/fed-handbook/blob/master/COMMUNICATING_WITH_SERVICES.md)
 - 📹 [Testing Yoshi Serverless functions (part 1)](https://youtu.be/rm-kucot7uo)
 - 📹 [Testing Yoshi Serverless functions with Ambassador (part 2)](https://youtu.be/O3lU_Rjb_F0)
+- 📹 [Introduction to Sled](https://www.youtube.com/watch?v=t0TTnH5Iyp8)
 - 🧑‍💻 [Ambassador workshop](./exercises/ambassador/)
-- 📹 [Introduction to Sled](https://www.youtube.com/watch?v=BX2vW2kMG_k)
 - 📅 Daily Q&A session
 - 📝 [Daily feedback](https://forms.gle/JqjajT58e6UuYxHu8)
 
@@ -92,6 +92,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 
 ### Mandatory
 - 📹 [Introduction to the Final Project](https://www.youtube.com/watch?v=ygA7NGNXmtc&list=PLgTDHi8XvqePdRZOWsAB5oMTs-8kcNuq2&index=55)
+- 📹 [Sled Business Manager Flow](https://www.youtube.com/watch?v=uK8rgADuNGY)
 - 🧑‍💻 Final Project work - [Store Catalog](./exercises/final-project/)
 - 📹 [Final Project - Testing](https://www.youtube.com/watch?v=jdMRw-0-ubM&list=PLgTDHi8XvqePdRZOWsAB5oMTs-8kcNuq2&index=57)
 - 📹 [Final Project - Pages, Router, Server](https://www.youtube.com/watch?v=8j4tbUZMQQs&list=PLgTDHi8XvqePdRZOWsAB5oMTs-8kcNuq2&index=56)
