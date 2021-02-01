@@ -92,9 +92,9 @@ Also, please take the time to read [this introduction document](https://docs.goo
 
 ### Mandatory
 - 📹 [Introduction to the Final Project](https://www.youtube.com/watch?v=ygA7NGNXmtc&list=PLgTDHi8XvqePdRZOWsAB5oMTs-8kcNuq2&index=55)
-- 📹 [Sled Business Manager Flow](https://www.youtube.com/watch?v=uK8rgADuNGY)
 - 🧑‍💻 Final Project work - [Store Catalog](./exercises/final-project/)
 - 📹 [Final Project - Testing](https://www.youtube.com/watch?v=jdMRw-0-ubM&list=PLgTDHi8XvqePdRZOWsAB5oMTs-8kcNuq2&index=57)
+- 📹 [Sled Business Manager Flow](https://www.youtube.com/watch?v=uK8rgADuNGY)
 - 📹 [Final Project - Pages, Router, Server](https://www.youtube.com/watch?v=8j4tbUZMQQs&list=PLgTDHi8XvqePdRZOWsAB5oMTs-8kcNuq2&index=56)
 - 📅 Daily Q&A session
 - 📝 [Daily feedback](https://forms.gle/CHAobm5ojuLhk4FLA)
