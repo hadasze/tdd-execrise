@@ -1,5 +1,5 @@
 function getElementText(selector) {
-  return page.$eval(selector, (element) => element.innerText);
+  return page.$eval(selector, element => element.innerText);
 }
 
 function navigate() {
@@ -22,11 +22,11 @@ function clickStart() {
 }
 
 function clickCellAt(rowIndex, colIndex) {
-  return page.click(`[data-hook='cell-${rowIndex}-${colIndex}']`);
+  return page.click(`[data-hook="cell-${rowIndex}-${colIndex}"]`);
 }
 
 function getCellValueAt(rowIndex, colIndex) {
-  return getElementText(`[data-hook='cell-${rowIndex}-${colIndex}']`);
+  return getElementText(`[data-hook="cell-${rowIndex}-${colIndex}"]`);
 }
 
 describe('Tic tac to game', () => {
@@ -63,6 +63,6 @@ describe('Tic tac to game', () => {
     await clickCellAt(1, 1);
     await clickCellAt(0, 2);
 
-    expect(await getElementText('#winner')).toBe('Sapir');
+    expect(await getElementText('#winner')).toBe('X');
   });
 });

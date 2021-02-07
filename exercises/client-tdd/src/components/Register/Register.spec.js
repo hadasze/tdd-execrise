@@ -3,29 +3,7 @@ import Register from './Register';
 import { render, fireEvent } from '@testing-library/react';
 
 describe('Register component', () => {
-  it('Should call onStart only if name is valid', () => {
-    const spy = jest.fn();
-
-    const { getByPlaceholderText, getByText } = render(
-      <Register onStart={spy} />,
-    );
-
-    const player1Input = getByPlaceholderText('Player 1 Name');
-    const player2Input = getByPlaceholderText('Player 2 Name');
-    const button = getByText(/start game/i);
-
-    fireEvent.change(player1Input, { target: { value: 'Avi' } });
-    fireEvent.click(button);
-
-    expect(spy).not.toHaveBeenCalled();
-
-    fireEvent.change(player2Input, { target: { value: 'Ben' } });
-    fireEvent.click(button);
-
-    expect(spy).toHaveBeenCalledWith('Avi', 'Ben');
-  });
-
-  it('Should not call onStart if name is not valid', () => {
+  it('Should not call onStart in case one of the names are empty', () => {
     const spy = jest.fn();
 
     const { getByPlaceholderText, getByText } = render(
@@ -41,9 +19,9 @@ describe('Register component', () => {
 
     expect(spy).not.toHaveBeenCalled();
 
-    fireEvent.change(player2Input, { target: { value: 'Bb' } });
+    fireEvent.change(player2Input, { target: { value: 'B' } });
     fireEvent.click(button);
 
-    expect(spy).not.toHaveBeenCalled();
+    expect(spy).toHaveBeenCalledWith('A', 'B');
   });
 });
