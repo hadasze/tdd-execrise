@@ -28,6 +28,12 @@ May the force be with you.
 
 Start by forking this repository ([how do I fork?](https://help.github.com/articles/fork-a-repo/)) and clone your forked repo.
 
+First, make sure you use the correct node version:
+
+```sh
+nvm use
+```
+
 Next, install dependencies by running:
 
 ```sh
