@@ -1,0 +1,8 @@
+{
+  "cronullaBaseDomain": "https://<%= base_domain('cronulla-jobs') %>",
+  "deployerParallelism": "<%= databag_config('com.wixpress.platform.serverless-runtime-server', 'deployer-parallelism') %>",
+  "hadron": {
+    "staticArtifactVersionsUrl": "<%= service_url('com.wixpress.platform.serverless-on-serverless') %>",
+    "cacheTtl": 30000
+  }
+}

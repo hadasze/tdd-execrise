@@ -1,0 +1,8 @@
+{
+  "cronullaBaseDomain": "https://cronulla.base.domain",
+  "deployerParallelism": "5",
+  "hadron": {
+    "staticArtifactVersionsUrl": "http://localhost:64090",
+    "cacheTtl": 30000
+  }
+}

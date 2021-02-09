@@ -1,0 +1,29 @@
+{
+  "DAY3": {
+    "moduleId": "DAY3",
+    "appDefId": "7e406d7d-20dc-4de6-a4f4-fd62f7de2ae5",
+    "isCoreService": true,
+    "mainPageComponentId": "DAY3.pages.index",
+    "pageComponents": [
+      {
+        "pageComponentId": "DAY3.pages.index",
+        "pageComponentName": "DAY3.pages.index",
+        "route": "day3"
+      }
+    ],
+    "config": {
+      "topology": {
+        "staticsUrl": "//static.parastorage.com/services/day3/0.0.0/"
+      }
+    },
+    "bundles": [
+      {
+        "file": "//static.parastorage.com/services/day3/0.0.0/module.bundle.min.js",
+        "debugFile": "//static.parastorage.com/services/day3/0.0.0/module.bundle.js",
+        "enabledByExperiments": [
+          "specs.infra.yoshi-bm.ChangeMe"
+        ]
+      }
+    ]
+  }
+}
