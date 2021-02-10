@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "@wix/serverless-api": "latest",
-    "@wix/ambassador-node-workshop-scala-app": "^1.0.8"
-  }
-}
