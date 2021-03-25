@@ -39,11 +39,11 @@ In order to build our bm module we will use [yoshi-flow-bm](https://bo.wix.com/p
 1. Create a new Wix site (you can use [wix.new](https://wix.new) which will open a new blank site for you) and publish it.
 2. Generate a [Business Manager project](https://bo.wix.com/pages/yoshi/docs/business-manager-flow/getting-started)
     ```bash
-    npx create-yoshi-app cc-YEAR-MONTH-YOURNAME
+    npx @wix/create-yoshi-app cc-YEAR-MONTH-YOURNAME
     ```
     for example
     ```bash
-    npx create-yoshi-app cc-2020-nov-kobi
+    npx @wix/create-yoshi-app cc-2020-nov-kobi
     ```
     
     You will be asked about registering an app in Dev center - choose "I want to create a new app!", and give it a name, for example `cc-2020-nov-kobi`.
@@ -75,7 +75,7 @@ A store manager is a back-office web app that lets a store owner manage its stor
 Create a main [page](https://bo.wix.com/pages/yoshi/docs/business-manager-flow/overview#pages) that manages the routing (for example using [React-Router](https://reacttraining.com/react-router/web)) between the app different screens.
 > Use React Router's [basename](https://github.com/ReactTraining/react-router/blob/master/packages/react-router-dom/docs/api/BrowserRouter.md#basename-string) option to make the router effective only under your [routeNamespace](https://bo.wix.com/pages/yoshi/docs/business-manager-flow/configuration#routenamespace):
 ```typescript jsx
-import { useModuleParams } from 'yoshi-flow-bm-runtime';
+import { useModuleParams } from '@wix/yoshi-flow-bm';
 
 export default function App() {
   const { metaSiteId } = useModuleParams();
@@ -201,7 +201,7 @@ Every feature and logic in the application should be tested. This is an opportun
 It allows fast testing in CI using lambda and paralization, it also helps with authentication when working on production. 
 `create-yoshi-app` comes with an example test at `sled/index-page.spec.ts`.
 Use `Sled` to test the "Happy Flow" of your app - viewing products, adding products.
-> Run sled tests locally using `npx sled-test-runner local`
+> Run sled tests locally using `npx @wix/sled-test-runner local`
 > You must run `npm run build` before running `sled` tests
 
 #### Component Tests
@@ -255,7 +255,7 @@ We'll use [Wix's internal BI tools](https://github.com/wix-private/fed-handbook/
 Use [Code-Splitting](https://webpack.js.org/guides/code-splitting) along-side [React Suspense](https://reactjs.org/docs/code-splitting.html) to get a smaller bundle-size without negatively affecting the initial render.
 You can also use [`exported-components`](https://bo.wix.com/pages/yoshi/docs/business-manager-flow/overview#exported-components) instead of dynamic-imports.
 
-Also, inspect the contents of your bundle by running `npx yoshi-bm build --analyze`.
+Also, inspect the contents of your bundle by running `npx yoshi-flow-bm build --analyze`.
 
 ### Add a 404 Page
 
