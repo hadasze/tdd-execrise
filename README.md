@@ -43,7 +43,6 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📝 [Daily feedback](https://forms.gle/SqQLCuo8W1mBLrXR9)
 
 ### Extras
-- 📚 Slides: [Testing overview](https://slides.com/yanivefraim-3/testing-workshop-3#/)
 - 📚 Docs for [react-testing-library](https://testing-library.com/docs/react-testing-library/api)
 - 📚 Docs for [puppeteer](https://github.com/puppeteer/puppeteer)
 - 📚 Docs for [jest](https://jestjs.io/docs/en/getting-started.html)
