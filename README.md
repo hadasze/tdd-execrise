@@ -1,7 +1,7 @@
 # Welcome to FED Crash Course
 
 This is the main repo for fed crash course.\
-Please join our slack channel: #cc-february-2021
+Please join our slack channel: #cc-april-2021
 
 Also, please take the time to read [this introduction document](https://docs.google.com/document/d/1xtmFyNPNjOMTM6U8wD_W1wiv61JW6GyHcz-ATfWlfxw/edit) before starting the course
 
@@ -40,7 +40,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📹 [Debugging Tests](https://www.youtube.com/watch?v=MZU8Yewnk3o)
 - 🧑‍💻 Client TDD Workshop - [Tic Tac Toe](./exercises/client-tdd/)
 - 📅 Daily Q&A session
-- 📝 [Daily feedback](https://forms.gle/SqQLCuo8W1mBLrXR9)
+- 📝 [Daily feedback](https://forms.gle/HfxcThsf9YdCxqvX6)
 
 ### Extras
 - 📚 Docs for [react-testing-library](https://testing-library.com/docs/react-testing-library/api)
@@ -63,7 +63,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 🧑‍💻 [Testing WSR workshop](https://github.com/wix-a/wsr-form#exercise-2---test-your-application)
 - 📹 [New UI Order](https://www.youtube.com/watch?v=OgW6K5oFiQM)
 - 📅 Daily Q&A session
-- 📝 [Daily feedback](https://forms.gle/KvakchmNPNvAvYgZ9)
+- 📝 [Daily feedback](https://forms.gle/ZX6v4TEGxXU8y9a16)
 
 ### Extras
 - 📚 [wix-style-react](https://github.com/wix/wix-style-react)
@@ -71,16 +71,19 @@ Also, please take the time to read [this introduction document](https://docs.goo
 ## Day III: Business Manager & Ambassador
 
 ### Mandatory
-- 📹 [Business Manager intro](https://www.youtube.com/watch?v=46rRrlQakig)
-- 📹 [Business Manager flow](https://www.youtube.com/watch?v=OnSHvTCpwlA)
-- 📹 [Yoshi Server(less)](https://www.youtube.com/watch?v=eRfZpKo19V8)
+- 📹 [Business Manager intro](https://drive.google.com/file/d/1ixOTFgrSTmAZjJLoRVE0W4R0xmWpIdOZ/view)
+- 📹 [Business Manager flow](https://drive.google.com/file/d/1OJARVTQgtMFbP1LdmfaN2FDT1mNctk2s/view)
+- 📹 [Yoshi Server(less) intro](https://drive.google.com/file/d/1LVdPZSGaKJmvOxVQuamu0N8tJZpFQxfp/view)
+- 📹 [Yoshi Server(less) + client side](https://drive.google.com/file/d/1OPbZeTvGcxwZ2Y6fGklna5l3OWTmHMMm/view)
+- 📹 [Yoshi Server(less) RPC calls](https://drive.google.com/file/d/1SKeecSPq0X6l_E39wHEE7ljf82ofzTLE/view)
 - 📚 📹 [Communicating with Services](https://github.com/wix-private/fed-handbook/blob/master/COMMUNICATING_WITH_SERVICES.md)
+- 🧑‍💻 [Ambassador workshop](./exercises/ambassador/README_part1.md)
+- 📹 [Introduction to Sled](https://www.youtube.com/watch?v=t0TTnH5Iyp8)
 - 📹 [Testing Yoshi Serverless functions (part 1)](https://youtu.be/rm-kucot7uo)
 - 📹 [Testing Yoshi Serverless functions with Ambassador (part 2)](https://youtu.be/O3lU_Rjb_F0)
-- 📹 [Introduction to Sled](https://www.youtube.com/watch?v=t0TTnH5Iyp8)
-- 🧑‍💻 [Ambassador workshop](./exercises/ambassador/)
+- 🧑‍💻 [Ambassador workshop part 2](./exercises/ambassador/README_part2.md)
 - 📅 Daily Q&A session
-- 📝 [Daily feedback](https://forms.gle/JqjajT58e6UuYxHu8)
+- 📝 [Daily feedback](https://forms.gle/43SeFkpVSXpuQafm9)
 
 ### Extras
 - 📚 [Ambassador](https://github.com/wix-private/ambassador)
@@ -96,14 +99,13 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📹 [Sled Business Manager Flow](https://www.youtube.com/watch?v=uK8rgADuNGY)
 - 📹 [Final Project - Pages, Router, Server](https://www.youtube.com/watch?v=8j4tbUZMQQs&list=PLgTDHi8XvqePdRZOWsAB5oMTs-8kcNuq2&index=56)
 - 📅 Daily Q&A session
-- 📝 [Daily feedback](https://forms.gle/CHAobm5ojuLhk4FLA)
+- 📝 [Daily feedback](https://forms.gle/hRoEk9rLNLm16ZG8A)
 
 ## Day V: Final Project, part 2
 ### Mandatory
 - 📹 [Experiments - Intro](https://www.youtube.com/watch?v=mWWh_cuAp-c)
 - 📹 [Experiments, Fedops, BI video](https://www.youtube.com/watch?v=jAYo7bsXTw8&list=PLgTDHi8XvqePdRZOWsAB5oMTs-8kcNuq2&index=58)
 - 📹 [Experiments - Creating experiments](https://www.youtube.com/watch?v=p9NogcwitXw)
-- 📹 [Experiments - Conducting experiments](https://www.youtube.com/watch?v=O2GlQVa59pk)
 - 📹 [Experiments - Client usage](https://www.youtube.com/watch?v=omZXcsz-wRg)
 - 📹 [Experiments - wix-experiments](https://www.youtube.com/watch?v=HVGOJ4PFeyQ)
 - 📹 [Experiments - Testing experiments](https://www.youtube.com/watch?v=xkmkCybMHek)
@@ -111,7 +113,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 🧑‍💻 Final Project work
 - 📅 Daily Q&A session
 - 🍻 **Happy Hour**
-- 📝 [Daily feedback](https://forms.gle/2W1Yq11DTqbTbAwA6)
+- 📝 [Daily feedback](https://forms.gle/6xGixHJJPSQ4Dkng6)
 
 ### Extras
 - 📚 [Create Yoshi App](https://bo.wix.com/pages/yoshi/docs/create-yoshi-app)
@@ -119,6 +121,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📚 [Experiments](https://github.com/wix-private/fed-handbook/blob/master/EXPERIMENTS.md)
 - 📚 [Translations](https://github.com/wix-private/fed-handbook/blob/master/TRANSLATION.md)
 - ⚙️ [Statics Override](https://chrome.google.com/webstore/detail/wix-statics-override/fhaehbcdbkccakpjgokgppjkggkmkmbl)
+- 📹 [Experiments - Conducting experiments](https://www.youtube.com/watch?v=O2GlQVa59pk)
 
 ## Day VI: Final Project, part 3
 ### Mandatory
@@ -135,7 +138,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 🧑‍💻 Final Project work
 - 📅 Final Project work + submission
  -📅 Final project presentations
-- 📝 [Daily feedback](https://forms.gle/SX7nt54MtjctuTd1A)
+- 📝 [Daily feedback](https://forms.gle/qesWegZPKurcFX2m6)
 
 ### Extras
 - 📚 [BI Catalog](https://bo.wix.com/bi-catalog-webapp/#/sources) and [the final project's page](https://bo.wix.com/bi-catalog-webapp/#/sources/11/events/8000/dev?artifactId=com.wixpress.fed-crash-course)
