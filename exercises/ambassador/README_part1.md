@@ -28,7 +28,7 @@ In this workshop you'll learn how to use other services via RPC. We'll create a 
 
 ## Guidelines
 
-* Use [API explorer](https://pbo.wixpress.com/wix-api-explorer) to find the RPC service (search for `CommentsService`).
+* Use [RPC Console](https://pbo.wixpress.com/rpc-console-poc/node-workshop-scala-app/sever_any/CommentsService/add) to find the RPC service.
 * Use [ambassador](https://github.com/wix-private/ambassador) to integrate with comments service.
 * Bonus: Use TDD
 * A [solution example](https://github.com/wix-a/cc-2-2021-ambassador) (please try to do it on your own, look at the example only if you're stuck / as a reference)
