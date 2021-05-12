@@ -97,7 +97,6 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 🧑‍💻 Final Project work - [Store Catalog](./exercises/final-project/)
 - 📹 [Final Project - Testing](https://www.youtube.com/watch?v=jdMRw-0-ubM&list=PLgTDHi8XvqePdRZOWsAB5oMTs-8kcNuq2&index=57)
 - 📹 [Sled Business Manager Flow](https://www.youtube.com/watch?v=uK8rgADuNGY)
-- 📹 [Final Project - Pages, Router, Server](https://www.youtube.com/watch?v=8j4tbUZMQQs&list=PLgTDHi8XvqePdRZOWsAB5oMTs-8kcNuq2&index=56)
 - 📅 Daily Q&A session
 - 📝 [Daily feedback](https://forms.gle/hRoEk9rLNLm16ZG8A)
 
@@ -108,7 +107,6 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📹 [Experiments - Creating experiments](https://www.youtube.com/watch?v=p9NogcwitXw)
 - 📹 [Experiments - Client usage](https://www.youtube.com/watch?v=omZXcsz-wRg)
 - 📹 [Experiments - wix-experiments](https://www.youtube.com/watch?v=HVGOJ4PFeyQ)
-- 📹 [Experiments - Testing experiments](https://www.youtube.com/watch?v=xkmkCybMHek)
 - 📹 [Experiments - Petri Sidekick](https://www.youtube.com/watch?v=-6NKSptyHok)
 - 🧑‍💻 Final Project work
 - 📅 Daily Q&A session
