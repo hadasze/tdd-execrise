@@ -12,8 +12,10 @@ Also, please take the time to read [this introduction document](https://docs.goo
   * [Day II: The Components Group, WSR & More](#day-ii-the-components-group---wix-style-react-and-more)
   * [Day III: Business Manager & Ambassador](#day-iii-business-manager--ambassador)
   * [Day IV: Final Project](#day-iv-final-project)
-  * [Day V: Final Project, Part 2](#day-v-final-project-part-2)
-  * [Day VI: Final Project, Part 3](#day-vi-final-project-part-3)
+  * [Day V: Final Project](#day-v-final-project)
+  * [Day VI: Final Project](#day-vi-final-project) 
+  * [Day VII: Final Project](#day-vii-final-project)
+  * [Day VIII: Final Project](#day-viii-final-project)
   
 * [Extracurricular](#extracurricular)
 * [More Helpful Resources](#more-helpful-resources)
@@ -100,7 +102,12 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📅 Daily Q&A session
 - 📝 [Daily feedback](https://forms.gle/hRoEk9rLNLm16ZG8A)
 
-## Day V: Final Project, part 2
+### Extras
+- 📚 [Create Yoshi App](https://bo.wix.com/pages/yoshi/docs/create-yoshi-app)
+- 📚 [Zero to Production](https://github.com/wix-private/fed-handbook/blob/master/ZERO_TO_PRODUCTION.md)
+- ⚙️ [Statics Override](https://chrome.google.com/webstore/detail/wix-statics-override/fhaehbcdbkccakpjgokgppjkggkmkmbl)
+
+## Day V: Final Project
 ### Mandatory
 - 📹 [Experiments - Intro](https://www.youtube.com/watch?v=mWWh_cuAp-c)
 - 📹 [Experiments, Fedops, BI video](https://www.youtube.com/watch?v=jAYo7bsXTw8&list=PLgTDHi8XvqePdRZOWsAB5oMTs-8kcNuq2&index=58)
@@ -114,18 +121,19 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📝 [Daily feedback](https://forms.gle/6xGixHJJPSQ4Dkng6)
 
 ### Extras
-- 📚 [Create Yoshi App](https://bo.wix.com/pages/yoshi/docs/create-yoshi-app)
-- 📚 [Zero to Production](https://github.com/wix-private/fed-handbook/blob/master/ZERO_TO_PRODUCTION.md)
 - 📚 [Experiments](https://github.com/wix-private/fed-handbook/blob/master/EXPERIMENTS.md)
 - 📚 [Translations](https://github.com/wix-private/fed-handbook/blob/master/TRANSLATION.md)
-- ⚙️ [Statics Override](https://chrome.google.com/webstore/detail/wix-statics-override/fhaehbcdbkccakpjgokgppjkggkmkmbl)
 - 📹 [Experiments - Conducting experiments](https://www.youtube.com/watch?v=O2GlQVa59pk)
 
-## Day VI: Final Project, part 3
+## Day VI: Final Project
 ### Mandatory
 - 📹 [Translations](https://www.youtube.com/watch?v=A4FXBT1Uado)
-- 📹 [BA & BI - Overview](https://www.youtube.com/watch?v=jIk6TsC1njM)
-- 📹 [BA & BI - Logging BI Events](https://www.youtube.com/watch?v=Dxm__Q-Ryl4) and [complete the relevant section in the final project](https://github.com/wix-a/fed-crash-course/tree/master/exercises/final-project#analytics)
+- 🧑‍💻 Final Project work
+- 📅 Daily Q&A session
+- 📝 [Daily feedback](https://forms.gle/qesWegZPKurcFX2m6)
+
+## Day VII: Final Project
+### Mandatory
 - 📹 [FedOps - Client side monitoring](https://www.youtube.com/watch?v=m6bHDqCHjhg)
 - 📹 [FedOps - Introduction to FedOps](https://www.youtube.com/watch?v=Fk090IrSfe0)
 - 📹 [FedOps - Positive monitoring & success rate](https://www.youtube.com/watch?v=sX2KeSFDlHo)
@@ -134,16 +142,25 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📹 [FedOps - Interactions](https://www.youtube.com/watch?v=40EOr5k0NQI)
 - 📹 [FedOps - More features](https://www.youtube.com/watch?v=Qtt299OvUrM) and [complete the relevant section in the final project](https://github.com/wix-a/fed-crash-course/tree/master/exercises/final-project#monitoring)
 - 🧑‍💻 Final Project work
+- 📅 Daily Q&A session
+- 📝 [Daily feedback](https://forms.gle/qesWegZPKurcFX2m6)
+
+### Extras
+- 📚 ["FedOps" 🔮 Realtime Monitoring Client](https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-logger)
+
+## Day VIII: Final Project
+### Mandatory
+- 📹 [BA & BI - Overview](https://www.youtube.com/watch?v=jIk6TsC1njM)
+- 📹 [BA & BI - Logging BI Events](https://www.youtube.com/watch?v=Dxm__Q-Ryl4) and [complete the relevant section in the final project](https://github.com/wix-a/fed-crash-course/tree/master/exercises/final-project#analytics)
+- 🧑‍💻 Final Project work
 - 📅 Final Project work + submission
- -📅 Final project presentations
+- 📅 Final project presentations
 - 📝 [Daily feedback](https://forms.gle/qesWegZPKurcFX2m6)
 
 ### Extras
 - 📚 [BI Catalog](https://bo.wix.com/bi-catalog-webapp/#/sources) and [the final project's page](https://bo.wix.com/bi-catalog-webapp/#/sources/11/events/8000/dev?artifactId=com.wixpress.fed-crash-course)
 - 📚 [BI Logger](https://github.com/wix-private/bi-logger)
 - 📚 [BI Schema Loggers](https://github.com/wix-private/bi-schema-loggers)
-- 📚 [User Explorer](https://bo.wix.com/bi-ux/#/history)
-- 📚 ["FedOps" 🔮 Realtime Monitoring Client](https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-logger)
 - 📹 [Performance & Dyanmic Imports](https://www.youtube.com/watch?v=rxpsOG0vtJI) and [complete the relevant section in the final project](https://github.com/wix-a/fed-crash-course/tree/master/exercises/final-project#get-a-small-bundle-size)
 - 📚 [Performance and Dynamic Imports](https://docs.google.com/document/d/18tCnZAIuOoyTHaK0Pxn2PBdLWOcI4J-VJ58ZVKAvn-w/edit?usp=sharing)
 
@@ -161,6 +178,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📹 [Uncle bob, TDD](https://www.youtube.com/watch?v=GvAzrC6-spQ)
 - 📚 [fed-handbook](https://github.com/wix-private/fed-handbook)
 - 📚 [Node platform](https://github.com/wix-platform/wix-node-platform)
+- 📚 [User Explorer](https://bo.wix.com/bi-ux/#/history)
 - [fed-infra](https://github.com/wix-private/fed-infra)
 - [ci](http://ci.dev.wix/)
 - [Lifecycel](https://lifecycle.wix.com/cp/#)
