@@ -58,11 +58,11 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📹 [Wix Style React, part 2](https://www.youtube.com/watch?v=wZGHISEVRKg)
 - 🧑‍💻 [WSR Tutorial](https://github.com/wix-private/wsr-tutorial-docs)
 - 📹 [WSR Tips & Tricks and Zeplin usage](https://www.youtube.com/watch?v=PEE_iADcVpU)
-- 🧑‍💻 [Forms basic workshop](https://github.com/wix-a/wsr-form)
+- 🧑‍💻 [Forms basic workshop](https://github.com/wix-private/crash-course-wsr-form)
 - 📹 [WSR: Testing & Drivers](https://www.youtube.com/watch?v=4ql28yLpTSg)
 - 📹 [WSR: Testing & Drivers - Demo](https://www.youtube.com/watch?v=o3nGx5bdQS4)
 - 📹 [WSR: Testing & Drivers - Pitfalls](https://www.youtube.com/watch?v=Y2po4JiHRho)
-- 🧑‍💻 [Testing WSR workshop](https://github.com/wix-a/wsr-form#exercise-2---test-your-application)
+- 🧑‍💻 [Testing WSR workshop](https://github.com/wix-private/crash-course-wsr-form#exercise-2---test-your-application)
 - 📹 [New UI Order](https://www.youtube.com/watch?v=OgW6K5oFiQM)
 - 📅 Daily Q&A session
 - 📝 [Daily feedback](https://forms.gle/ZX6v4TEGxXU8y9a16)
