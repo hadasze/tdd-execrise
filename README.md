@@ -42,7 +42,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📹 [Debugging Tests](https://www.youtube.com/watch?v=MZU8Yewnk3o)
 - 🧑‍💻 Client TDD Workshop - [Tic Tac Toe](./exercises/client-tdd/)
 - 📅 Daily Q&A session
-- 📝 [Daily feedback](https://forms.gle/HfxcThsf9YdCxqvX6)
+- 📝 [Daily feedback](https://forms.gle/PDcCayKpUoaKSrzB7)
 
 ### Extras
 - 📚 Docs for [react-testing-library](https://testing-library.com/docs/react-testing-library/api)
@@ -65,7 +65,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 🧑‍💻 [Testing WSR workshop](https://github.com/wix-private/crash-course-wsr-form#exercise-2---test-your-application)
 - 📹 [New UI Order](https://www.youtube.com/watch?v=OgW6K5oFiQM)
 - 📅 Daily Q&A session
-- 📝 [Daily feedback](https://forms.gle/ZX6v4TEGxXU8y9a16)
+- 📝 [Daily feedback](https://forms.gle/Jmxoh3gfzdhdVhMM6)
 
 ### Extras
 - 📚 [wix-style-react](https://github.com/wix/wix-style-react)
@@ -85,7 +85,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📹 [Testing Yoshi Serverless functions with Ambassador (part 2)](https://youtu.be/O3lU_Rjb_F0)
 - 🧑‍💻 [Ambassador workshop part 2](./exercises/ambassador/README_part2.md)
 - 📅 Daily Q&A session
-- 📝 [Daily feedback](https://forms.gle/43SeFkpVSXpuQafm9)
+- 📝 [Daily feedback](https://forms.gle/hhHcQF9UCpJ7qTQL6)
 
 ### Extras
 - 📚 [Ambassador](https://github.com/wix-private/ambassador)
@@ -100,7 +100,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📹 [Final Project - Testing](https://www.youtube.com/watch?v=jdMRw-0-ubM&list=PLgTDHi8XvqePdRZOWsAB5oMTs-8kcNuq2&index=57)
 - 📹 [Sled Business Manager Flow](https://www.youtube.com/watch?v=uK8rgADuNGY)
 - 📅 Daily Q&A session
-- 📝 [Daily feedback](https://forms.gle/hRoEk9rLNLm16ZG8A)
+- 📝 [Daily feedback](https://forms.gle/T1ZqXx1cS1kbAe9q9)
 
 ### Extras
 - 📚 [Create Yoshi App](https://bo.wix.com/pages/yoshi/docs/create-yoshi-app)
@@ -118,7 +118,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 🧑‍💻 Final Project work
 - 📅 Daily Q&A session
 - 🍻 **Happy Hour**
-- 📝 [Daily feedback](https://forms.gle/6xGixHJJPSQ4Dkng6)
+- 📝 [Daily feedback](https://forms.gle/YJ1GDo8c2DLFwrbu9)
 
 ### Extras
 - 📚 [Experiments](https://github.com/wix-private/fed-handbook/blob/master/EXPERIMENTS.md)
@@ -130,7 +130,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📹 [Translations](https://www.youtube.com/watch?v=A4FXBT1Uado)
 - 🧑‍💻 Final Project work
 - 📅 Daily Q&A session
-- 📝 [Daily feedback](https://forms.gle/qesWegZPKurcFX2m6)
+- 📝 [Daily feedback](https://forms.gle/PrtUPiKSTEVKyCsf6)
 
 ## Day VII: Final Project
 ### Mandatory
@@ -143,7 +143,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 📹 [FedOps - More features](https://www.youtube.com/watch?v=Qtt299OvUrM) and [complete the relevant section in the final project](https://github.com/wix-a/fed-crash-course/tree/master/exercises/final-project#monitoring)
 - 🧑‍💻 Final Project work
 - 📅 Daily Q&A session
-- 📝 [Daily feedback](https://forms.gle/qesWegZPKurcFX2m6)
+- 📝 [Daily feedback](https://forms.gle/vc8rinTeGGkhS8dc8)
 
 ### Extras
 - 📚 ["FedOps" 🔮 Realtime Monitoring Client](https://github.com/wix-private/fed-infra/tree/master/fedops/fedops-logger)
@@ -155,7 +155,7 @@ Also, please take the time to read [this introduction document](https://docs.goo
 - 🧑‍💻 Final Project work
 - 📅 Final Project work + submission
 - 📅 Final project presentations
-- 📝 [Daily feedback](https://forms.gle/qesWegZPKurcFX2m6)
+- 📝 [Daily feedback](https://forms.gle/NPP6xRGyNyZ1SwwbA)
 
 ### Extras
 - 📚 [BI Catalog](https://bo.wix.com/bi-catalog-webapp/#/sources) and [the final project's page](https://bo.wix.com/bi-catalog-webapp/#/sources/11/events/8000/dev?artifactId=com.wixpress.fed-crash-course)
