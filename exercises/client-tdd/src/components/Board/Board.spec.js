@@ -48,8 +48,8 @@ describe("handle Cell Click - handling valid click", () => {
       const { randRowIndex, randColIndex } = randCell();
       const cell = getCell(container, randRowIndex, randColIndex);
       fireEvent.click(cell);
-      const pressedCell = getCell(container, randRowIndex, randColIndex);
-      fireEvent.click(pressedCell)
+      // const pressedCell = getCell(container, randRowIndex, randColIndex);
+      fireEvent.click(cell)
 
       expect(spy).toHaveBeenCalledTimes(2);
       // expect(spy).not.toHaveBeenCalledWith(randRowIndex, randColIndex);
