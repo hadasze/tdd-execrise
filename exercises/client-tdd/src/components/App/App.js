@@ -5,8 +5,11 @@ import s from './App.scss';
 import _ from 'lodash';
 import Register from '../Register/Register';
 import { getWinner } from '../../gameLogic';
+import { StartingBoard } from '../StartingBoard/StartingBoard';
+import { Board } from "../Board/Board"
+import { EndBoard } from "../EndBoard/EndBoard"
 
-class App extends React.Component {
+export class App extends React.Component {
   static propTypes = {
     t: PropTypes.func,
   };
@@ -26,10 +29,12 @@ class App extends React.Component {
 
   handleCellClick = (rowIndex, colIndex) => {
     const board = _.cloneDeep(this.state.board);
+    if(board[rowIndex][colIndex] === ''){
     board[rowIndex][colIndex] = this.state.currentPlayer;
     const nextPlayer = this.state.currentPlayer === 'X' ? 'O' : 'X';
     const winner = getWinner(board);
     this.setState({ board, currentPlayer: nextPlayer, winner });
+    }
   };
 
   render() {
@@ -47,42 +52,12 @@ class App extends React.Component {
           }}
         />
 
-        <h3>
-          <span>Game is on!</span>
-          <span id="player-1-title">
-            {this.state.isGameStarted && this.state.player1}
-          </span>
-          <span>VS.</span>
-          <span id="player-2-title">
-            {this.state.isGameStarted && this.state.player2}
-          </span>
-        </h3>
+        <StartingBoard isGameStarted={this.state.isGameStarted} player1={this.state.player1} player2={this.state.player2} currentPlayer={this.state.currentPlayer}/>
 
-        <div>
-          {this.state.board.map((row, rowIndex) => {
-            return (
-              <div key={rowIndex}>
-                {row.map((cellValue, colIndex) => {
-                  const key = `cell-${rowIndex}-${colIndex}`;
-                  return (
-                    <span
-                      className={s.cell}
-                      key={key}
-                      data-hook={key}
-                      onClick={() => this.handleCellClick(rowIndex, colIndex)}
-                    >
-                      {cellValue}
-                    </span>
-                  );
-                })}
-              </div>
-            );
-          })}
-        </div>
+        <Board board={this.state.board} cell={s.cell} handleCellClick={this.handleCellClick}> </Board>
 
-        <h3>
-          The winner is: <span id="winner">{this.state.winner}</span>
-        </h3>
+        <EndBoard winner={this.state.winner} player1={this.state.player1} player2={this.state.player2}> </EndBoard>
+
       </div>
     );
   }
