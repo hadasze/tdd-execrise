@@ -39,7 +39,7 @@ describe('end board logic', () => {
       expect(winner.innerHTML).toBe(randPlayer2);
     });
 
-    it('should not display the name of the winner if no one won yet', async () => {
+      it('should not display the name of the winner if no one won yet', async () => {
       const noWinnerSoFar = "";
       const { randPlayer1, randPlayer2 } = randPlayersNames();
       const { container } = renderEndBoard(noWinnerSoFar, randPlayer1, randPlayer2);
