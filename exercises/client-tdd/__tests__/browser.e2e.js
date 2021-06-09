@@ -6,9 +6,9 @@ function navigate() {
   return page.goto(app.getUrl('/'));
 }
 
-async function fillInForm() {
-  await page.type('#player-1-input', 'Sapir');
-  await page.type('#player-2-input', 'Yoshi');
+async function fillInForm(player1, player2) {
+  await page.type('#player-1-input', player1);
+  await page.type('#player-2-input', player2);
 }
 
 async function getPlayerNamesFromTitle() {
@@ -29,21 +29,29 @@ function getCellValueAt(rowIndex, colIndex) {
   return getElementText(`[data-hook="cell-${rowIndex}-${colIndex}"]`);
 }
 
+function randPlayersNames(){
+  var Chance = require('chance');
+  var chance = new Chance();
+  var randPlayer1 = chance.string();
+  var randPlayer2 = chance.string();
+  return { randPlayer1, randPlayer2 };
+}
+
 describe('Tic tac to game', () => {
+
   it('Should register both players and add them to title', async () => {
     await navigate();
-    await fillInForm();
-
-    expect(await getPlayerNamesFromTitle()).toEqual(['', '']);
-
+    const { randPlayer1, randPlayer2 } = randPlayersNames();
+    await fillInForm(randPlayer1, randPlayer2);
     await clickStart();
 
-    expect(await getPlayerNamesFromTitle()).toEqual(['Sapir', 'Yoshi']);
+    expect(await getPlayerNamesFromTitle()).toEqual([randPlayer1, randPlayer2]);
   });
 
   it('Should mark cells with X and O', async () => {
     await navigate();
-    await fillInForm();
+    const { randPlayer1, randPlayer2 } = randPlayersNames();
+    await fillInForm(randPlayer1, randPlayer2);
     await clickStart();
 
     await clickCellAt(0, 0);
@@ -54,7 +62,8 @@ describe('Tic tac to game', () => {
 
   it('Should play a full game an announce a winner', async () => {
     await navigate();
-    await fillInForm();
+    const { randPlayer1, randPlayer2 } = randPlayersNames();
+    await fillInForm(randPlayer1, randPlayer2);
     await clickStart();
 
     await clickCellAt(0, 0);

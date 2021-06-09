@@ -22,7 +22,7 @@ function randPlayersNames(){
     var randPlayer1 = chance.string();
     var randPlayer2 = chance.string();
     return { randPlayer1, randPlayer2 };
-  }
+}
 
 describe('starting board logic', () => {
     it('Should show the current player in bold if game started', async () => {

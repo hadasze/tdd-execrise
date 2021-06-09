@@ -38,28 +38,3 @@ function playDoubleMove(container){
   const cell = getCell(container, randRowIndex, randColIndex);
   fireEvent.click(cell);
 }
-
-
-describe("handle Cell Click - handling valid click", () => {
-  it('Should let click on a fresh cell', async () => {
-      const spy = jest.fn();
-      const board = generateClearBoard();
-      const { container } = renderBoard(board, spy);
-
-      const { randRowIndex, randColIndex } = playAMove(container);
-
-      expect(spy).toHaveBeenCalledWith(randRowIndex, randColIndex);
-    });
-
-    it('Should not Let click twice on a pressed cell', async () => {
-      const spy = jest.fn();
-      const board = generateClearBoard();
-      const { container } = renderBoard(board, spy);
-
-     playDoubleMove(container);
-
-      expect(spy).toHaveBeenCalledTimes(1);
-    });
-  });
-
-
